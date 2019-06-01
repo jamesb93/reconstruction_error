@@ -8,7 +8,6 @@ def convert(infile, outfile, encoding, bits, channels):
 
 def mass_crawl():
     current_size = 0.0
-    # Do the crawling
     crawler = os.walk('/Users/jamesbradbury')
     for root, dirs, files in crawler:
         for x in files:
