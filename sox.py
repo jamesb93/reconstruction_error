@@ -1,29 +1,7 @@
 import os
 import subprocess
 from shutil import copyfile
-
-def check_size(path):
-    try:
-        if os.path.getsize(path):
-            return True
-    except OSError:
-        return False
-
-def check_ext(path, extensions):
-    ext = os.path.splitext(path)[1]
-    try:
-        dummy = extensions.index(ext)
-    except ValueError:
-        return True
-    else:
-        return False
-    
-def wipe_dir(dir):
-    for file_name in os.listdir(dir):
-        os.remove(os.path.join(dir, file_name))
-
-def bytes_to_mb(val):
-    return val * 0.000001
+from databending_utilities import * # import all from the utilities script
 
 def convert(infile, outfile, encoding, bits, channels):
     subprocess.Popen(['sox', '-r', '44100', '--encoding', encoding, '-b', bits, '-c', channels, infile, outfile])
@@ -41,10 +19,6 @@ def mass_crawl():
             
             # Do checks
             if check_size(full_path) and check_ext(full_path, bad_exts) and current_size < mb_lim:
-                print(check_size(full_path))
-                print(check_ext(full_path, bad_exts))
-                print(current_size)
-                print('All checks finished')
                 copyfile(full_path, raw_path) 
                 current_size += bytes_to_mb(os.path.getsize(raw_path))
                 if current_size < mb_lim:
