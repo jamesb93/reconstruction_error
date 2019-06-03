@@ -17,17 +17,18 @@ def mass_crawl():
             audio_path = os.path.join(audio_dir, f'{x}.wav')
             
             # Do checks
-            if check_size(full_path) and check_ext(full_path, bad_exts) and current_size < mb_lim:
-                copyfile(full_path, raw_path) 
-                current_size += bytes_to_mb(os.path.getsize(raw_path))
-                if current_size < mb_lim:
-                    convert(infile=raw_path, outfile=audio_path, encoding='signed-integer', bits='8', channels='1')
+            if current_size < mb_lim:
+                if check_size(full_path) and check_ext(full_path, bad_exts):
+                    copyfile(full_path, raw_path) 
+                    current_size += bytes_to_mb(os.path.getsize(raw_path))
+                    if current_size < mb_lim:
+                        convert(infile=raw_path, outfile=audio_path, encoding='signed-integer', bits='8', channels='1')
 
 
-raw_dir   = '/Users/jamesbradbury/Sync/0_MAX/Data/DataCopy/'
-audio_dir = '/Users/jamesbradbury/Sync/0_MAX/Data/DataAudio/'
-mb_lim = 30000
-bad_exts = ['.mov', '.avi', '.wmv', '.webm', '.flv', '.sock']
+raw_dir   = '/Users/jamesbradbury/dev/data_bending/DataCopy/'
+audio_dir = '/Users/jamesbradbury/dev/data_bending/DataAudio/'
+mb_lim = 10000
+bad_exts = ['.mov', '.avi', '.wmv', '.webm', '.flv', '.sock', '.wav', '.aiff', '.aif', '.mp3', '.mp4', '.wav', '.flac']
 wipe_dir(raw_dir)
 wipe_dir(audio_dir)
 mass_crawl()
