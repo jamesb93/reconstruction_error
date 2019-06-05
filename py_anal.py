@@ -88,25 +88,25 @@ y, sr = librosa.load('/Users/jamesbradbury/dev/data_bending/DataAudio/libLLVMAMD
 # librosa.output.write_wav('/Users/jamesbradbury/desktop/background.wav', S_background, sr)
 
 ### Spectrogram ###
-# S_full, phase = librosa.magphase(librosa.stft(y))
+S_full, phase = librosa.magphase(librosa.stft(y))
 
-# plt.figure(figsize=(12, 4))
-# librosa.display.specshow(librosa.amplitude_to_db(S_full, ref=np.max),
-#                          y_axis='log', x_axis='time', sr=sr)
-# plt.colorbar()
-# plt.tight_layout()
-# plt.show()
+plt.figure(figsize=(12, 4))
+librosa.display.specshow(librosa.amplitude_to_db(S_full, ref=np.max),
+                         y_axis='log', x_axis='time', sr=sr)
+plt.colorbar()
+plt.tight_layout()
+plt.show()
 
 ### Create and plot recurrence Matrix ###
-# mfcc = librosa.feature.mfcc(y, sr)
-# recur = librosa.segment.recurrence_matrix(mfcc)
+mfcc = librosa.feature.mfcc(y, sr)
+recur = librosa.segment.recurrence_matrix(mfcc)
 
-# plt.figure(figsize=(8, 4))
-# plt.subplot(1, 2, 1)
-# librosa.display.specshow(recur, x_axis='time', y_axis='time')
-# plt.title('Recurrence')
-# plt.tight_layout()
-# plt.show()
+plt.figure(figsize=(8, 4))
+plt.subplot(1, 2, 1)
+librosa.display.specshow(recur, x_axis='time', y_axis='time')
+plt.title('Recurrence')
+plt.tight_layout()
+plt.show()
 
 ### Timelag Filter ###
 # mfcc = librosa.feature.mfcc(y, sr)
@@ -135,20 +135,19 @@ y, sr = librosa.load('/Users/jamesbradbury/dev/data_bending/DataAudio/libLLVMAMD
 # plt.show()
 
 ### Agglomerative Clustering ###
-chroma = librosa.feature.chroma_stft(y, sr)
-bounds = librosa.segment.agglomerative(chroma, 5)
-bound_times = librosa.frames_to_time(bounds, sr=sr)
-print(bound_times)
+# chroma = librosa.feature.chroma_stft(y, sr)
+# bounds = librosa.segment.agglomerative(chroma, 5)
+# bound_times = librosa.frames_to_time(bounds, sr=sr)
 
-plt.figure()
-librosa.display.specshow(chroma, y_axis='chroma', x_axis='time')
-plt.vlines(bound_times, 0, chroma.shape[0], color='linen', linestyle='--',
-            linewidth=2, alpha=0.9, label='Segment boundaries')
-plt.axis('tight')
-plt.legend(frameon=True, shadow=True)
-plt.title('Power spectrogram')
-plt.tight_layout()
-plt.show()
+# plt.figure()
+# librosa.display.specshow(chroma, y_axis='chroma', x_axis='time')
+# plt.vlines(bound_times, 0, chroma.shape[0], color='linen', linestyle='--',
+#             linewidth=2, alpha=0.9, label='Segment boundaries')
+# plt.axis('tight')
+# plt.legend(frameon=True, shadow=True)
+# plt.title('Power spectrogram')
+# plt.tight_layout()
+# plt.show()
 
 ### Onset Detection ###
 # onset_envelope = librosa.onset.onset_strength(y, sr)
