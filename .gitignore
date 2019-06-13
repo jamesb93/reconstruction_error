@@ -1,5 +1,7 @@
 data_tests
 DataCopy
 DataAudio
+DataAudioUnique
+DataSlices
 
 __pycache__
