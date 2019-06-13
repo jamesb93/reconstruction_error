@@ -1,13 +1,13 @@
 import os
 
-def check_size(path):
+def check_size(path, min_size):
     '''
     Check's the size of a fyle in bytes.
     Returns true if the file has a size.
     Used to avoid empty files.
     '''
     try:
-        if os.path.getsize(path) >= 8000 and os.path.getsize(path) <= 150000000:
+        if os.path.getsize(path) >= min_size and os.path.getsize(path) <= 150000000:
             return True
     except OSError:
         return False
@@ -33,3 +33,7 @@ def bytes_to_mb(val):
 
 def get_path():
     return os.path.dirname(os.path.realpath(__file__))
+
+def samps2ms(ms, sr):
+    return (ms/sr) * 1000.0
+
