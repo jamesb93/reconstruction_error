@@ -4,5 +4,6 @@ DataAudio
 DataAudioUnique
 DataSlices
 audio_slices.json
+tmp
 
 __pycache__
