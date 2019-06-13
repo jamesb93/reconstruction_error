@@ -4,6 +4,12 @@ DataAudio
 DataAudioUnique
 DataSlices
 audio_slices.json
+unique_audio_loudness.json
 tmp
+
+*.bin
+*.ipch
+
+
 
 __pycache__
