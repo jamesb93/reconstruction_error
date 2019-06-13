@@ -3,5 +3,6 @@ DataCopy
 DataAudio
 DataAudioUnique
 DataSlices
+audio_slices.json
 
 __pycache__
