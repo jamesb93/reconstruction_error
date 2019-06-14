@@ -6,20 +6,19 @@ from databending_utilities import * # import all from the utilities script
 import time
 
 root = get_path()
-audio_folder = f'{root}/DataAudio'
-slices_folder = f'{root}/DataSlices'
+audio_folder = os.path.join(root, 'DataAudio')
+slices_folder = os.path.join(root, 'DataSlices')
 audio_files = os.listdir(audio_folder)
 slices_files = os.listdir(slices_folder)
 
 ### Make a list sorted by size ###
-audio_files_fp = list()
+audio_files_fp = []
 for item in audio_files:
     audio_files_fp.append(os.path.join(audio_folder, item))
 
 sorted_audio_files = sorted(audio_files_fp, key=os.path.getsize)
 
 overwrite = 1 ## Overwrite mode. If 1 then all existing analysis is overwritten. If 0, check if exists first.
-progress = 0
 start = time.time()
 
 for raw_audio in sorted_audio_files:
