@@ -13,7 +13,7 @@ import sys
 root = get_path()
 unique_audio_folder = f'{root}/DataAudioUnique'
 unique_audio_files = os.listdir(unique_audio_folder)
-unique_audio_files.remove('.DS_Store')
+unique_audio_files = ds_store(unique_audio_files)
 tmp = f'{root}/tmp'
 loudness_json = f'{root}/unique_audio_loudness.json'
 
