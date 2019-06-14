@@ -37,3 +37,8 @@ def get_path():
 def samps2ms(ms, sr):
     return (ms/sr) * 1000.0
 
+def ds_store(list_in):
+    if '.DS_Store' in list_in:
+        list_in.remove('.DS_Store')
+    return list_in
+
