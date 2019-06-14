@@ -44,15 +44,16 @@ def explode(idx):
         t_output.export(os.path.join(unique_audio_folder, f'{no_ext}_{i}.wav'), format='wav')
     os.remove(novelty_indices)
 start = time.time()
-pool = mp.Pool() #use all available cores, otherwise specify the number you want as an argument
 num_jobs = len(audio_files)
-for i, _ in enumerate(
-    pool.imap_unordered(explode, range(num_jobs))
-    , 1):
-    sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
-
+with mp.Pool() as pool:
+    for i, _ in enumerate(
+        pool.imap_unordered(explode, range(num_jobs))
+        , 1):
+        sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
 
 end = time.time()
+time_taken = round(((end-start) / 60.), 2)
+print('Process complete in:', time_taken)
 
 
     
