@@ -6,6 +6,7 @@ DataSlices
 GoodExamples
 NoiseExamples
 DataAudioUniqueLong
+long_files.txt
 
 tmp
 *.json
