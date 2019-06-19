@@ -23,40 +23,23 @@ unique_audio_files = os.listdir(unique_audio_folder)
 tmp = os.path.join(root, 'tmp')
 ## Hygiene
 wipe_dir(tmp)
+wipe_dir(os.path.join(root, 'DataAudioNMF'))
 
-## Global Dicts for writing out results
-mfcc_dict = mp.Manager().dict()
+components_map = ['2', '3']
 
 def analyse(idx):
-    ## Setup paths/files etc
-    mfcc_src = os.path.join(unique_audio_folder, unique_audio_files[idx])
-    mfcc_features = os.path.join(tmp, f'{unique_audio_files[idx]}_features.wav')
-    mfcc_stats = os.path.join(tmp, f'{unique_audio_files[idx]}_stats.wav' )
-    ## Compute spectral shape descriptors
-    subprocess.call(['mfcc', 
-    '-source', mfcc_src, 
-    '-features', mfcc_features, 
-    '-fftsettings', '4096', '512', '4096',
-    '-numbands', '40',
-    '-numcoeffs', '13',
-    '-maxnumcoeffs', '13'])
-    ## Now get the stats of the shape analysis
-    subprocess.call(['stats', 
-    '-source', mfcc_features, 
-    '-stats', mfcc_stats,
-    '-numderivs', '3'])
-    ## Put Data in the global dictionary
-    data = bufspill(mfcc_stats) ## Only grab the first seven values, we dont care about derivatives.
-    ## This is going to have a column per MFCC with 14 values.
-    try:
-        data = data.flatten()
-        list_data = data.tolist()
-        mfcc_dict[unique_audio_files[idx]] = list_data
-        ## Cleanup
-        os.remove(mfcc_stats)
-        os.remove(mfcc_features)
-    except:
-        print(f'There was no data to process for {mfcc_src}.')
+    for components in components_map:
+        ## Setup paths/files etc
+        nmf_src = os.path.join(unique_audio_folder, unique_audio_files[idx])
+        nmf_out = os.path.join(tmp, f'{unique_audio_files[idx]}-C{components}-NMF.wav')
+        ## Compute spectral shape descriptors
+        subprocess.call([
+            'nmf', 
+            '-source', nmf_src, 
+            '-resynth', nmf_out, 
+            '-fftsettings', '2048', '1024', '2048',
+            '-components', str(components),
+            '-iterations', '25'])
 
 def main():
     start = time.time()
@@ -69,10 +52,10 @@ def main():
             sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
 
     end = time.time()
-    json_out = os.path.join(root, 'mfcc.json')
-    write_json(json_out, dict(mfcc_dict))
     time_taken = round(((end-start) / 60.), 2)
     print('\nProcess complete in:', time_taken)
+
+main()
 
 
     
