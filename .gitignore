@@ -3,9 +3,11 @@ DataCopy
 DataAudio
 DataAudioUnique
 DataSlices
+DataAudioUniqueLong
+DataAudioNMF
 GoodExamples
 NoiseExamples
-DataAudioUniqueLong
+
 long_files.txt
 
 tmp
