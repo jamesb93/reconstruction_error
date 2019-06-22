@@ -10,16 +10,12 @@ import time
 import sys
 from pydub import AudioSegment
 import multiprocessing as mp
-try:
-    import cPickle as pickle
-except ImportError:  # python 3.x
-    import pickle
 
 ## Paths
 root = get_path()
 audio_folder = os.path.join(root, 'DataAudio')
 unique_audio_folder = os.path.join(root, 'DataAudioUnique')
-unique_audio_files = os.listdir(unique_audio_folder)
+unique_audio_files = ds_store(os.listdir(unique_audio_folder))
 tmp = os.path.join(root, 'tmp')
 ## Hygiene
 wipe_dir(tmp)
@@ -36,7 +32,7 @@ def analyse(idx):
     subprocess.call(['mfcc', 
     '-source', mfcc_src, 
     '-features', mfcc_features, 
-    '-fftsettings', '4096', '512', '4096',
+    '-fftsettings', '4096', '1024', '4096',
     '-numbands', '40',
     '-numcoeffs', '13',
     '-maxnumcoeffs', '13'])
@@ -73,6 +69,8 @@ def main():
     write_json(json_out, dict(mfcc_dict))
     time_taken = round(((end-start) / 60.), 2)
     print('\nProcess complete in:', time_taken)
+
+main()
 
 
     

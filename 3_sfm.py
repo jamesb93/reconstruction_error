@@ -11,6 +11,7 @@ import sys
 from pydub import AudioSegment
 import multiprocessing as mp
 import audioread
+import progressbar as pb
 
 ## Paths
 root = get_path()
@@ -59,12 +60,12 @@ def main():
             , 1):
             sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
     json_out = os.path.join(root, 'sfm.json')
-
     write_json(json_out, dict(sfm_dict))
-
     end = time.time()
     time_taken = round(((end-start) / 60.), 2)
     print('\nProcess complete in:', time_taken)
+
+main()
 
 
     
