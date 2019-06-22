@@ -6,6 +6,7 @@ import sys
 import simpleaudio as sa
 from joblib import dump, load
 np.set_printoptions(suppress=True)
+import time
 
 root = get_path()
 mfcc = read_json(os.path.join(root, 'mfcc.json'))
@@ -57,6 +58,7 @@ clf = GaussianNB()
 # from sklearn.neural_network import MLPClassifier
 # clf = MLPClassifier()
 
+start = time.time()
 ## Pretraining
 model_type = f'{clf.__class__.__name__}_model.joblib'
 pre_train = False ## If pre_train is 1, then an apprporiate pretrained model is loaded. Else, do it again and write the results out
@@ -86,3 +88,6 @@ for entry in mfcc:
         wave_obj = sa.WaveObject.from_wave_file(os.path.join(unique_audio_folder, entry))
         play_obj = wave_obj.play()
         play_obj.wait_done()
+end = time.time()
+total = end-start
+print(total)
