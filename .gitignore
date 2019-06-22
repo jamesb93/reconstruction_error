@@ -17,5 +17,8 @@ tmp
 *.bin
 *.ipch
 
-
 __pycache__
+temp-plot.html
+pca_32bit.wav
+temp-plot.html
+*.html
