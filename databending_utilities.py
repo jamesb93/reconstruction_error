@@ -2,6 +2,7 @@ import os
 from scipy.io import wavfile
 import soundfile as sf
 import json
+import simpleaudio
 
 def check_size(path, min_size):
     '''
@@ -28,23 +29,40 @@ def check_ext(path, extensions):
         return False
     
 def wipe_dir(dir):
+    '''
+    Wipe a directory given a path
+    '''
     for file_name in os.listdir(dir):
         os.remove(os.path.join(dir, file_name))
 
 def bytes_to_mb(val):
+    '''
+    convert bytes to mb
+    '''
     return val * 0.000001
 
 def get_path():
+    '''
+    returns path of script being run
+    '''
     return os.path.dirname(os.path.realpath(__file__))
 
 def samps2ms(ms, sr):
+    '''
+    convert samples to milliseconds given a sampling rate
+    '''
     return (ms / sr) * 1000.0
 
-
 def ms2samps(samples, sr):
+    '''
+    convert milliseconds to samples given a sample rate
+    '''
     return (samples/1000) * sr
 
 def ds_store(list_in):
+    '''
+    Remove .DS_Store if in a list
+    '''
     if '.DS_Store' in list_in:
         list_in.remove('.DS_Store')
     return list_in
@@ -89,4 +107,12 @@ def read_json(json_file):
     with open(json_file, 'r') as fp:
         data = json.load(fp)
         return data
+
+def walkman(audio_path):
+    '''
+    Play a sound file given a path to a valid piece of audio.
+    '''
+    wave_obj = sa.WaveObject.from_wave_file(os.path.join(audio_path))
+    play_obj = wave_obj.play()
+    play_obj.wait_done()
 
