@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1440.0, 855.0 ],
+		"rect" : [ 1280.0, 45.0, 1280.0, 1555.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -339,7 +339,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 479.416666666666515, 696.5, 227.0, 105.0 ],
-					"text" : "0.2874 0.23345"
+					"text" : "0.7847 0.199"
 				}
 
 			}
@@ -427,7 +427,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -460,7 +460,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "nobars",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"horizontaltracking" : 6.0,
@@ -621,7 +620,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 709.916666666666629, 842.0, 120.0, 22.0 ],
 					"text" : "dynamicdsp~ 0 1 1 0"
 				}
@@ -1568,34 +1567,11 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dyn.player.maxpat",
-				"bootpath" : "~/dev/data_bending",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "onecount.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "entrymatcher.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dynamicdsp~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dynamic.patch~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ibufplayer~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dynamic.out~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
