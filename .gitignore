@@ -16,6 +16,7 @@ tmp
 *.json
 *.bin
 *.ipch
+*.wav
 
 __pycache__
 temp-plot.html
