@@ -70,7 +70,6 @@ def main():
     time_taken = round(((end-start) / 60.), 2)
     print('\nProcess complete in:', time_taken)
 
-main()
 
 
     
