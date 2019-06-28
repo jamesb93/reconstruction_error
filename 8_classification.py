@@ -1,21 +1,20 @@
 import os
 import json
-from databending_utilities import get_path, ds_store, read_json
+from databending_utilities import get_path, ds_store, read_json, walkman, write_json
+from sklearn.preprocessing import StandardScaler
 import numpy as np
 import sys
 import simpleaudio as sa
 from joblib import dump, load
-np.set_printoptions(suppress=True)
 import time
+np.set_printoptions(suppress=True)
 
 root = get_path()
 mfcc = read_json(os.path.join(root, 'mfcc.json'))
 unique_audio_folder = os.path.join(root, 'DataAudioUnique')
 models = os.path.join(root, 'models')
-noise_examples = os.listdir(os.path.join(root, 'NoiseExamples'))
-noise_examples = ds_store(noise_examples)
-good_examples = os.listdir(os.path.join(root, 'GoodExamples'))
-good_examples = ds_store(good_examples)
+noise_examples = ds_store(os.listdir(os.path.join(root, 'NoiseExamples')))
+good_examples  = ds_store(os.listdir(os.path.join(root, 'GoodExamples')))
 X = []
 y = []
 
@@ -37,15 +36,15 @@ for i in range(len(good_examples)):
 
 X = np.array(X)
 y = np.array(y)
-X_norm = (X - X.min(0)) / X.ptp(0) ## Normalise each column of np array X
+# X_norm = (X - X.min(0)) / X.ptp(0) ## Normalise each column of np array X
 
 ### Naive Bayes ###
 from sklearn.naive_bayes import GaussianNB
 clf = GaussianNB()
+# X = StandardScaler().fit_transform(X
 
-
-### Taken from https://scikit-learn.org/stable/modules/multiclass.html
 ### Logistic Regression ###
+### \https://scikit-learn.org/stable/modules/multiclass.html
 # from sklearn.linear_model import LogisticRegression
 # clf = LogisticRegression()
 
@@ -76,18 +75,34 @@ elif pre_train is True:
         clf.fit(X, y)
         dump(clf, os.path.join(models, model_type))
 
-## Classification
+## Classification and JSON formation ##
+
+classification_dict = {}
+good_preds = []
+bad_preds = []
+
 for entry in mfcc:
     values = mfcc[entry]
     t_data = np.array(values)
-    t_data_norm = (t_data - t_data.min(0) / t_data.ptp(0))
+    # t_data_norm = (t_data - t_data.min(0) / t_data.ptp(0))
 
-    prediction = clf.predict([t_data_norm])
+    prediction = clf.predict([t_data])
+
     if prediction == 1:
-        print(f'{entry} classified as {prediction}.')
-        wave_obj = sa.WaveObject.from_wave_file(os.path.join(unique_audio_folder, entry))
-        play_obj = wave_obj.play()
-        play_obj.wait_done()
+        good_preds.append(entry)
+        # walkman(os.path.join(unique_audio_folder, entry))
+    elif prediction == 0:
+        bad_preds.append(entry)
+
+classification_dict['0'] = bad_preds
+classification_dict['1'] = good_preds
+
+write_json(os.path.join(root, 'classification.json'), classification_dict)
+
+    # # Playback ##
+    # if prediction == 0:
+    #     print(f'{entry} classified as {prediction}.')
+        
 end = time.time()
 total = end-start
 print(total)

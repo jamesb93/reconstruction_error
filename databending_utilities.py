@@ -2,7 +2,7 @@ import os
 from scipy.io import wavfile
 import soundfile as sf
 import json
-import simpleaudio
+import simpleaudio as sa
 
 def check_size(path, min_size):
     '''

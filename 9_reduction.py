@@ -5,8 +5,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import normalize
 from sklearn import decomposition
 import numpy as np
-# import plotly.graph_objs as go
-# from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+import plotly
+from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+import plotly.plotly as py
+import plotly.graph_objs as go
 from scipy.io import wavfile
 
 root = get_path()
@@ -22,18 +24,19 @@ for label in labels_list:
 
 data = np.array(descriptors_list)
 
-
 ########## Dimensionality Reduction ##########
-data = StandardScaler().fit_transform(data) # Standardise Data
+# data = StandardScaler().fit_transform(data) # Standardise Data
 pca = decomposition.PCA(n_components=2)
 pca.fit(data)
 data = pca.transform(data)
 
 data_transposed = data.transpose() ## X as one list, Y as another
+data_transposed = np.ndarray.tolist(data_transposed)
 
+### Plot ###
 # plot([go.Scattergl(x=data_transposed[0], y=data_transposed[1], mode='markers')])
 
-### Make a dict with normalised coordinates and indices of samples for Max ###
+## Make a dict with normalised coordinates and indices of samples for Max ###
 data_min = np.amin(data)
 data_max = np.amax(data)
 
