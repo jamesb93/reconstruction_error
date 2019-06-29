@@ -12,20 +12,24 @@ import plotly.graph_objs as go
 from scipy.io import wavfile
 
 root = get_path()
-descriptors_json = read_json(os.path.join(root, 'mfcc.json'))
+feature_json = read_json(os.path.join(root, 'simpledesc.json'))
 classification = read_json(os.path.join(root, 'classification.json'))
 
-### Filter to only get the values that from 'good' audio
+## Filter to only get the values that from 'good' audio
 labels_list = classification['1']
 
 descriptors_list = []
 for label in labels_list:
-    descriptors_list.append(descriptors_json[label])
+    descriptors_list.append(feature_json[label])
 
 data = np.array(descriptors_list)
 
-########## Dimensionality Reduction ##########
-# data = StandardScaler().fit_transform(data) # Standardise Data
+
+# ########## Dimensionality Reduction ##########
+
+scaler = StandardScaler()
+scaler.fit(data) # Fit Data with StandardScaler() (get mean and stddev)
+data = scaler.transform(data) # Transform original data set based on the .fita
 pca = decomposition.PCA(n_components=2)
 pca.fit(data)
 data = pca.transform(data)
@@ -34,7 +38,7 @@ data_transposed = data.transpose() ## X as one list, Y as another
 data_transposed = np.ndarray.tolist(data_transposed)
 
 ### Plot ###
-# plot([go.Scattergl(x=data_transposed[0], y=data_transposed[1], mode='markers')])
+plot([go.Scattergl(x=data_transposed[0], y=data_transposed[1], mode='markers')])
 
 ## Make a dict with normalised coordinates and indices of samples for Max ###
 data_min = np.amin(data)
@@ -51,16 +55,5 @@ write_json(os.path.join(root, 'pca.json'), out_dict)
 # Write out pca data to stereo wav file
 data = data.astype('float32')
 wavfile.write(os.path.join(root, 'pca.wav'), 44100, data)
-
-# # # Write sfm data to mono wav file
-# # sfm_json = read_json(os.path.join(root, 'sfm.json'))
-# # sfm_np = []
-# # for label in labels_list:
-# #     sfm_np.append(sfm_json[label][2])
-
-# # sfm_np = np.array(sfm_np)
-# # sfm_np = (sfm_np - np.amin(sfm_np)) / (np.amax(sfm_np) - np.amin(sfm_np))
-
-# # wavfile.write(os.path.join(root, 'sfm.wav'), 44100, sfm_np)
     
 
