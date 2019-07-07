@@ -12,20 +12,19 @@ import plotly.graph_objs as go
 from scipy.io import wavfile
 
 root = get_path()
-feature_json = read_json(os.path.join(root, 'simpledesc.json'))
-classification = read_json(os.path.join(root, 'classification.json'))
+feature = read_json(os.path.join(root, 'mfcc_RAW.json'))
 
-## Filter to only get the values that from 'good' audio
-labels_list = classification['1']
+data = [v for v in feature.values()]
+keys = [k for k in feature.keys()]
 
 descriptors_list = []
-for label in labels_list:
-    descriptors_list.append(feature_json[label])
+for key in keys:
+    descriptors_list.append(feature[key])
 
 data = np.array(descriptors_list)
 
 
-# ########## Dimensionality Reduction ##########
+########## Dimensionality Reduction ##########
 
 scaler = StandardScaler()
 scaler.fit(data) # Fit Data with StandardScaler() (get mean and stddev)
@@ -48,7 +47,7 @@ data_max = np.amax(data)
 data = (data - data_min) / (data_max - data_min)
 out_dict = {}
 
-for key, value in zip(labels_list, data):
+for key, value in zip(keys, data):
     out_dict[key] = list(value)
 write_json(os.path.join(root, 'pca.json'), out_dict)
 
