@@ -1,7 +1,7 @@
 import os
 from scipy.io import wavfile
 import soundfile as sf
-import json
+import rapidjson as rj
 import simpleaudio as sa
 
 def check_size(path, min_size):
@@ -93,7 +93,7 @@ def write_json(json_file, in_dict):
         None
     '''
     with open(json_file, 'w+') as fp:
-        json.dump(in_dict, fp, indent=4) 
+        rj.dump(in_dict, fp, indent=4) 
 
 def read_json(json_file):
     '''
@@ -105,7 +105,7 @@ def read_json(json_file):
         A python dictionary.
     '''
     with open(json_file, 'r') as fp:
-        data = json.load(fp)
+        data = rj.load(fp)
         return data
 
 def walkman(audio_path):
