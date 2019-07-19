@@ -8,6 +8,7 @@ DataAudioNMF
 GoodExamples
 NoiseExamples
 models
+essentia_analysis
 .stversions
 
 long_files.txt
@@ -24,3 +25,4 @@ pca_32bit.wav
 temp-plot.html
 *.html
 .DS_Store
+
