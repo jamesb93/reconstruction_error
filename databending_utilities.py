@@ -3,6 +3,45 @@ from scipy.io import wavfile
 import soundfile as sf
 import rapidjson as rj
 import simpleaudio as sa
+import yaml
+
+def read_yaml(yaml_file):
+    with open(yaml_file, 'r') as stream:
+        try:
+            return yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+
+def norm_np(nparr):
+    '''
+    Hard normalisation of a numpy array
+    '''
+    return (nparr - nparr.min(0)) / nparr.ptp(0)
+
+def list_to_coll(list, out_file):
+    '''
+    Turns a list into a coll.
+
+    list: Provide a list to convert
+    out_file: a path to a file where the coll will be saved
+    '''
+    f = open(out_file, 'w+')
+    counter = 0
+    for item in list:
+        f.write(f'{counter}, {item};')
+        counter += 1
+    f.close()
+
+def fold(number, low, high):
+    '''
+    Folds an input number within a given set of boundaries
+    '''
+    while number < low or number > high:
+        if number < low:
+            number = low + abs(low - number)
+        if number > high:
+            number = high - abs(number - high)
+    return number
 
 def check_size(path, min_size):
     '''
