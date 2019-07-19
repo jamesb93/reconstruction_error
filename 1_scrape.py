@@ -30,6 +30,7 @@ raw_dir   = '/Users/jamesbradbury/dev/data_bending/DataCopy/'
 audio_dir = '/Users/jamesbradbury/dev/data_bending/DataAudio/'
 mb_lim = 5000
 bad_exts = ['.mov', '.avi', '.wmv', '.webm', '.flv', '.sock', '.wav', '.aiff', '.aif', '.mp3', '.mp4', '.wav', '.flac']
-wipe_dir(raw_dir)
-wipe_dir(audio_dir)
-mass_crawl()
+### Commented out for safety ###
+# wipe_dir(raw_dir)
+# wipe_dir(audio_dir)
+# mass_crawl()
