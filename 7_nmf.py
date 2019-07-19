@@ -10,15 +10,10 @@ import time
 import sys
 from pydub import AudioSegment
 import multiprocessing as mp
+from db_vars import root, audio_folder, unique_audio_files, unique_audio_folder
 
-## Paths
-root = get_path()
-audio_folder = os.path.join(root, 'DataAudio')
-unique_audio_folder = os.path.join(root, 'DataAudioUnique')
-unique_audio_files = os.listdir(unique_audio_folder)
-nmf_folder = os.path.join(root, 'DataAudioNMF')
-## Hygiene
-# wipe_dir(os.path.join(root, 'DataAudioNMF'))
+# Hygiene
+wipe_dir(os.path.join(root, 'DataAudioNMF'))
 
 components_map = ['2', '3']
 
@@ -50,8 +45,6 @@ def main():
     end = time.time()
     time_taken = round(((end-start) / 60.), 2)
     print('\nProcess complete in:', time_taken)
-
-main()
 
 
     

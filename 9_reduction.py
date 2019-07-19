@@ -1,8 +1,7 @@
-from databending_utilities import get_path, samps2ms, wipe_dir, read_json, write_json
+from databending_utilities import samps2ms, wipe_dir, read_json, write_json
 import os
 import json
 from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import normalize
 from sklearn import decomposition
 import numpy as np
 import plotly
@@ -11,7 +10,8 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 from scipy.io import wavfile
 
-root = get_path()
+from db_vars import root
+
 feature = read_json(os.path.join(root, 'mfcc_RAW.json'))
 
 data = [v for v in feature.values()]
@@ -22,7 +22,6 @@ for key in keys:
     descriptors_list.append(feature[key])
 
 data = np.array(descriptors_list)
-
 
 ########## Dimensionality Reduction ##########
 

@@ -9,14 +9,9 @@ from scipy.io import wavfile
 import random
 import time
 import sys
+from db_vars import root, unique_audio_files, unique_audio_folder, tmp
 
-root = get_path()
-unique_audio_folder = f'{root}/DataAudioUnique'
-unique_audio_files = os.listdir(unique_audio_folder)
-unique_audio_files = ds_store(unique_audio_files)
-tmp = f'{root}/tmp'
 loudness_json = os.path.join(root, 'loudness.json')
-
 loudness_dict = mp.Manager().dict()
 
 def analyse(idx):

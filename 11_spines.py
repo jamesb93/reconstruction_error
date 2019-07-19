@@ -4,20 +4,15 @@
 ####
 import numpy as np
 import os
-from databending_utilities import read_json, write_json, get_path, walkman
+from databending_utilities import read_json, write_json, get_path, norm_np 
 from sklearn.neighbors import KDTree
+from db_vars import root
 # OSC
 from pythonosc import dispatcher
 from pythonosc import osc_server
 from pythonosc import osc_message_builder
 from pythonosc import udp_client
-
-root = get_path()
-spine_folder = os.path.join(root, 'spines')
-spine_files = os.listdir(spine_folder)
-
-def max_post(console_post):
-    client.send_message('/post', console_post)
+from osc_utils import max_post
 
 class Tree():
     '''
@@ -45,7 +40,7 @@ class Tree():
     def normalise_cols(self, slash_filter):
         try:
             max_post('Normalising data.')
-            self.data = (self.data - self.data.min(0)) / self.data.ptp(0)
+            self.data = norm_np(self.data)
         except:
             max_post('There is no data currently loaded.')
     

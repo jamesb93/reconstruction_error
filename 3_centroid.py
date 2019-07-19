@@ -10,13 +10,8 @@ import time
 import sys
 import multiprocessing as mp
 import audioread
+from db_vars import unique_audio_files, unique_audio_folder, tmp, root
 
-## Paths
-root = get_path()
-audio_folder = os.path.join(root, 'DataAudio')
-unique_audio_folder = os.path.join(root, 'DataAudioUnique')
-unique_audio_files = ds_store(os.listdir(unique_audio_folder))
-tmp = os.path.join(root, 'tmp')
 ## Hygiene
 wipe_dir(tmp)
 
@@ -60,7 +55,7 @@ def main():
     json_out = os.path.join(root, 'centroid.json')
     write_json(json_out, dict(centroid_dict))
     end = time.time()
-    time_taken = round(((end-start) / 60.), 2)a
+    time_taken = round(((end-start) / 60.), 2)
     print('\nProcess complete in:', time_taken)
 
 main()

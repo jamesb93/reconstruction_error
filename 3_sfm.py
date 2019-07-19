@@ -5,20 +5,12 @@ from databending_utilities import * # import all from the utilities script
 import time
 import numpy as np
 from scipy.io import wavfile
-import random
 import time
 import sys
 from pydub import AudioSegment
 import multiprocessing as mp
-import audioread
-import progressbar as pb
+from db_vars import root, audio_folder, unique_audio_files, unique_audio_folder, tmp
 
-## Paths
-root = get_path()
-audio_folder = os.path.join(root, 'DataAudio')
-unique_audio_folder = os.path.join(root, 'DataAudioUnique')
-unique_audio_files = ds_store(os.listdir(unique_audio_folder))
-tmp = os.path.join(root, 'tmp')
 ## Hygiene
 wipe_dir(tmp)
 

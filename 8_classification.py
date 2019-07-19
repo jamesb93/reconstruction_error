@@ -7,12 +7,10 @@ import sys
 import simpleaudio as sa
 from joblib import dump, load
 import time
+from db_vars import root, unique_audio_folder, models
 np.set_printoptions(suppress=True)
 
-root = get_path()
 mfcc = read_json(os.path.join(root, 'mfcc.json'))
-unique_audio_folder = os.path.join(root, 'DataAudioUnique')
-models = os.path.join(root, 'models')
 noise_examples = ds_store(os.listdir(os.path.join(root, 'NoiseExamples')))
 good_examples  = ds_store(os.listdir(os.path.join(root, 'GoodExamples')))
 X = []

@@ -1,18 +1,13 @@
 import os
 import subprocess
 import multiprocessing as mp
-import os
-import json
-from databending_utilities import *
+from databending_utilities import read_json, write_json
 import numpy as np
 from scipy.io import wavfile
-import random
 import time
 import sys
 import simpleaudio as sa
-
-root = get_path()
-
+from db_vars import unique_audio_files, unique_audio_folder, root
 
 def update_dictionaries(*arg):
     '''
@@ -27,16 +22,10 @@ def update_dictionaries(*arg):
 
 undesirables = []
 
-## Audio files
-unique_audio_folder = os.path.join(root, 'DataAudioUnique')
-unique_audio_files = os.listdir(unique_audio_folder)
-unique_audio_files = ds_store(unique_audio_files)
-tmp = os.path.join(root, 'tmp')
-
 ## Load json's for querying
 loudness_json = read_json(os.path.join(root, 'loudness.json'))
-sfm_json = read_json(os.path.join(root, 'sfm.json'))
-mfcc_json = read_json(os.path.join(root, 'mfcc.json'))
+sfm_json      = read_json(os.path.join(root, 'sfm.json'))
+mfcc_json     = read_json(os.path.join(root, 'mfcc.json'))
 
 for key in loudness_json:
     values = loudness_json[key]

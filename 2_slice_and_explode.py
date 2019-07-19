@@ -10,14 +10,7 @@ import time
 import sys
 from pydub import AudioSegment
 import multiprocessing as mp
-
-
-root = get_path()
-audio_folder = os.path.join(root, 'DataAudio')
-unique_audio_folder = os.path.join(root, 'DataAudioUnique')
-audio_files = os.listdir(audio_folder)
-audio_files = ds_store(audio_files)
-tmp = os.path.join(root, 'tmp')
+from db_vars import unique_audio_folder, tmp, audio_folder, audio_files
 
 wipe_dir(unique_audio_folder)
 wipe_dir(tmp)
