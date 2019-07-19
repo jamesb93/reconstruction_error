@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 794.0, 83.0, 1212.0, 1488.0 ],
+		"rect" : [ 754.0, 779.0, 346.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -131,7 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 348.0, 50.0, 64.0 ],
+					"patching_rect" : [ 214.0, 348.0, 50.0, 62.0 ],
 					"text" : "0.309942 0.148972"
 				}
 
@@ -139,6 +139,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"local" : 1,
 					"maxclass" : "ezadc~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -371,10 +372,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 821.0, 13.5, 432.0, 158.0 ],
+					"patching_rect" : [ 821.0, 13.5, 432.0, 154.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 18,
-					"presentation_rect" : [ 423.0, 21.0, 258.0, 255.0 ],
+					"presentation_rect" : [ 423.0, 21.0, 258.0, 248.0 ],
 					"text" : "replace with your stereo pca.wav or something. uses newest entrymatcher, mesh in point mode, gridshape/circle for red pointer (to prove that it selects the right node - it's position is retrieved from the entrymatcher by using the position on the window for matching).\n\nmy current solution for scaling: show the distribution on each axis on a multislider overlaid with a range slider to select the range you want.\n\npoint cloud can be moved by clicking and dragging.\n\ngetting out of presentation mode can be dangerous."
 				}
 
@@ -391,7 +392,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -602,7 +603,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "list" ],
 									"patching_rect" : [ 64.0, 6.0, 30.0, 30.0 ]
 								}
 
@@ -783,8 +784,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"outlettype" : [ "list", "", "list", "list" ],
 					"patching_rect" : [ 474.0, 432.0, 134.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
 					"text" : "entrymatcher james 1 2"
 				}
 
@@ -809,7 +816,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 474.0, 505.0, 445.0, 36.0 ],
+					"patching_rect" : [ 474.0, 505.0, 445.0, 35.0 ],
 					"text" : "jit.gl.gridshape @shape circle @gl_color 1 0 0 1 @dim 20 20 @scale 0.005 0.005 @automatic 1"
 				}
 
@@ -821,7 +828,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.5, 52.5, 150.0, 34.0 ],
+					"patching_rect" : [ 825.5, 52.5, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 132.0, 264.0, 20.0 ],
 					"text" : "select jit.window and hit esc to toggle fullscreen "
@@ -1051,7 +1058,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 850.0, 32.0, 96.0, 62.0 ],
+					"patching_rect" : [ 850.0, 32.0, 96.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 421.0, 277.0, 20.0 ],
 					"text" : "distribution of y: select range-to-plot in range slider"
@@ -1065,7 +1072,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 846.0, 51.0, 96.0, 62.0 ],
+					"patching_rect" : [ 846.0, 51.0, 96.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 347.0, 277.0, 20.0 ],
 					"text" : "distribution of x: select range-to-plot in range slider"
@@ -1389,7 +1396,7 @@
 				"box" : 				{
 					"id" : "obj-88",
 					"maxclass" : "number",
-					"maximum" : 13432,
+					"maximum" : 44100,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1412,7 +1419,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1972,9 +1979,15 @@
 					"id" : "obj-89",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "list", "", "list", "list" ],
 					"patching_rect" : [ 252.0, 366.0, 134.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
 					"text" : "entrymatcher james 1 2"
 				}
 
@@ -2023,7 +2036,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 246.5, 206.0, 36.0 ],
+					"patching_rect" : [ 392.0, 246.5, 206.0, 35.0 ],
 					"text" : "matchers x <-> 500 $1 y <-> 500 $2, match 1"
 				}
 
@@ -2864,8 +2877,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
+				"name" : "entrymatcher.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
