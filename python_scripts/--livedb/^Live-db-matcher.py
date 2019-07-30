@@ -20,7 +20,6 @@ from osc_utils import max_post
 
 # function to extract the data from the yaml file
 
-
 class DataContainer():
     def __init__(self):
         self.master_dict = {}
