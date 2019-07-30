@@ -1,0 +1,3 @@
+The second try for ISOMAP using an even further reduction of the initial space to 10 points.
+
+The results are different, not better in any sense - although there seems to be less of the noisy stuff reaching the edges and its more concentrated. I think the shape is also more characteristic.
