@@ -1,0 +1,3 @@
+much better results than PCA. From experimenting briefly with the map produced, the centre of the space is very congested, while the outskirts have the most defined and well clustered materials. There is something compositionally and sonically interesting about the sparser regions - worth optimising or investigating further.
+
+Input Data for this was the RAW MFCC reduced from 350 points to 50 with PCA and then isomap to 2.
