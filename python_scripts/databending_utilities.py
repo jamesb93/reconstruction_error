@@ -27,7 +27,8 @@ def norm_np(nparr):
     '''
     Hard normalisation of a numpy array
     '''
-    return (nparr - nparr.min(0)) / nparr.ptp(0)
+    output = (nparr - nparr.min(0)) / nparr.ptp(0)
+    return output
 
 def list_to_coll(list, out_file):
     '''
@@ -143,7 +144,7 @@ def write_json(json_file, in_dict):
         None
     '''
     with open(json_file, 'w+') as fp:
-        js.dump(in_dict, fp, indent=4) 
+        rj.dump(in_dict, fp, indent=4) 
 
 def read_json(json_file):
     '''
