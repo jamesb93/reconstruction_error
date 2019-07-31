@@ -22,6 +22,9 @@ nmf_folder = os.path.join(parent, 'DataAudioNMF')
 essentia_analysis = os.path.join(parent, 'essentia_analysis')
 essentia_json = os.path.join(parent, 'analysis_data', 'essentia_analysis.json')
 
+# Analysis Data
+analysis_data = os.path.join(parent, 'analysis_data')
+
 # Other
 models = os.path.join(parent, 'models')
 tmp = os.path.join(parent, 'tmp')

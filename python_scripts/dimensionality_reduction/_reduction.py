@@ -1,23 +1,23 @@
 import sys
 sys.path.append('../')
-from databending_utilities import read_json, write_json, norm_np, printp, read_yaml, get_path
-from db_vars import parent, root
 import os
+from databending_utilities import read_json, write_json, norm_np, printp, read_yaml, get_path
+from db_vars import parent, root, analysis_data
 from sklearn import decomposition
-from sklearn import manifold
 import numpy as np
 import plotly
 from plotly.offline import download_plotlyjs, plot
 import plotly.graph_objs as go
 from scipy.io import wavfile
 
-
 if len(sys.argv) != 2:
-    print('You need to pass a YAML file as an argument.')
+    print('You need to pass a YAML config file as an argument.')
     exit()
 
+this_script = os.getcwd()
+
 # Configuration
-cfg_path = os.path.join(get_path(), sys.argv[1])
+cfg_path = os.path.join(this_script, sys.argv[1])
 cfg = read_yaml(cfg_path)
 wav_out       = cfg['wav']
 json_out      = cfg['json']
@@ -26,14 +26,14 @@ pre_reduction = cfg['pre_reduction']
 algorithm     = cfg['algorithm']
 tog_plot      = cfg['plot']
 
-feature = read_json(os.path.join(parent, 'analysis_data', input_data))
+feature = read_json(os.path.join(analysis_data, input_data))
 
 raw_data = [v for v in feature.values()]
 data = np.asarray(raw_data)
 data = norm_np(data)
 keys = [k for k in feature.keys()]
 
-# ######### Initial Reduction ##########
+######### Initial Reduction ##########
 printp('Performing PRE-Reduction')
 pca = decomposition.PCA(n_components=pre_reduction)
 data = pca.fit_transform(data)
