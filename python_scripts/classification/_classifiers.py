@@ -90,30 +90,27 @@ if not pre_train:
         clf.fit(X, y)
         dump(clf, os.path.join(models, model_type))
 
-# # Classification and JSON formation
-# classification_dict = {}
-# good_preds = []
-# bad_preds = []
+# Classification and JSON formation
+classification_dict = {}
+good_preds = []
+bad_preds = []
 
-# for entry in mfcc:
-#     values = mfcc[entry]
-#     t_data = np.array(values)
-#     # t_data_norm = (t_data - t_data.min(0) / t_data.ptp(0))
+for entry in mfcc:
+    values = mfcc[entry]
+    t_data = np.array(values)
+    # t_data_norm = (t_data - t_data.min(0) / t_data.ptp(0))
 
-#     prediction = clf.predict([t_data])
+    prediction = clf.predict([t_data])
 
-#     if prediction == 1:
-#         good_preds.append(entry)
-#         # walkman(os.path.join(unique_audio_folder, entry))
-#     elif prediction == 0:
-#         bad_preds.append(entry)
+    if prediction == 1:
+        good_preds.append(entry)
+        # walkman(os.path.join(unique_audio_folder, entry))
+    elif prediction == 0:
+        bad_preds.append(entry)
 
-# classification_dict['0'] = bad_preds
-# classification_dict['1'] = good_preds
+classification_dict['0'] = bad_preds
+classification_dict['1'] = good_preds
 
 out_file = os.path.join(this_dir, json_out)
 write_json(out_file, classification_dict)
 
-if playback:
-    if prediction == 0:
-        print(f'{entry} classified as {prediction}.')
