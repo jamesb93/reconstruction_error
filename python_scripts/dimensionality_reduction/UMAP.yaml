@@ -1,12 +1,12 @@
 # Output wav file name
-wav : isomap.wav
+wav : umap.wav
 # Output json file name
-json : isomap.json
+json : umap.json
 # Name of input data
 input_data : mfcc_RAW.json
 # How many points to reduce the initial data set to
-pre_reduction : 30
+pre_reduction : 10
 # Choose the algorithm for the second dim reduction (TSNE or ISOMAP)
-algorithm : TSNE
+algorithm : UMAP
 # Do you want to output a plot from this?
 plot : true
