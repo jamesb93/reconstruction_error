@@ -4,9 +4,11 @@ import os
 from databending_utilities import read_json, write_json, norm_np, printp, read_yaml, get_path
 from db_vars import parent, root, analysis_data
 from sklearn import decomposition
+from sklearn import manifold
+import umap
 import numpy as np
 import plotly
-from plotly.offline import download_plotlyjs, plot
+from plotly.offline import plot
 import plotly.graph_objs as go
 from scipy.io import wavfile
 
@@ -34,9 +36,12 @@ data = norm_np(data)
 keys = [k for k in feature.keys()]
 
 ######### Initial Reduction ##########
-printp('Performing PRE-Reduction')
-pca = decomposition.PCA(n_components=pre_reduction)
-data = pca.fit_transform(data)
+if pre_reduction != 0:
+    printp('Performing PRE-Reduction')
+    pca = decomposition.PCA(n_components=pre_reduction)
+    data = pca.fit_transform(data)
+elif pre_reduction == 0:
+    printp('Skipping PRE-Reduction')
 
 ######### Dimensionality Reduction ##########
 printp('Performing POST-Reduction')
@@ -44,6 +49,8 @@ if algorithm == 'TSNE':
     reduction = manifold.TSNE(n_components=2)
 if algorithm == 'ISOMAP':
     reduction = manifold.Isomap(n_components=2)
+if algorithm == 'UMAP':
+    reduction = umap.UMAP(n_components=2)
 printp('Fitting Transform')
 data = reduction.fit_transform(data)
 
@@ -52,6 +59,7 @@ if tog_plot:
     data_transposed = data.transpose() ## X as one list, Y as another
     data_transposed = np.ndarray.tolist(data_transposed)
     printp('Plotting')
+    plot_title = f'Reducing {input_data} using the {algorithm} algorithm.'
     ### Plot ###
     plot([go.Scattergl(x=data_transposed[0], y=data_transposed[1], mode='markers')])
 
@@ -61,10 +69,10 @@ data = norm_np(data)
 out_dict = {}
 
 printp('Outputting JSON')
-for key, value in zip(keys, data):
-    out_dict[key] = list(value)
-write_json(os.path.join(root, 'pca.json'), out_dict)
+for key, value in zip(keys, data):  
+    out_dict[key] = value.tolist()
+write_json(os.path.join(this_script, json_out), out_dict)
 
 printp('Outputting WAV')
 data = data.astype('float32')
-wavfile.write(os.path.join(root, 'isomap.wav'), 44100, data)
+wavfile.write(os.path.join(this_script, wav_out), 44100, data)
