@@ -16,3 +16,5 @@ pre_train : false
 
 # Do you want to hear playback?
 playback : false
+
+feedback : true
