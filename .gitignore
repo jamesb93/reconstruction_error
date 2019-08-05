@@ -16,3 +16,4 @@ analysis_data
 essentia_analysis
 
 __pycache__
+.DS_Store
