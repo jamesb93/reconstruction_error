@@ -23,13 +23,6 @@ def read_yaml(yaml_file):
         except yaml.YAMLError as exc:
             print(exc)
 
-def norm_np(nparr):
-    '''
-    Hard normalisation of a numpy array
-    '''
-    output = (nparr - nparr.min(0)) / nparr.ptp(0)
-    return output
-
 def list_to_coll(list, out_file):
     '''
     Turns a list into a coll.
