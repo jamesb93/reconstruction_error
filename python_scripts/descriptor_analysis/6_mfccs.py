@@ -1,71 +1,63 @@
+import sys
+sys.path.append('../')
 import os
 import subprocess
-from shutil import copyfile
-from databending_utilities import get_path, read_json, write_json, ds_store, wipe_dir, bufspill # import all from the utilities script
-import time
+import multiprocessing as mp
 import numpy as np
-from scipy.io import wavfile
 import random
 import time
-import sys
-from pydub import AudioSegment
-import multiprocessing as mp
-from db_vars import root, audio_folder, unique_audio_files, unique_audio_folder, tmp
-print('tmp is', tmp)
+from scipy.io import wavfile
+from shutil import copyfile
+from datamosh.utils import get_path, read_json, write_json, ds_store, wipe_dir, bufspill # import all from the utilities script
+from datamosh.variables import root, audio_folder, unique_audio_files, unique_audio_folder, tmp
+
+this_script = os.getcwd()
+
 def analyse(idx):
     ## Setup paths/files etc
     mfcc_src = os.path.join(unique_audio_folder, unique_audio_files[idx])
-    print(mfcc_src)
     mfcc_features = os.path.join(tmp, f'{unique_audio_files[idx]}_features.wav')
-    print(mfcc_features)
     mfcc_stats = os.path.join(tmp, f'{unique_audio_files[idx]}_stats.wav' )
     ## Compute spectral shape descriptors
-    subprocess.call(['mfcc', 
-    '-source', str(mfcc_src), 
-    '-features', str(mfcc_features), 
-    '-fftsettings', '4096', '1024', '4096',
-    '-numbands', '40',
-    '-numcoeffs', '13',
-    '-maxnumcoeffs', '13'])
+    subprocess.call([
+        'mfcc', 
+        '-source', str(mfcc_src), 
+        '-features', str(mfcc_features), 
+        '-fftsettings', '8192', '256', '8192',
+        '-numbands', '40',
+        '-numcoeffs', '13',
+        '-maxnumcoeffs', '13'])
     ## Now get the stats of the shape analysis
-    subprocess.call(['stats', 
-    '-source', str(mfcc_features), 
-    '-stats', str(mfcc_stats),
-    '-numderivs', '3'])
-    ## Put Data in the global dictionary
-    data = bufspill(mfcc_stats) ## Only grab the first seven values, we dont care about derivatives.
-    ## This is going to have a column per MFCC with 14 values.
+    subprocess.call([
+        'stats', 
+        '-source', str(mfcc_features), 
+        '-stats', str(mfcc_stats),
+        '-numderivs', '3'])
+    data = bufspill(mfcc_stats)
     try:
         data = data.flatten()
         list_data = data.tolist()
         mfcc_dict[unique_audio_files[idx]] = list_data
-        ## Cleanup
-        os.remove(mfcc_stats)
-        os.remove(mfcc_features)
     except:
         print(f'There was no data to process for {mfcc_src}.')
 
-# def process():
-#     start = time.time()
-#     num_jobs = len(unique_audio_files)
+def process():
+    num_jobs = len(unique_audio_files)
 
-#     with mp.Pool() as pool:
-#         for i, _ in enumerate(
-#             pool.imap_unordered(analyse, range(num_jobs))
-#             , 1):
-#             sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
+    with mp.Pool() as pool:
+        for i, _ in enumerate(
+            pool.imap_unordered(analyse, range(num_jobs)), 1):
+                sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
 
-#     end = time.time()
-#     json_out = os.path.join(root, 'mfcc.json')
-#     write_json(json_out, dict(mfcc_dict))
-#     time_taken = round(((end-start) / 60.), 2)
-#     print('\nProcess complete in:', time_taken)
+
 
 if __name__ == '__main__':
-    ## Global Dicts for writing out results
-    analyse(1)
-    # mfcc_dict = mp.Manager().dict()
-    # process()
     wipe_dir(tmp)
+    ## Global Dicts for writing out results
+    mfcc_dict = mp.Manager().dict()
+    process()
+    json_out = os.path.join(this_script, 'mfcc.json')
+    write_json(json_out, dict(mfcc_dict))
+    
 
     
