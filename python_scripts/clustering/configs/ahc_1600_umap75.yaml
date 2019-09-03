@@ -1,0 +1,10 @@
+# Output json file name
+json : ahc_1600_umap75.json
+# Name of input data
+input_data : UMAP_7-75/umap.json
+# Choose the algorithm for clustering (DBSCAN, [A]ffinity[P]ropogation)
+algorithm : AP
+normalisation : none
+identifier : UMAP-7-75-ahc_1600
+tog_plot : true
+ap_n_clusters : 25

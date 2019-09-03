@@ -1,0 +1,6 @@
+json : hdbscan.json
+input_data : UMAP_7-1/umap.json
+algorithm : HDBSCAN
+normalisation : none
+identifier : UMAP-7-1
+tog_plot : true
