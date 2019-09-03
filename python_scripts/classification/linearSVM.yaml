@@ -15,12 +15,4 @@ algorithm : linSVC
 
 # Choose the kind of data normalisation you want before it goes into the classifer
 # Options are minmax or meanstddev
-normalisation : minmax
-
-# Do you want to output a plot from this?
-pre_train : false
-
-# Do you want to hear playback?
-playback : false
-
-feedback : true
+normalisation : standardise
