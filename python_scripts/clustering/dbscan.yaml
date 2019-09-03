@@ -1,8 +1,0 @@
-# Output json file name
-json : dbscan.json
-# Name of input data
-input_data : tsne.json
-# Choose the algorithm for clustering (DBSCAN, [A]ffinity[P]ropogation)
-algorithm : DBSCAN
-# Do you want to output a plot from this?
-plot : true
