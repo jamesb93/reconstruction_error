@@ -1,12 +1,10 @@
 import sys
 sys.path.append('../')
 import os
-from databending_utilities import ds_store, read_json, walkman, write_json, cd_up, read_yaml
+from databending_utilities import ds_store, read_json, walkman, write_json, cd_up, read_yaml, printp
 from db_vars import root, unique_audio_folder, models, analysis_data
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import numpy as np
-import simpleaudio as sa
-from joblib import dump, load
 np.set_printoptions(suppress=True)
 
 if len(sys.argv) != 2:
@@ -16,20 +14,22 @@ if len(sys.argv) != 2:
 this_dir = os.getcwd()
 
 # Configuration
+printp('Reading configuration')
 cfg_path = os.path.join(this_dir, sys.argv[1])
 cfg = read_yaml(cfg_path)
 json_out      = cfg['json']
 input_data    = cfg['input_data']
 algorithm     = cfg['algorithm']
-pre_train     = cfg['pre_train']
 normalisation = cfg['normalisation']
 
+printp('Reading in data')
 input_data = read_json(os.path.join(analysis_data, input_data))
 noise_examples = ds_store(os.listdir(os.path.join(this_dir, 'NoiseExamples')))
 good_examples = ds_store(os.listdir(os.path.join(this_dir, 'GoodExamples')))
 features  = []
 label     = []
 
+printp('Creating classification labels')
 for i in range(len(noise_examples)):
     try:
         data = input_data[noise_examples[i]]
@@ -46,12 +46,20 @@ for i in range(len(good_examples)):
     except:
         print(f'Error: Possibly no analysis data for {good_examples[i]}')
 
+
+# convert features and labels to numpy arrays
 features = np.array(features)
-label    = np.array(features)
+label    = np.array(label)
 
-features_norm = norm_np(features)
+if normalisation != 'none':
+    if normalisation == 'minmax':
+        scaler = MinMaxScaler()
+    if normalisation == 'standardise':
+        scaler = StandardScaler()
+    scaler.fit(features)
+    features = scaler.transform(features)
 
-### Select model ###
+# Select Model
 if algorithm == 'NB':
     ### Naive Bayes ###
     from sklearn.naive_bayes import GaussianNB
@@ -74,42 +82,45 @@ if algorithm == 'MLP':
     from sklearn.neural_network import MLPClassifier
     clf = MLPClassifier()
 
-# Pretraining
-model_type = f'{clf.__class__.__name__}_model.joblib'
+if algorithm == 'RF':
+    from sklearn.ensemble import RandomForestClassifier
+    clf = RandomForestClassifier(max_depth=5, n_estimators=10, n_features=1)
 
-if pre_train:
-    clf.fit(X, y)
-    dump(clf, os.path.join(models, model_type))
-    print('Training new model.')
+if algorithm == 'linSVC':
+    from sklearn.svm import LinearSVC
+    clf = LinearSVC(random_state=0, tol=1e-5)
 
-if not pre_train:
-    if os.path.isfile(os.path.join(models, model_type)):
-        clf = load(os.path.join(models, model_type))
-        print('Using an existing model.')
-    else:
-        clf.fit(X, y)
-        dump(clf, os.path.join(models, model_type))
+printp('Fitting Transform')
+# Compute the fit
+clf.fit(features, label)
+
 
 # Classification and JSON formation
 classification_dict = {}
-good_preds = []
-bad_preds = []
+good_predictions = []
+bad_predictions = []
 
-for entry in mfcc:
-    values = mfcc[entry]
-    t_data = np.array(values)
-    # t_data_norm = (t_data - t_data.min(0) / t_data.ptp(0))
+printp('Classifying new data')
+for entry in input_data:
+    values = input_data[entry]
+    t_data = np.asarray(values)
 
-    prediction = clf.predict([t_data])
+    if normalisation != 'none':
+        t_data = scaler.transform([t_data])
+    else:
+        t_data = [t_data]
+
+    prediction = clf.predict(t_data)
 
     if prediction == 1:
-        good_preds.append(entry)
+        good_predictions.append(entry)
         # walkman(os.path.join(unique_audio_folder, entry))
     elif prediction == 0:
-        bad_preds.append(entry)
+        bad_predictions.append(entry)
 
-classification_dict['0'] = bad_preds
-classification_dict['1'] = good_preds
+printp('Writing out classification to JSON')
+classification_dict['0'] = bad_predictions
+classification_dict['1'] = good_predictions
 
 out_file = os.path.join(this_dir, json_out)
 write_json(out_file, classification_dict)
