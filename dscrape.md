@@ -31,3 +31,21 @@ Aesthetically, I am trying to create small pieces that are focused intensenly on
 
 The large database in and of itself is not that interesting, but it is more interesting to disect the novel features of the space.
 
+## 05/08/19
+
+Clustering the more successful dimnesioanlity reduction data (TSNE and ISOMAP) works well in extracting perceptual groupings. DBSCAN is good at making close knit groups and is 'clever' in the sense that it picks the right amount of clusterss for you (there is no number_clusters parameter). Today I attempted Agglomerative Clustering which is a hierarchical method. I'm not sure the hierarchical aspect of it makes it much different, however, with this technique we specify a number of clusters for it to form. As it is hierarchical and a 'bottom up' approach it starts off with a high number of clusters spread out across the space and merges nearby groups together until it satisfies a given number of components. As a result there are strong perceptual groupings with some overlap between clusters that have been merged. DBSCAN originally returned 1638 clusters and so I provided the n_clusters parameter with approximately a third of this value (500 clusters) which has produced interesting groupings that show a higher degree of internal variance. My assumption is that by capping the n_clusters at 500, clusters that would otherwise be separated by something like DBSCAN get merged which offers the possibility of muddying the purity of each cluster. It would be good to see if the hierarchical data could be accessed to create a series of clustering 'layers', but this could be done by outputting results given different n_clusters paramaters.
+
+After some basic experimentation with the groupings from the clusters in Max, i think that creating some way of understanding the relationship of clusters will give me the musical hierarchical control I want. That said, I think that there is the possibility of a miniature existing in taking the clusters at face value and iterating through them. In a more controlled manner I envisage the computer maximising envelopes at different temporal and perceptual levels. I should be able to determine the 'pitchiness' over time while controlling the amplitude selection of samples within that sustained pitchiness envelope.
+
+## 13/08/19
+
+Creating a space in which I can interrogate instinctual dislikes/likes/inclinations about the material.
+
+A consideration: Do I need a low level way of manipulating patterns? Or should the algos just take care of ordering. I might just need better control over the algos themselves with parameter tuning and specificity.
+
+**I think its time to let the aesthetics guide me a bit... the clustering is done...**
+
+## 02/09/19
+
+It will be important to discuss the machinations over analysis and how to produce meaningful descriptors. A story could be told showing how different descriptors fail to give some sort of clarity, and how dimensioanlity reduction on a set of more abstract data rendered more useful results. Again, the 'magic' of the computer transforming numbers into something else.
+
