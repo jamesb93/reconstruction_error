@@ -11,7 +11,9 @@ algorithm : UMAP
 # Do you want to output a plot from this?
 plot : true
 
+identifier : 200_1
+
 # UMAP Params
 
-umap_neighbours : 15
+umap_neighbours : 200
 umap_mindist : 0.1
