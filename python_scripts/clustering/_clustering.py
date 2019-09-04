@@ -1,6 +1,5 @@
 # https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py
 import sys
-sys.path.append('../')
 import numpy as np
 import os
 import hdbscan
@@ -12,8 +11,8 @@ from bokeh.embed import file_html
 from bokeh.resources import CDN
 from sklearn.cluster import DBSCAN, AgglomerativeClustering
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from datamosh.utils import read_json, write_json,read_yaml, printp, mkdir
-from datamosh.variables import parent, analysis_data
+from datamosh.utils import read_json, write_json,read_yaml, printp, check_make
+from datamosh.variables import project_root, analysis_data
 
 
 if len(sys.argv) != 2:
@@ -36,11 +35,11 @@ identifier    = cfg['identifier']
 
 folder_name = f'{algorithm}_{identifier}'
 output_path = os.path.join(this_script, 'outputs', folder_name)
-mkdir(output_path)
+check_make(output_path)
 copyfile(cfg_path, os.path.join(output_path, 'configuration.yaml'))
 
 printp('Reading in data')
-feature = read_json(os.path.join(parent, 'python_scripts', 'dimensionality_reduction', 'outputs', input_data))
+feature = read_json(os.path.join(project_root, 'python_scripts', 'dimensionality_reduction', 'outputs', input_data))
 keys    = [x for x in feature.keys()]
 values  = [y for y in feature.values()]
 
@@ -63,6 +62,7 @@ if algorithm == 'HDBSCAN':
     db = hdbscan.HDBSCAN().fit(data)
 
 if tog_plot:
+    printp('Plotting')
     printp('Transposing Data')
     data_transposed = data.transpose() ## X as one list, Y as another
     # data_transposed = np.ndarray.tolist(data_transposed)
