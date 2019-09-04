@@ -149,9 +149,7 @@ def read_json(json_file):
         A python dictionary.
     '''
     with open(json_file, 'r') as fp:
-        try:
-            data = rj.load(fp)
-        except ImportError
+        data = rj.load(fp)
         return data
 
 def walkman(audio_path):
