@@ -4,7 +4,9 @@ import yaml
 # JSON importing
 try:
     import rapidjson as rj
+    print('Importing RapidJSON')
 except ImportError:
+    print('Importing native JSON instead of RapidJson')
     import json as rj
 
 import soundfile as sf
@@ -16,7 +18,7 @@ def check_make(dir_path):
     try:
         os.mkdir(dir_path)
     except FileExistsError:
-        print(f'Directory {dirName} already exists.')
+        print(f'Directory {dir_path} already exists.')
 
 def cd_up(path, num):
     '''
