@@ -2,8 +2,8 @@
 	"name" : "data_bending-max",
 	"version" : 1,
 	"creationdate" : 3650370005,
-	"modificationdate" : 3650376564,
-	"viewrect" : [ 25.0, 73.0, 300.0, 500.0 ],
+	"modificationdate" : 3650446833,
+	"viewrect" : [ 383.0, -1035.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -98,36 +98,9 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "F:/data_bending/DataAudioUnique",
-			"projectrelativepath" : "../DataAudioUnique",
-			"label" : "audio",
-			"recursive" : 1,
-			"enabled" : 1,
-			"includeincollective" : 0
-		}
-,
-		"1" : 		{
-			"bootpath" : "F:/data_bending/python_scripts",
-			"projectrelativepath" : "../python_scripts",
-			"label" : "python",
-			"recursive" : 1,
-			"enabled" : 1,
-			"includeincollective" : 0
-		}
-,
-		"2" : 		{
-			"bootpath" : "F:/data_bending/essentia_analysis",
-			"projectrelativepath" : "../essentia_analysis",
-			"label" : "es_analysis",
-			"recursive" : 1,
-			"enabled" : 1,
-			"includeincollective" : 0
-		}
-,
-		"3" : 		{
-			"bootpath" : "F:/data_bending/analysis_data",
-			"projectrelativepath" : "../analysis_data",
-			"label" : "analysis",
+			"bootpath" : "~/dev/data_bending/python_scripts/clustering",
+			"projectrelativepath" : "../python_scripts/clustering",
+			"label" : "clustering",
 			"recursive" : 1,
 			"enabled" : 1,
 			"includeincollective" : 0
@@ -136,7 +109,7 @@
 	}
 ,
 	"detailsvisible" : 0,
-	"amxdtype" : 1633771873,
+	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
