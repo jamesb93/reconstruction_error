@@ -49,3 +49,9 @@ A consideration: Do I need a low level way of manipulating patterns? Or should t
 
 It will be important to discuss the machinations over analysis and how to produce meaningful descriptors. A story could be told showing how different descriptors fail to give some sort of clarity, and how dimensioanlity reduction on a set of more abstract data rendered more useful results. Again, the 'magic' of the computer transforming numbers into something else.
 
+## 06/09/19
+
+Today I worked extensively on fleshing out how each cluster functions and listening to the inherent behaviours that can be found in the sub clusters. This went beyond just listening and labelling toward a process of trying to imagine compositional mechanisms and transformations that could be applied to each cluster within the Framework of a clustering hierarchy. 
+
+An interesting occurance was that **after** making some more detailed notes on clusters which I thought had more long term compositional fruit, I went back and listened to some of the `short_spines` and went about looking which clusters they belonged to. On more than one occasion I found clusters that I was interested in contained spines I had selected much earlier and I think that this somehow gives validity to the use of dimensionality reduction and clustering to create hierarchies and groupings. 
+
