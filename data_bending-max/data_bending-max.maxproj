@@ -2,8 +2,8 @@
 	"name" : "data_bending-max",
 	"version" : 1,
 	"creationdate" : 3650370005,
-	"modificationdate" : 3650446833,
-	"viewrect" : [ 383.0, -1035.0, 300.0, 500.0 ],
+	"modificationdate" : 3650625906,
+	"viewrect" : [ 1356.0, -1035.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -74,6 +74,21 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"multiLoad.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"playback_engine.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"clust_200_miniature.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
