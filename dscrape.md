@@ -51,7 +51,29 @@ It will be important to discuss the machinations over analysis and how to produc
 
 ## 06/09/19
 
-Today I worked extensively on fleshing out how each cluster functions and listening to the inherent behaviours that can be found in the sub clusters. This went beyond just listening and labelling toward a process of trying to imagine compositional mechanisms and transformations that could be applied to each cluster within the Framework of a clustering hierarchy. 
+Today I worked extensively on fleshing out how each cluster functions and listening to the the behaviours that are produced by playing back the samples in arbitrary, stochastic ways. This went beyond just listening and labelling toward a process of trying to imagine compositional mechanisms and transformations that could be applied to each cluster within the Framework of a clustering hierarchy. 
 
 An interesting occurance was that **after** making some more detailed notes on clusters which I thought had more long term compositional fruit, I went back and listened to some of the `short_spines` and went about looking which clusters they belonged to. On more than one occasion I found clusters that I was interested in contained spines I had selected much earlier and I think that this somehow gives validity to the use of dimensionality reduction and clustering to create hierarchies and groupings. 
+
+## 09/09/19
+
+Probabilities for playback using z12 are important. Achieving a distribution, and 'ordering' of the right elements can drastically change the overall feeling of the output.
+
+I think that working with Max like a complex sequencer is not the way that I want to work. I am happy that the computer has created perceptual groupings for me, but I don't want to try and abstract away something that I want more fine control over (the organisation)
+
+## 16/09/19
+
+Today I focused on collecting audio from the larger set that was sonically relevant to the pitched material that I hand-organised previously. I started out motivated to increase the breadth of material with similar qualities - pitched, compressed, a sliver of noise to accompany high pitched tonal qualities.
+
+Using NMF and the reascript interface to the FluCoMa tools I was able to create surgical separations of the noise content from the harmonic content in some of the files. This proved useful and something I may want to use more liberally on other files in the future or as a compositional mechanism.
+
+I also started to form some longer term gestures ~30 seconds implementing the removal of noise through NMF. Some incredibly sparse sounds were formed as a result. 
+Lastly, I found it useful to use specific files of interest as anchors and look for related material by observing how the clustering python scripts grouped other samples to these. One example chain of thinking here starts with `pos.dat_1.wav` which I know had a very similar sonic profile to the outputs of files created from the `.maxwave` extension. I then looked into the `AHC_250.json` cluster file to find that most of the `.maxwave` had been kept together in their own clusters and without any other material infiltrating - except for *cluster 54*. I began listening through each of the files in this cluster and referring back to their own segmented source material. I found some excellent material that I would otherwise not have come across, particularly in `3870112724rsegmnoittet-es.sqlite.wav`. This will probably spawn a new short track as well as provide me with some small snippets that I can cross pollenate the ideas with. 
+
+## 18/09/19
+Cluster 19 contains segmoinette which contains references to KnowledgeC.db
+Cluster 62 contains segmoinette which contains references to Addressbook
+Cluster 64 contains segmoinette which contains references to 5353E668........wav
+Cluster 54 contains segmoinette which contains references to KnowledgeC.db.
+Cluster 120 contains segmoinette which contains Live-files-34.db.wav segments
 
