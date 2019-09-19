@@ -2,8 +2,8 @@
 	"name" : "data_bending-max",
 	"version" : 1,
 	"creationdate" : 3650370005,
-	"modificationdate" : 3650625906,
-	"viewrect" : [ 1356.0, -1035.0, 300.0, 500.0 ],
+	"modificationdate" : 3651738421,
+	"viewrect" : [ 1519.0, 237.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -70,10 +70,9 @@
 				"local" : 1
 			}
 ,
-			"paths.maxpat" : 			{
+			"playback_engine.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"multiLoad.maxpat" : 			{
@@ -81,12 +80,33 @@
 				"local" : 1
 			}
 ,
-			"playback_engine.maxpat" : 			{
+			"paths.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
+			}
+,
+			"clust_200_miniature.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"clust_200_miniature.maxpat" : 			{
+			"clust_118_miniature.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"clust_138_miniature copy.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sharpContrast_miniature.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"descriptorGraph.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
