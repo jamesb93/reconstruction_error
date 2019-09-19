@@ -22,6 +22,3 @@ essentia_json = os.path.join(project_root, 'analysis_data', 'essentia_analysis.j
 
 # Analysis Data
 analysis_data = os.path.join(project_root, 'analysis_data')
-
-# Other
-tmp = os.path.join(project_root, 'tmp')
