@@ -19,3 +19,4 @@ __pycache__
 .DS_Store
 .stversions
 python_scripts/datamosh/datamosh.egg-info
+**/audio_files/
