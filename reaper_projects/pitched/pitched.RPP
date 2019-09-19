@@ -1,0 +1,2805 @@
+<REAPER_PROJECT 0.1 "5.981/OSX64" 1568820060
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3184 8 1 8 1 0 0 0
+  TIMEMODE 0 5 -1 30 0
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 5.24448756591252 0 0
+  VZOOMEX 5
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "audio_files" ""
+  <RECORD_CFG
+    ZXZhdyABAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN pitched
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  MISCOPTS 2
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 72 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERFXLIST
+    WNDRECT 364 241 725 387
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+  >
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 111.84262292995294 "" 0 0 1 B
+  <PROJBAY
+  >
+  <TRACK {C9EA7739-0EF1-3C4A-8643-A6A79CF979F5}
+    NAME en-search.cache_7
+    PEAKCOL 33552328
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.21871375624299 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 2 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C9EA7739-0EF1-3C4A-8643-A6A79CF979F5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 69.90067974711107
+      SNAPOFFS 0
+      LENGTH 62.67114594215596
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 1.904081 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {125D74D4-0C45-1147-BFC5-5A43A433EE7B}
+      IID 513
+      NAME en-search.cache_7-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1384872C-3C50-2841-A203-C6991155A96A}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7-glued.wav"
+      >
+      TAKE
+      NAME "en-search.cache_7-glued_nmf_0.0 1002.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22DBE523-08FA-1F4D-81FE-AE205779EE70}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7-glued_nmf_0.0 1002.wav"
+      >
+    >
+  >
+  <TRACK {3E1E6CAD-2973-DB45-8C60-3228E49BD6BE}
+    NAME NMF
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3E1E6CAD-2973-DB45-8C60-3228E49BD6BE}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 69.90067974711107
+      SNAPOFFS 0
+      LENGTH 62.67114594215596
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 1.904081 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 1
+      SEL 0
+      IGUID {E036C39D-1D83-FF4E-AA7E-315206AFEB97}
+      IID 515
+      NAME "en-search.cache_7-glued_nmf_0.0 1002.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {35DEEDA4-0CB2-A84D-AFCA-5DE8897EBBDD}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7-glued_nmf_0.0 1002.wav"
+      >
+    >
+  >
+  <TRACK {2EB26AAF-8D5D-8D45-A3B6-1B857DE2C127}
+    NAME NMF-1
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2EB26AAF-8D5D-8D45-A3B6-1B857DE2C127}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 69.90067974711107
+      SNAPOFFS 0
+      LENGTH 62.67114594215596
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 1.904081 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F4AD49B7-DECC-1A4E-B964-8B4B5F2B0A82}
+      IID 516
+      NAME "en-search.cache_7-glued_nmf_0.0 1002.wav [chan 1]"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9D95C507-21FF-4F4F-8933-5B5AA1E98C83}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7-glued_nmf_0.0 1002 [chan 1].wav"
+      >
+    >
+  >
+  <TRACK {AA7660A7-2FBA-4E40-8107-9E138C2928D6}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {AA7660A7-2FBA-4E40-8107-9E138C2928D6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 69.90067974711107
+      SNAPOFFS 0
+      LENGTH 62.67114594215596
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 1.904081 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {16940D1D-20C0-844F-8052-F4A4FCE9B1C0}
+      IID 518
+      NAME "en-search.cache_7-glued_nmf_0.0 1002.wav [chan 2]"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A8575093-DCAF-004F-94A3-22D76C6D4179}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7-glued_nmf_0.0 1002 [chan 2].wav"
+      >
+    >
+  >
+  <TRACK {4E9228EE-A8B8-5642-9D97-4FF14FDA89C3}
+    NAME Crackle-transients
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4E9228EE-A8B8-5642-9D97-4FF14FDA89C3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 69.90067974711107
+      SNAPOFFS 0
+      LENGTH 62.67114594215596
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 1.904081 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F165050E-8D59-B342-845E-C1EC97002E79}
+      IID 519
+      NAME "en-search.cache_7-glued_nmf_0.0 1002 [chan 2]_ts-transients_0.020 256 2.0.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {02D38D17-BBB0-8545-98A5-B854D5A9A4E1}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7-glued_nmf_0.0 1002 [chan 2]_ts-transients_0.020 256 2.0.wav"
+      >
+    >
+  >
+  <TRACK {5838AD00-B72A-CD41-B1B7-7BEC72EBEC7C}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5838AD00-B72A-CD41-B1B7-7BEC72EBEC7C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 69.90067974711107
+      SNAPOFFS 0
+      LENGTH 62.67114594215596
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 1.904081 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A5E2A014-426B-8C40-80B7-3D8B95B7E857}
+      IID 520
+      NAME "en-search.cache_7-glued_nmf_0.0 1002 [chan 2]_ts-residual_0.020 256 1.1.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9A9624E9-A7E7-4742-A14B-A7FE77719DED}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7-glued_nmf_0.0 1002 [chan 2]_ts-residual_0.020 256 1.1.wav"
+      >
+    >
+  >
+  <TRACK {48F33D85-409C-074D-8FB4-F52713717EE1}
+    NAME ""
+    PEAKCOL 33552328
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {48F33D85-409C-074D-8FB4-F52713717EE1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 86.8281598711004
+      SNAPOFFS 0
+      LENGTH 0.93613613284164
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0.253112 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D3A159B5-E9C9-2D45-9A84-27B391327A2D}
+      IID 403
+      NAME 0DF83068C976A2414F17FEB202FAC529B3FB3475_1-glued.wav
+      VOLPAN 1 0 0.085095 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9D148EC7-35E4-AE4C-8E84-E650E1EFFF5E}
+      <SOURCE WAVE
+        FILE "audio_files/0DF83068C976A2414F17FEB202FAC529B3FB3475_1-glued.wav"
+      >
+    >
+    <ITEM
+      POSITION 129.11312489008083
+      SNAPOFFS 0
+      LENGTH 7.50004535147394
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7E768170-1030-544C-BDD4-5FDCC6CEBA79}
+      IID 291
+      NAME pos.dat_1-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {181A6F5A-E492-9B44-A25F-62C95892ED46}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued.wav"
+      >
+    >
+    <ITEM
+      POSITION 136.6131702415548
+      SNAPOFFS 0
+      LENGTH 7.50004535147391
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0355C475-5758-304E-BEA9-2D4FE9A55292}
+      IID 291
+      NAME pos.dat_1-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3FB1A340-D7D1-7B43-BD8E-EFAB2C06123C}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued.wav"
+      >
+      TAKE SEL
+      NAME pos.dat_1-glued_nmf_0.02002.wav
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {00652299-7196-0043-9985-2214D29D26D5}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued_nmf_0.02002.wav"
+      >
+    >
+    <ITEM
+      POSITION 144.11321559302871
+      SNAPOFFS 0
+      LENGTH 7.500045351474
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 4 7.500045 0 4 0 -1
+      MUTE 0
+      SEL 0
+      IGUID {B774DF17-1A2C-B64A-9982-6BCFB15C4799}
+      IID 303
+      NAME "pos.dat_1-glued_nmf_0.02002.wav [chan 1]"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {877C02F6-64D1-9B45-81B3-3C2005E71647}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued_nmf_0.02002 [chan 1].wav"
+      >
+    >
+  >
+  <TRACK {DAE2172A-3141-FE43-B329-2E4E56522166}
+    NAME "[chan 1]"
+    PEAKCOL 33552328
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {DAE2172A-3141-FE43-B329-2E4E56522166}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 80.07824324718395
+      SNAPOFFS 0
+      LENGTH 1.34798185941042
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {81C751C4-6198-9D46-9EDA-908F2D1F2AF1}
+      IID 26
+      NAME layer_1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31466F9D-4F07-0B4C-B4AC-E993AB0D2462}
+      <SOURCE WAVE
+        FILE "audio_files/layer_1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 81.42622510659437
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1C3DFCD3-D1DF-C346-A3A0-C8EE5AA1A8E7}
+      IID 38
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FB215510-233F-E34F-BE5F-0FB392E3582B}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+      TAKE
+      NAME "vibes-a1.aif.maxwave_0_nmf_0.0 1002.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8EDAD19E-B802-D84F-8D9A-182DBE157E98}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0_nmf_0.0 1002.wav"
+      >
+    >
+    <ITEM
+      POSITION 144.11321559302871
+      SNAPOFFS 0
+      LENGTH 7.500045351474
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {04D873B5-9393-6D45-9DB1-765C9ECFA05E}
+      IID 512
+      NAME "pos.dat_1-glued_nmf_0.02002.wav [chan 2]"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {312ECFB6-2983-2C4A-ABE9-C81D1479238D}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued_nmf_0.02002 [chan 2] 002.wav"
+      >
+    >
+    <ITEM
+      POSITION 151.61326094450271
+      SNAPOFFS 0
+      LENGTH 7.50004535147391
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F85FF30D-9DF8-4A40-83E2-4D798B478C1B}
+      IID 399
+      NAME "pos.dat_1-glued_nmf_0.02002.wav [chan 2]"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF3641E0-AECC-7B45-8D92-F330C69C8256}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued_nmf_0.02002 [chan 2] 002.wav"
+      >
+      TAKE SEL
+      NAME "pos.dat_1-glued_nmf_0.02002 [chan 2] 002_hpss-h_0.00.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BE1A5A03-7777-8E4C-A113-9BC9ACF6C0EC}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued_nmf_0.02002 [chan 2] 002_hpss-h_0.00.wav"
+      >
+      TAKE
+      NAME "pos.dat_1-glued_nmf_0.02002 [chan 2] 002_hpss-p_0.00.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BF8D3D8B-DDE8-5145-B9D2-BD64D461B7FE}
+      <SOURCE WAVE
+        FILE "audio_files/pos.dat_1-glued_nmf_0.02002 [chan 2] 002_hpss-p_0.00.wav"
+      >
+    >
+  >
+  <TRACK {7E0209C1-DE8A-DC43-984C-439A1B046CEB}
+    NAME extension-022ed3bbde328a2603c03db4c37552fd.code_2
+    PEAKCOL 23411865
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7E0209C1-DE8A-DC43-984C-439A1B046CEB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {0E5C771C-FAE5-2144-9828-AD633BA81C24}
+    NAME libLLVMCore.a_27
+    PEAKCOL 23411865
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0E5C771C-FAE5-2144-9828-AD633BA81C24}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {B548E4B1-DC80-6A42-AA58-66C301EEE8ED}
+    NAME libLLVM.dylib_59
+    PEAKCOL 23411865
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B548E4B1-DC80-6A42-AA58-66C301EEE8ED}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {817D4EFB-7D5A-6B41-AE51-0440785B5077}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.27991910429543 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {817D4EFB-7D5A-6B41-AE51-0440785B5077}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 138.74438847269022
+      SNAPOFFS 0
+      LENGTH 0.06961451247167
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.384615 0.05
+      IGUID {3000B667-BC07-1A48-8B4D-F31CAD102702}
+      IID 548
+      NAME AddressBook.sqlitedb-shm_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999966 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {375CC0BB-E9E4-D143-9DBA-1881D382D515}
+      <SOURCE WAVE
+        FILE "audio_files/AddressBook.sqlitedb-shm_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 138.81400298516189
+      SNAPOFFS 0
+      LENGTH 0.06965986394559
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.346154 0.05
+      IGUID {3559DF63-E1F0-0E41-8C85-4A6473F50DBA}
+      IID 549
+      NAME places.sqlite-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999988 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {207B83E2-6F11-214D-8FDA-4CF079007084}
+      <SOURCE WAVE
+        FILE "audio_files/places.sqlite-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 138.88366284910745
+      SNAPOFFS 0
+      LENGTH 0.06965986394559
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.115385 0.05
+      IGUID {446AA651-C1D5-9646-971F-E6F95CA4EB56}
+      IID 550
+      NAME itunesstored_private.sqlitedb-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999988 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9045E5C6-5DC9-B14A-9688-14589586530C}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored_private.sqlitedb-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 138.95332271305307
+      SNAPOFFS 0
+      LENGTH 0.09287981859413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.923077 0.05
+      IGUID {289B59F5-D0E3-7E42-8683-43C76A5344EF}
+      IID 551
+      NAME downloads.28.sqlitedb-wal_21.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999981 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7CDDE134-9E7A-2442-B579-3F70D39176A8}
+      <SOURCE WAVE
+        FILE "audio_files/downloads.28.sqlitedb-wal_21.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.0462025316472
+      SNAPOFFS 0
+      LENGTH 0.09287981859416
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.769231 0.05
+      IGUID {F3F5C957-C4A3-124D-A800-F876B8AC0B34}
+      IID 552
+      NAME libLLVM-6.0.dylib_128.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999951 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60922B9D-E7D7-024A-9005-5BB2E3AA5EE0}
+      <SOURCE WAVE
+        FILE "audio_files/libLLVM-6.0.dylib_128.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.13908235024127
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.653846 0.05
+      IGUID {62E78A18-EA5E-7E4B-A16E-E0F6222C3E62}
+      IID 553
+      NAME Library.storedata-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000012 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EEEA17D6-6CD1-4A4C-A7EE-B73D0F36D935}
+      <SOURCE WAVE
+        FILE "audio_files/Library.storedata-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.23196216883537
+      SNAPOFFS 0
+      LENGTH 0.09287981859407
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.461538 0.05
+      IGUID {9DB24BFB-F823-3341-B2DB-943A28F3338C}
+      IID 554
+      NAME sys-o.a_181.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000042 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F96E29A-23E6-3B47-B5B5-1C8F30DAD2C2}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_181.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.32484198742944
+      SNAPOFFS 0
+      LENGTH 0.09287981859404
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.153846 0.05
+      IGUID {4ABFBC77-65B9-D44C-AF5C-33BA200DE25B}
+      IID 555
+      NAME libLLVM.dylib_128.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000073 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2A7F24F0-6FD2-7141-AFD9-0AD205E4DE7A}
+      <SOURCE WAVE
+        FILE "audio_files/libLLVM.dylib_128.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.41772180602359
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.076923 0.05
+      IGUID {49472DFE-A284-9541-A9CB-DD96DDFC6487}
+      IID 556
+      NAME libLLVMX86Disassembler.a_59.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000012 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CE315FC3-9762-B742-95EF-FF58A7FE5F44}
+      <SOURCE WAVE
+        FILE "audio_files/libLLVMX86Disassembler.a_59.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.51060162461769
+      SNAPOFFS 0
+      LENGTH 0.11609977324261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.269231 0.05
+      IGUID {63D982AB-8A55-6B49-A8CB-402F96E09BC8}
+      IID 557
+      NAME client.db_37.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000018 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0ABE1CC9-ED7A-6443-9352-C85D21AE9E30}
+      <SOURCE WAVE
+        FILE "audio_files/client.db_37.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.6267013978603
+      SNAPOFFS 0
+      LENGTH 0.11609977324264
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.05
+      IGUID {125E783A-7BC7-0943-8224-BB57E0EE4C6E}
+      IID 558
+      NAME client.db_42.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71E571BF-DC9A-734C-81FD-DF6E9FF7F611}
+      <SOURCE WAVE
+        FILE "audio_files/client.db_42.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.74280117110294
+      SNAPOFFS 0
+      LENGTH 0.13931972789115
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.538462 0.05
+      IGUID {F4E874BF-B63D-9045-84AF-DF5D40546798}
+      IID 559
+      NAME cache_72_4_27.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0AFADB57-5044-F54F-824F-646540BB6A7F}
+      <SOURCE WAVE
+        FILE "audio_files/cache_72_4_27.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.88212089899415
+      SNAPOFFS 0
+      LENGTH 0.18573696145125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.692308 0.05
+      IGUID {BFE9F921-B18F-BF4B-8855-4F85E7B1BFA0}
+      IID 560
+      NAME itunesstored2.sqlitedb.migrated-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {63C7F3CE-9231-C346-9C17-DA7CBF2BB574}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored2.sqlitedb.migrated-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 140.06785786044537
+      SNAPOFFS 0
+      LENGTH 0.27861678004538
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.307692 0.05
+      IGUID {9DF4A37A-D2A3-4F4B-A256-5D9B759E3F07}
+      IID 561
+      NAME places.sqlite-shm_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999988 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5062F88F-B226-CA4E-82D2-C21081241458}
+      <SOURCE WAVE
+        FILE "audio_files/places.sqlite-shm_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 140.3464746404907
+      SNAPOFFS 0
+      LENGTH 0.27863945578233
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.807692 0.05
+      IGUID {32CC6C97-287C-9040-9C8E-F8068D138396}
+      IID 562
+      NAME sys-o.a_188.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62DC63A6-13C1-C245-937A-17BF2B69C698}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_188.wav"
+      >
+    >
+    <ITEM
+      POSITION 140.62511409627302
+      SNAPOFFS 0
+      LENGTH 0.37147392290248
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.95 0.05
+      IGUID {EBC3A6A3-5B3B-0B49-BF75-4A9C99CBE896}
+      IID 563
+      NAME psi.sqlite-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C28F10E2-9167-7F44-AC47-3C92D4287013}
+      <SOURCE WAVE
+        FILE "audio_files/psi.sqlite-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 140.99658801917548
+      SNAPOFFS 0
+      LENGTH 0.37147392290248
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.884615 0.05
+      IGUID {BE664342-F9F9-4244-BA74-F0B7946AE984}
+      IID 564
+      NAME Renames.sqlite-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {881DF5BD-CCFB-D44D-8C86-C7AE1933C016}
+      <SOURCE WAVE
+        FILE "audio_files/Renames.sqlite-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 141.36806194207796
+      SNAPOFFS 0
+      LENGTH 0.37147392290242
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.846154 0.05
+      IGUID {3C0C7F9D-63F5-8545-A1A9-0782C430E9FF}
+      IID 565
+      NAME Calendar.sqlitedb-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000018 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88646B3A-074B-8742-B983-BA3DB24020EB}
+      <SOURCE WAVE
+        FILE "audio_files/Calendar.sqlitedb-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 141.73953586498047
+      SNAPOFFS 0
+      LENGTH 0.4179591836735
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.230769 0.05
+      IGUID {1BDD5BD4-3256-8842-9B41-37FE1FBFD253}
+      IID 566
+      NAME sys.ji_146.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9029D714-717D-C344-A44B-308D17984176}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_146.wav"
+      >
+    >
+    <ITEM
+      POSITION 142.157495048654
+      SNAPOFFS 0
+      LENGTH 0.16253968253969
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.615385 0.05
+      IGUID {554AB1F2-E8BF-4648-A90D-673C47ED6BC1}
+      IID 567
+      NAME sys.ji_115.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BC44EC19-CF82-BA45-8232-85F88EE8E348}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_115.wav"
+      >
+    >
+    <ITEM
+      POSITION 142.32003473119366
+      SNAPOFFS 0
+      LENGTH 0.44117913832201
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.730769 0.05
+      IGUID {26C04A1B-C320-6243-B3F3-7457115CEFBB}
+      IID 568
+      NAME sys-o.a_212.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9E02244E-E616-B648-8438-EA99B04BC417}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_212.wav"
+      >
+    >
+    <ITEM
+      POSITION 142.76121386951564
+      SNAPOFFS 0
+      LENGTH 1.23065759637191
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.423077 0.05
+      IGUID {09A16A83-05BD-DA41-9BC3-D65F15DC53FD}
+      IID 569
+      NAME sys.ji_123.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {20B7FDE8-1F07-1847-BE75-52628831F8EE}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_123.wav"
+      >
+    >
+    <ITEM
+      POSITION 143.99187146588756
+      SNAPOFFS 0
+      LENGTH 0.18573696145131
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.576923 0.05
+      IGUID {C1295D6D-2472-054B-ACF3-5C04A4CCC1BC}
+      IID 570
+      NAME itunesstored2.sqlitedb.migrated-shm_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999967 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5AF306C4-6891-BA4F-B89C-69426CD2BD4D}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored2.sqlitedb.migrated-shm_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 144.17760842733878
+      SNAPOFFS 0
+      LENGTH 0.18573696145123
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.192308 0.05
+      IGUID {6AA863A1-4C7A-5647-966E-3DE2FDAB0FC9}
+      IID 571
+      NAME itunesstored_private.sqlitedb-shm_3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000013 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D9BD0A6B-EA9B-8F45-A15B-844CF79023FB}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored_private.sqlitedb-shm_3.wav"
+      >
+    >
+    <ITEM
+      POSITION 144.36334538879001
+      SNAPOFFS 0
+      LENGTH 0.18578231292514
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.05
+      IGUID {9E96950B-F25B-104B-AD0D-820AC0BEE867}
+      IID 572
+      NAME sys-o.a_180.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A157B01D-E097-EC47-B1EE-ACA1E895F4B1}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_180.wav"
+      >
+    >
+    <ITEM
+      POSITION 144.54912770171515
+      SNAPOFFS 0
+      LENGTH 0.69659863945577
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.038462 0.05
+      IGUID {16A4022B-BD7F-3249-B5AA-2FF5EFCD2226}
+      IID 573
+      NAME sys.ji_150.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AF99E014-17E5-704B-8D65-B61088A44BF0}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_150.wav"
+      >
+    >
+    <ITEM
+      POSITION 145.24572634117098
+      SNAPOFFS 0
+      LENGTH 0.09287981859413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.769231 0.05
+      IGUID {24AAFFCD-4EF9-014A-9B24-2468138A036C}
+      IID 574
+      NAME libLLVM-6.0.dylib_128.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999981 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2A704356-CF64-B147-A0C1-A648A084A471}
+      <SOURCE WAVE
+        FILE "audio_files/libLLVM-6.0.dylib_128.wav"
+      >
+    >
+    <ITEM
+      POSITION 145.33860615976511
+      SNAPOFFS 0
+      LENGTH 0.18578231292514
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.5 0.05
+      IGUID {FC32EA0F-A2EF-6846-99C1-45B62F7B2055}
+      IID 575
+      NAME sys-o.a_180.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4898C6B6-AFBA-4B4A-93D2-553756A2A18D}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_180.wav"
+      >
+    >
+    <ITEM
+      POSITION 145.52438847269022
+      SNAPOFFS 0
+      LENGTH 0.11609977324269
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0 0.05
+      IGUID {381E23FF-DDDD-6147-93A8-FDEF4B4D0D39}
+      IID 576
+      NAME client.db_42.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999944 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {96DAD79B-0ACE-0C44-8740-2FBD85BAA1D0}
+      <SOURCE WAVE
+        FILE "audio_files/client.db_42.wav"
+      >
+    >
+    <ITEM
+      POSITION 145.64048824593291
+      SNAPOFFS 0
+      LENGTH 0.06965986394556
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.346154 0.05
+      IGUID {3B83EB2E-81BC-DC4E-B2A9-F58010EDF340}
+      IID 577
+      NAME places.sqlite-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000029 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EBE76403-8561-C942-A52D-1D0C5A512455}
+      <SOURCE WAVE
+        FILE "audio_files/places.sqlite-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 145.71014810987845
+      SNAPOFFS 0
+      LENGTH 0.37147392290248
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.846154 0.05
+      IGUID {3F1820B9-633C-CC45-95FB-DD02AD3F899F}
+      IID 578
+      NAME Calendar.sqlitedb-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14E41C25-2DF7-2546-A922-72F7834E6262}
+      <SOURCE WAVE
+        FILE "audio_files/Calendar.sqlitedb-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 146.08162203278093
+      SNAPOFFS 0
+      LENGTH 0.27863945578235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.807692 0.05
+      IGUID {1854E797-9B10-0A40-BF00-44803717DDB7}
+      IID 579
+      NAME sys-o.a_188.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999988 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D06F6E24-773D-1D4C-9742-D0C93F655271}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_188.wav"
+      >
+    >
+    <ITEM
+      POSITION 146.36026148856328
+      SNAPOFFS 0
+      LENGTH 0.06965986394562
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.115385 0.05
+      IGUID {1BE26480-28E4-624C-A10D-546EE8B671FC}
+      IID 580
+      NAME itunesstored_private.sqlitedb-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999947 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C00887C5-28E5-9F4C-8296-08A1305E4006}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored_private.sqlitedb-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 146.42992135250881
+      SNAPOFFS 0
+      LENGTH 0.09287981859407
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.923077 0.05
+      IGUID {DD842321-7916-7347-A69A-F97F553489EA}
+      IID 581
+      NAME downloads.28.sqlitedb-wal_21.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000042 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3ADD4D5-261A-654D-ABD7-839BBB442837}
+      <SOURCE WAVE
+        FILE "audio_files/downloads.28.sqlitedb-wal_21.wav"
+      >
+    >
+    <ITEM
+      POSITION 146.52280117110294
+      SNAPOFFS 0
+      LENGTH 0.18573696145131
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.576923 0.05
+      IGUID {CAA68A09-42F4-794A-9D37-A99C011D7B88}
+      IID 582
+      NAME itunesstored2.sqlitedb.migrated-shm_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999967 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1AA9E429-CD59-034A-810C-3E1901550C9B}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored2.sqlitedb.migrated-shm_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 146.70853813255425
+      SNAPOFFS 0
+      LENGTH 0.37147392290254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.884615 0.05
+      IGUID {7FC97337-B552-B44C-B249-BC4242E268DA}
+      IID 583
+      NAME Renames.sqlite-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999987 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C5656C6E-E171-4E4B-AB74-F16C7CF366FD}
+      <SOURCE WAVE
+        FILE "audio_files/Renames.sqlite-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 147.08001205545668
+      SNAPOFFS 0
+      LENGTH 0.37147392290248
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.95 0.05
+      IGUID {C96C0516-78C2-0D41-8011-586475C67169}
+      IID 584
+      NAME psi.sqlite-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3C1D9D6-3B33-A942-A2F5-B2AB8CD76C2D}
+      <SOURCE WAVE
+        FILE "audio_files/psi.sqlite-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 147.45148597835916
+      SNAPOFFS 0
+      LENGTH 1.23065759637183
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.423077 0.05
+      IGUID {349511D2-3B40-FD42-91AC-BFCE210E17C4}
+      IID 585
+      NAME sys.ji_123.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4FC2D5FC-D197-DA42-B1A6-84FF780932F4}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_123.wav"
+      >
+    >
+    <ITEM
+      POSITION 148.68214357473099
+      SNAPOFFS 0
+      LENGTH 0.09287981859407
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.153846 0.05
+      IGUID {22B348EB-C4A6-944D-98ED-44DA5AFB50C1}
+      IID 586
+      NAME libLLVM.dylib_128.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000042 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62670067-B03A-2A40-A191-CB7BF2B25D95}
+      <SOURCE WAVE
+        FILE "audio_files/libLLVM.dylib_128.wav"
+      >
+    >
+    <ITEM
+      POSITION 148.77502339332509
+      SNAPOFFS 0
+      LENGTH 0.18573696145125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.192308 0.05
+      IGUID {228BAE9B-DA1D-E942-86E9-B7E44F6F2300}
+      IID 587
+      NAME itunesstored_private.sqlitedb-shm_3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FA316441-54CF-F543-99D4-199BDC44DB6C}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored_private.sqlitedb-shm_3.wav"
+      >
+    >
+    <ITEM
+      POSITION 148.9607603547764
+      SNAPOFFS 0
+      LENGTH 0.09287981859413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.653846 0.05
+      IGUID {5D75968D-79D7-994C-9A60-257203CF0B20}
+      IID 588
+      NAME Library.storedata-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999981 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {499C6164-4ABE-534E-AA71-3F8BD8A5CBD4}
+      <SOURCE WAVE
+        FILE "audio_files/Library.storedata-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 149.05364017337052
+      SNAPOFFS 0
+      LENGTH 0.06961451247165
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.384615 0.05
+      IGUID {4A602BCF-823D-9943-87E5-8251CFC43AB8}
+      IID 589
+      NAME AddressBook.sqlitedb-shm_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FF042AA2-2566-E341-BB0D-FD753D5909B5}
+      <SOURCE WAVE
+        FILE "audio_files/AddressBook.sqlitedb-shm_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 149.12325468584217
+      SNAPOFFS 0
+      LENGTH 0.27861678004535
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.307692 0.05
+      IGUID {7B7BB395-6638-3445-8334-3330BB2D9A86}
+      IID 590
+      NAME places.sqlite-shm_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06A223AE-0359-2943-AC4E-7E27FF883578}
+      <SOURCE WAVE
+        FILE "audio_files/places.sqlite-shm_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 149.40187146588752
+      SNAPOFFS 0
+      LENGTH 0.44117913832201
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.730769 0.05
+      IGUID {A059BB96-B6CB-FE49-876D-70204CF2A502}
+      IID 591
+      NAME sys-o.a_212.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {034AA8F0-5176-5249-8193-5A0D46D3FCD2}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_212.wav"
+      >
+    >
+    <ITEM
+      POSITION 149.84305060420954
+      SNAPOFFS 0
+      LENGTH 0.16253968253969
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.615385 0.05
+      IGUID {C12F02D3-EEB9-D24B-868D-4B4EF1F372CC}
+      IID 592
+      NAME sys.ji_115.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7F0847A-E6E5-8D42-B339-EBE369620B2F}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_115.wav"
+      >
+    >
+    <ITEM
+      POSITION 150.0055902867492
+      SNAPOFFS 0
+      LENGTH 0.18573696145128
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.692308 0.05
+      IGUID {7E8BB4A6-E71B-8345-85B9-1A32B0422AE0}
+      IID 593
+      NAME itunesstored2.sqlitedb.migrated-shm_1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999977 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50852C23-EC0B-6A4D-B56B-7C18784A4E98}
+      <SOURCE WAVE
+        FILE "audio_files/itunesstored2.sqlitedb.migrated-shm_1.wav"
+      >
+    >
+    <ITEM
+      POSITION 150.19132724820048
+      SNAPOFFS 0
+      LENGTH 0.13931972789115
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.538462 0.05
+      IGUID {B7DE8719-16C3-0F43-A0B7-44DA3E3C145F}
+      IID 594
+      NAME cache_72_4_27.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BF9B071B-E415-1242-AD3E-52522757CAD6}
+      <SOURCE WAVE
+        FILE "audio_files/cache_72_4_27.wav"
+      >
+    >
+    <ITEM
+      POSITION 150.33064697609163
+      SNAPOFFS 0
+      LENGTH 0.11609977324269
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.269231 0.05
+      IGUID {214CC52F-5F8C-7E43-9DF7-E1D68F35AF18}
+      IID 595
+      NAME client.db_37.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999944 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2E495EE7-F837-1D43-B7CB-6CA8A459C5F1}
+      <SOURCE WAVE
+        FILE "audio_files/client.db_37.wav"
+      >
+    >
+    <ITEM
+      POSITION 150.44674674933421
+      SNAPOFFS 0
+      LENGTH 0.09287981859416
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.461538 0.05
+      IGUID {5217F257-76CA-374B-AABA-F5E703FC9726}
+      IID 596
+      NAME sys-o.a_181.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.99999999999951 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {25047DEA-804C-B144-A102-CE7A97E23298}
+      <SOURCE WAVE
+        FILE "audio_files/sys-o.a_181.wav"
+      >
+    >
+    <ITEM
+      POSITION 150.53962656792837
+      SNAPOFFS 0
+      LENGTH 0.69659863945577
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.038462 0.05
+      IGUID {EFD08E0C-0CCD-2048-AE2A-872C4F9DDF16}
+      IID 597
+      NAME sys.ji_150.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CC5082EF-D64A-3846-A710-B2A711A4C9AD}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_150.wav"
+      >
+    >
+    <ITEM
+      POSITION 151.23622520738411
+      SNAPOFFS 0
+      LENGTH 0.09287981859407
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.076923 0.05
+      IGUID {E5AFA7B4-E064-9A43-82E3-42B7774BD0C4}
+      IID 598
+      NAME libLLVMX86Disassembler.a_59.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.00000000000042 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D256134-A588-EE40-ACB9-A7F42972DDCA}
+      <SOURCE WAVE
+        FILE "audio_files/libLLVMX86Disassembler.a_59.wav"
+      >
+    >
+    <ITEM
+      POSITION 151.32910502597824
+      SNAPOFFS 0
+      LENGTH 0.41795918367345
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      YPOS 0.230769 0.05
+      IGUID {8D52F306-1936-0345-A441-92FFBAA5D16E}
+      IID 599
+      NAME sys.ji_146.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7ED9C9A6-B39B-6245-96F8-3A085061E0EE}
+      <SOURCE WAVE
+        FILE "audio_files/sys.ji_146.wav"
+      >
+    >
+    <ITEM
+      POSITION 161.98323699924848
+      SNAPOFFS 0
+      LENGTH 13.00267573696146
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AC5A8FA9-777B-1C49-AD68-5D4ECC5529C2}
+      IID 600
+      NAME AddressBook.sqlitedb-shm_2-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {143C8BA2-514B-424B-8785-EADC8D302045}
+      <SOURCE WAVE
+        FILE "audio_files/AddressBook.sqlitedb-shm_2-glued.wav"
+      >
+      TAKE
+      NAME "AddressBook.sqlitedb-shm_2-glued_ts-transients_0.040 256 2.0.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B52EC87E-AB96-374A-B1EB-231F2D2C4F0D}
+      <SOURCE WAVE
+        FILE "audio_files/AddressBook.sqlitedb-shm_2-glued_ts-transients_0.040 256 2.0.wav"
+      >
+      TAKE SEL
+      NAME "AddressBook.sqlitedb-shm_2-glued_ts-residual_0.040 256 1.1.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9251C290-5B6D-1E42-A4C2-268C3AEA18B6}
+      <SOURCE WAVE
+        FILE "audio_files/AddressBook.sqlitedb-shm_2-glued_ts-residual_0.040 256 1.1.wav"
+      >
+    >
+  >
+  <TRACK {C54D5162-0888-4446-A884-DD8BE04448D0}
+    NAME pure
+    PEAKCOL 18191047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 1 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C54D5162-0888-4446-A884-DD8BE04448D0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 1058 311 836 444
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+  >
+  <TRACK {3AA61B50-947D-4443-B927-6A19E239702E}
+    NAME version_1.wav.maxwave_0
+    PEAKCOL 18191047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3AA61B50-947D-4443-B927-6A19E239702E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {270FB4E2-E988-CA4B-8188-BF55FBFB90C5}
+    NAME MaxAPI.wav.maxwave
+    PEAKCOL 18191047
+    BEAT -1
+    AUTOMODE 0
+    WIDTH 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {270FB4E2-E988-CA4B-8188-BF55FBFB90C5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 39.24504729498123
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2262B4E6-FB87-924A-8416-E62D02132D7B}
+      IID 711
+      NAME 738_fractial.multi.ridged_829174126.aiff.maxwave.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3F60F21-0508-DF40-B086-D2BCBE12E8F7}
+      <SOURCE WAVE
+        FILE "audio_files/738_fractial.multi.ridged_829174126.aiff.maxwave.wav"
+      >
+      <TAKEFX
+        WNDRECT 32 895 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {6DBD682F-0975-2C4B-A9D5-A08B093D41D7}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "738_fractial.multi.ridged_829174126.aiff.maxwave render 001.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {884A4EA8-C087-4D4B-AF08-0FBC2956A569}
+      <SOURCE WAVE
+        FILE "audio_files/738_fractial.multi.ridged_829174126.aiff.maxwave render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 39.24504729498123
+      SNAPOFFS 0
+      LENGTH 13.64399092970523
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {74A9E4BA-238A-2B4C-9FA6-07630653C126}
+      IID 712
+      NAME 01-180906_1651.wav.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5DE6AD2F-CB83-5C48-925C-47ACDDC0CFCD}
+      <SOURCE WAVE
+        FILE "audio_files/01-180906_1651.wav.maxwave_0.wav"
+      >
+      <TAKEFX
+        WNDRECT 32 895 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {27CF5307-F566-BA4F-AEF5-375FEC4742C0}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "01-180906_1651.wav.maxwave_0 render 001.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31D201DF-B723-1148-BD99-CCD449C5DAEB}
+      <SOURCE WAVE
+        FILE "audio_files/01-180906_1651.wav.maxwave_0 render 001.wav"
+      >
+    >
+  >
+  <TRACK {2DC3FEF8-7ABD-2242-BA2B-E2076F4873E2}
+    NAME JitterAPI.wav.maxwave
+    PEAKCOL 18191047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 72 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2DC3FEF8-7ABD-2242-BA2B-E2076F4873E2}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 16.86546143124147
+      SNAPOFFS 0
+      LENGTH 60.6260315051187
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24877567 B
+      SEL 0
+      IGUID {4B6F8DD9-C20A-2848-8D27-6E6857E4E45B}
+      IID 709
+      NAME ircamdescriptor-2.8.6.wav.maxwave.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E50BA2B3-B0D0-1B4B-80E3-020C01612F43}
+      <SOURCE WAVE
+        FILE "audio_files/ircamdescriptor-2.8.6.wav.maxwave.wav"
+      >
+      <TAKEFX
+        WNDRECT 32 895 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {58DBC2C8-EC0A-0C47-A97C-98FF0D3CCB18}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "ircamdescriptor-2.8.6.wav.maxwave render 003.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {85218374-A9EC-F640-A9B9-2FCA174B9371}
+      <SOURCE WAVE
+        FILE "audio_files/ircamdescriptor-2.8.6.wav.maxwave render 003.wav"
+      >
+    >
+  >
+  <TRACK {170A9302-951A-2F4B-A7B6-117AA0287811}
+    NAME ircamdescriptor-2.8.6.wav.maxwave
+    PEAKCOL 18191047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 339 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {170A9302-951A-2F4B-A7B6-117AA0287811}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT -1242 1658 726 387
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 52.88903822468644
+      SNAPOFFS 0
+      LENGTH 55.87733309042333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 29648867 B
+      SEL 0
+      IGUID {43E74C59-B2C1-524C-B1E0-43B1F585E874}
+      IID 708
+      NAME JitterAPI.wav.maxwave.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9377F7E3-57A9-7F46-B613-53E8F50B0ECD}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave.wav"
+      >
+      <TAKEFX
+        WNDRECT 32 895 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {C64886C7-527E-0E4D-B3B4-09B63A209966}
+        WAK 0
+      >
+    >
+    <ITEM
+      POSITION 108.76637131510977
+      SNAPOFFS 0
+      LENGTH 9.23101762366554
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 0 0.179446 1 1 0
+      MUTE 0
+      COLOR 29648867 B
+      SEL 0
+      IGUID {96C273B3-DBBA-CA4C-A32A-0B0BA4C71506}
+      IID 1041
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003.wav [chan 3]"
+      VOLPAN 1 0 2.002195 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E99CFFA-7EC5-EB40-ADEB-A75E278C67C3}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3].wav"
+      >
+      <TAKEFX
+        WNDRECT 902 324 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {2981C3C9-0146-E846-B82A-3D315713EE52}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {51DAE9AD-A0CE-B84E-82B6-8209CA70CFA5}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      >
+      <TAKEFX
+        WNDRECT 944 331 881 524
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaXcomp (Cockos)" reaxcomp.vst.dylib 0 "" 1919252579 ""
+          Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAACAEAAAEAAAAAABAA
+          OAAAAAQAAAAAAAAAAABpQAAAAAAAAPA/yADWZqVzjj9QMo6R7BEZQAAAAAAAAAAADwAAAJYAAAAFAAAAFQAAAAAAAAAAQI9AAAAAAAAA8D/kqfHSTWJQPwBIUWfuIRVA
+          AAAAAAAAAAAPAAAAlgAAAAUAAAARAAAAAAAAAACIs0AAAAAAAADwP/Kp8dJNYlA/AAAAAAAAAEAAAAAAAAAAAA8AAACWAAAABQAAABEAAAAAAAAAAHDXQAAAAAAAAPA/
+          IwXaBfWCkj8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAEAAAABAAAABbkkDQFUB0AAAAAAAAAAAAAAAAAAAAAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {B0697B30-5E71-9749-8C90-FCEA061305BA}
+        WAK 0
+        BYPASS 0 0 0
+        <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729 ""
+          cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+          IQAAAAQAAAAIAAAAAQAAAEDmAyoYhlNAwqqGgsEnGEAAAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+          8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAFQCAABwAQAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {B4015992-D6D5-A74D-8A12-03C304660BFF}
+        WAK 0
+        BYPASS 1 0 0
+        <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213 ""
+          bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAAAtX4lPKabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPQAAAAAAAIA/AAAAAAAAgD7ZiZ09
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {511389EA-B447-9E4C-BBE7-F588942CC488}
+        WAK 0
+      >
+    >
+    <ITEM
+      POSITION 117.81794317457289
+      SNAPOFFS 0
+      LENGTH 3.05975571865147
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0.179446 1 1 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 29648867 B
+      SEL 0
+      IGUID {F166055D-3E34-F241-9651-628D99828DFF}
+      IID 1042
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003.wav [chan 3]"
+      VOLPAN 1 0 2.002195 -1
+      SOFFS 4.70820936251335
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {502B4221-9E56-9E46-A885-D570E03A0E05}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3].wav"
+      >
+      <TAKEFX
+        WNDRECT 902 324 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {F1A2B9A7-E106-D34C-9C78-87143328B232}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 4.70820936251335
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BF5C61A1-9139-524A-9E9D-D1178E05E153}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      >
+      SM 0 4.708209363 -0.998001998 + 3.059727504 6.239602979 + 3.059728504 9.249785086
+      <TAKEFX
+        WNDRECT 944 331 881 524
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaXcomp (Cockos)" reaxcomp.vst.dylib 0 "" 1919252579 ""
+          Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAACAEAAAEAAAAAABAA
+          OAAAAAQAAAAAAAAAAABpQAAAAAAAAPA/yADWZqVzjj9QMo6R7BEZQAAAAAAAAAAADwAAAJYAAAAFAAAAFQAAAAAAAAAAQI9AAAAAAAAA8D/kqfHSTWJQPwBIUWfuIRVA
+          AAAAAAAAAAAPAAAAlgAAAAUAAAARAAAAAAAAAACIs0AAAAAAAADwP/Kp8dJNYlA/AAAAAAAAAEAAAAAAAAAAAA8AAACWAAAABQAAABEAAAAAAAAAAHDXQAAAAAAAAPA/
+          IwXaBfWCkj8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAEAAAABAAAABbkkDQFUB0AAAAAAAAAAAAAAAAAAAAAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {CBAD74E8-9F90-074B-8693-FB8411E3CBE1}
+        WAK 0
+        BYPASS 0 0 0
+        <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729 ""
+          cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+          IQAAAAQAAAAIAAAAAQAAAEDmAyoYhlNAwaqGgsEnGEAAAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+          8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAFQCAABwAQAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {A4166C12-9B3F-6746-B9FF-7F7E2B18130A}
+        WAK 0
+        BYPASS 1 0 0
+        <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213 ""
+          bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAAAtX4lPKabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPQAAAAAAAIA/AAAAAAAAgD7ZiZ09
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {19CD5FE0-2194-2649-BB43-4092375926D7}
+        WAK 0
+      >
+    >
+    <ITEM
+      POSITION 120.87769889322436
+      SNAPOFFS 0
+      LENGTH 9.23101762366554
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1.1 0 0.179446 1 1 0
+      MUTE 0
+      COLOR 29648867 B
+      SEL 0
+      IGUID {AA63ED31-EF22-6A4A-A7CC-089B5A9D2C91}
+      IID 1036
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003.wav [chan 3]"
+      VOLPAN 1 0 2.002195 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {15FAD91D-2B64-F94D-BB2D-8F4F0FAC7832}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3].wav"
+      >
+      <TAKEFX
+        WNDRECT 902 324 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {2981C3C9-0146-E846-B82A-3D315713EE52}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB3F6EC6-856C-D540-B332-4430D3C70BDF}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      >
+      <TAKEFX
+        WNDRECT 944 331 881 524
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaXcomp (Cockos)" reaxcomp.vst.dylib 0 "" 1919252579 ""
+          Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAACAEAAAEAAAAAABAA
+          OAAAAAQAAAAAAAAAAABpQAAAAAAAAPA/yADWZqVzjj9QMo6R7BEZQAAAAAAAAAAADwAAAJYAAAAFAAAAFQAAAAAAAAAAQI9AAAAAAAAA8D/kqfHSTWJQPwBIUWfuIRVA
+          AAAAAAAAAAAPAAAAlgAAAAUAAAARAAAAAAAAAACIs0AAAAAAAADwP/Kp8dJNYlA/AAAAAAAAAEAAAAAAAAAAAA8AAACWAAAABQAAABEAAAAAAAAAAHDXQAAAAAAAAPA/
+          IwXaBfWCkj8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAEAAAABAAAABbkkDQFUB0AAAAAAAAAAAAAAAAAAAAAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {B0697B30-5E71-9749-8C90-FCEA061305BA}
+        WAK 0
+        BYPASS 0 0 0
+        <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729 ""
+          cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+          IQAAAAQAAAAIAAAAAQAAAEDmAyoYhlNAxqqGgsEnGEAAAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+          8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAFQCAABwAQAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {B4015992-D6D5-A74D-8A12-03C304660BFF}
+        WAK 0
+        BYPASS 1 0 0
+        <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213 ""
+          bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAAAtX4lPKabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPQAAAAAAAIA/AAAAAAAAgD7ZiZ09
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {511389EA-B447-9E4C-BBE7-F588942CC488}
+        WAK 0
+      >
+    >
+    <ITEM
+      POSITION 129.9292707526875
+      SNAPOFFS 0
+      LENGTH 3.05975571865147
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0.179446 1 1 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 29648867 B
+      SEL 0
+      IGUID {99E489CA-09AF-ED4B-AF7D-9BA802B76A13}
+      IID 1037
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003.wav [chan 3]"
+      VOLPAN 1 0 2.002195 -1
+      SOFFS 4.70820936251335
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A3EC7F4D-B508-2645-8D80-F909BF25D6D9}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3].wav"
+      >
+      <TAKEFX
+        WNDRECT 902 324 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {F1A2B9A7-E106-D34C-9C78-87143328B232}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 4.70820936251335
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5F4188E7-C2B7-3046-9F8A-B5FA24FAE7D3}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 3] render 005.wav"
+      >
+      SM 0 4.708209363 -0.998001998 + 3.059727504 6.239602979 + 3.059728504 9.249785086
+      <TAKEFX
+        WNDRECT 944 331 881 524
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: ReaXcomp (Cockos)" reaxcomp.vst.dylib 0 "" 1919252579 ""
+          Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAACAEAAAEAAAAAABAA
+          OAAAAAQAAAAAAAAAAABpQAAAAAAAAPA/yADWZqVzjj9QMo6R7BEZQAAAAAAAAAAADwAAAJYAAAAFAAAAFQAAAAAAAAAAQI9AAAAAAAAA8D/kqfHSTWJQPwBIUWfuIRVA
+          AAAAAAAAAAAPAAAAlgAAAAUAAAARAAAAAAAAAACIs0AAAAAAAADwP/Kp8dJNYlA/AAAAAAAAAEAAAAAAAAAAAA8AAACWAAAABQAAABEAAAAAAAAAAHDXQAAAAAAAAPA/
+          IwXaBfWCkj8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAEAAAABAAAABbkkDQFUB0AAAAAAAAAAAAAAAAAAAAAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {CBAD74E8-9F90-074B-8693-FB8411E3CBE1}
+        WAK 0
+        BYPASS 0 0 0
+        <VST "VST: ReaEQ (Cockos)" reaeq.vst.dylib 0 "" 1919247729 ""
+          cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+          IQAAAAQAAAAIAAAAAQAAAEDmAyoYhlNAwaqGgsEnGEAAAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+          8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAFQCAABwAQAA
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {A4166C12-9B3F-6746-B9FF-7F7E2B18130A}
+        WAK 0
+        BYPASS 1 0 0
+        <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213 ""
+          bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAAAtX4lPKabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPQAAAAAAAIA/AAAAAAAAgD7ZiZ09
+          AAAQAAAA
+        >
+        FLOATPOS 0 0 0 0
+        FXID {19CD5FE0-2194-2649-BB43-4092375926D7}
+        WAK 0
+      >
+    >
+    <ITEM
+      POSITION 132.98902647133897
+      SNAPOFFS 0
+      LENGTH 31.76380119066039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24877567 B
+      SEL 0
+      IGUID {281B5B36-7E8E-8043-90A9-2FF62E543FC6}
+      IID 780
+      NAME ircamdescriptor-2.8.6.wav.maxwave.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1911427C-8E15-314B-AF51-F5A771AEFDC5}
+      <SOURCE WAVE
+        FILE "audio_files/ircamdescriptor-2.8.6.wav.maxwave.wav"
+      >
+      <TAKEFX
+        WNDRECT 32 907 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS schwa/soft_clipper ""
+          0.000000 -12.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {EBCB3F01-C687-FE4C-96CC-0D621E3C6BB0}
+        WAK 0
+      >
+    >
+  >
+  <TRACK {1E34F62C-E39E-A042-9B29-949751BFEB26}
+    NAME ReaSynth
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 1 5088 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1E34F62C-E39E-A042-9B29-949751BFEB26}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 562 611 463
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.vst.dylib 0 "" 1919251321 ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAAAAAAAAAAAAAAM5NAD/pZ4g9AAAAAAAAAD8AAIA/AACAPwAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {BECD75FF-B5EB-2748-8607-8E8504818A7E}
+      WAK 0
+    >
+  >
+  <TRACK {997EA90A-399D-4545-84D8-32C932A662E1}
+    NAME "[chan 1]"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 195 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {997EA90A-399D-4545-84D8-32C932A662E1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 152.43001224050607
+      SNAPOFFS 0
+      LENGTH 72.52437426238083
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24877567 B
+      SEL 0
+      IGUID {279B357D-F481-1D4D-9CDB-417B9C966AA4}
+      IID 707
+      NAME MaxAPI.wav.maxwave.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {332DD84B-0F63-884D-9CB6-62AB8A94FC6D}
+      <SOURCE WAVE
+        FILE "audio_files/MaxAPI.wav.maxwave.wav"
+      >
+      <TAKEFX
+        WNDRECT 32 895 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {474AD8F3-64F8-BB45-A22F-A9DA596CF4E6}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "MaxAPI.wav.maxwave render 001.wav"
+      TAKEVOLPAN 0 0.391114 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BA9FF1E1-6F5D-F146-9532-A44D6081D5A9}
+      <SOURCE WAVE
+        FILE "audio_files/MaxAPI.wav.maxwave render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 284.7611250323074
+      SNAPOFFS 0
+      LENGTH 33.94282121242946
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 5 33.942821 0 5 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 29648867 B
+      SEL 0
+      IGUID {5B780D84-5B54-5E40-A31A-11D7F0C1B7BD}
+      IID 770
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003.wav [chan 1]"
+      VOLPAN 1 0 1 -1
+      SOFFS 9.05157228708255
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A09F3E7B-E5F3-E74D-B458-928A45D01151}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 1].wav"
+      >
+      <TAKEFX
+        WNDRECT 32 895 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {59A1346F-53EA-D245-A8BA-5668B0E0FCD7}
+        WAK 0
+      >
+      TAKE SEL
+      NAME "JitterAPI.wav.maxwave_nmf_0.02003 [chan 1] render 003.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5EFD9083-C5D6-F540-96F0-8A04E3B4CFA6}
+      <SOURCE WAVE
+        FILE "audio_files/JitterAPI.wav.maxwave_nmf_0.02003 [chan 1] render 003.wav"
+      >
+    >
+  >
+>
