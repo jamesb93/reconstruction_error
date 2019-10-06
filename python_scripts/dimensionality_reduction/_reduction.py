@@ -6,8 +6,8 @@ import numpy as np
 import random
 from bokeh.plotting import figure, output_file, show
 from shutil import copyfile
-from datamosh.utils import read_json, write_json, printp, read_yaml, get_path, mkdir
-from datamosh.variables import parent, analysis_data
+from datamosh.utils import read_json, write_json, printp, read_yaml, get_path, check_make
+from datamosh.variables import project_root, analysis_data
 from sklearn import decomposition
 from sklearn import manifold
 from sklearn.preprocessing import MinMaxScaler
@@ -32,10 +32,10 @@ identifier    = cfg['identifier']
 
 folder_name = f'{algorithm}_{identifier}'
 output_path = os.path.join(this_script, 'outputs', folder_name)
-mkdir(output_path)
+check_make(output_path)
 copyfile(cfg_path, os.path.join(output_path, 'configuration.yaml'))
 
-feature = read_json(os.path.join(parent, input_data))
+feature = read_json(os.path.join(project_root, input_data))
 
 data = [v for v in feature.values()]
 keys = [k for k in feature.keys()]
@@ -88,7 +88,8 @@ if tog_plot:
         plot_height= 800,
         toolbar_location='below',)
     p.scatter(data_transposed[0], data_transposed[1], radius=0.001, fill_alpha=0.6, line_color=None)
-    show(p)
+    json_object = json_item(p)
+    print(json_object)
 
 out_dict = {}
 printp('Outputting JSON')
