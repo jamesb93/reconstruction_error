@@ -71,9 +71,15 @@ I also started to form some longer term gestures ~30 seconds implementing the re
 Lastly, I found it useful to use specific files of interest as anchors and look for related material by observing how the clustering python scripts grouped other samples to these. One example chain of thinking here starts with `pos.dat_1.wav` which I know had a very similar sonic profile to the outputs of files created from the `.maxwave` extension. I then looked into the `AHC_250.json` cluster file to find that most of the `.maxwave` had been kept together in their own clusters and without any other material infiltrating - except for *cluster 54*. I began listening through each of the files in this cluster and referring back to their own segmented source material. I found some excellent material that I would otherwise not have come across, particularly in `3870112724rsegmnoittet-es.sqlite.wav`. This will probably spawn a new short track as well as provide me with some small snippets that I can cross pollenate the ideas with. 
 
 ## 18/09/19
-Cluster 19 contains segmoinette which contains references to KnowledgeC.db
-Cluster 62 contains segmoinette which contains references to Addressbook
-Cluster 64 contains segmoinette which contains references to 5353E668........wav
-Cluster 54 contains segmoinette which contains references to KnowledgeC.db.
-Cluster 120 contains segmoinette which contains Live-files-34.db.wav segments
+- Cluster 19 contains segmoinette which contains references to KnowledgeC.db
+- Cluster 62 contains segmoinette which contains references to Addressbook
+- Cluster 64 contains segmoinette which contains references to 5353E668........wav
+- Cluster 54 contains segmoinette which contains references to KnowledgeC.db.
+- Cluster 120 contains segmoinette which contains Live-files-34.db.wav segments
+
+## 11/10/19
+
+Focusing the computer’s role toward a ‘computer-assisted’ one has helped me to take more conceptual risks, particularly with that of form and time. That said, the computer’s influence on these aspects of the music are not completely removed, rather, they exist in a more influential rather than controlling role. For example, the clusters themselves when concatenated in a completely simple and arbitrary fashion have determined the length of small loops that make up longer loops and layerings. The small pops, and clicks emergent in this process (enabled by the ReaScripts) has become a feature of the work - a process that is not uncommon in other creative practices. 
+
+In another words, the computer acts as a provocateur and enabler and leverages modes of thinking and doing that I would otherwise be incapable of mimicking.
 
