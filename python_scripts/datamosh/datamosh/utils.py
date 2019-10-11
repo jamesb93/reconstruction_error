@@ -11,7 +11,6 @@ except ImportError:
 
 import soundfile as sf
 import simpleaudio as sa
-from scipy.io import wavfile
 
 
 def check_make(dir_path):
