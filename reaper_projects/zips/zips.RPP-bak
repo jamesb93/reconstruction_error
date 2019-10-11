@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.981/OSX64" 1568820071
+<REAPER_PROJECT 0.1 "5.981/OSX64" 1568821173
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 8 5 -1 30 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
-  ZOOM 130.2436229 0 0
+  CURSOR 168.47463898004659
+  ZOOM 8.04512779018644 521 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
@@ -84,5 +84,1446 @@
     DEFSHAPE 1 -1 -1
   >
   <PROJBAY
+  >
+  <TRACK {11F011AC-9F51-CB42-8D87-230CA4C2CF9A}
+    NAME Default_5.0.ReaperThemeZip
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {11F011AC-9F51-CB42-8D87-230CA4C2CF9A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 184.81614512471654
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {056A3753-160D-5647-B6B8-835F32C34DC3}
+      IID 2
+      NAME Default_5.0.ReaperThemeZip.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {548D0BC9-3B56-D84F-9562-449AC7D3EA4D}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip.wav"
+      >
+      <TAKEFX
+        WNDRECT 40 627 793 150
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS filters/dc_remove ""
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        >
+        FLOATPOS 0 0 0 0
+        FXID {BEB81C81-8703-954B-8A4D-B938593F0AEF}
+        WAK 0
+      >
+    >
+  >
+  <TRACK {63F9C46F-C301-9B48-9E38-9ED09D2A02B6}
+    NAME Default_5.0.ReaperThemeZip
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.35481338923358 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {63F9C46F-C301-9B48-9E38-9ED09D2A02B6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 25.56371882086168
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24686335 B
+      SEL 0
+      IGUID {9CDD32E6-783F-B24C-A52E-FB5AD3BD2F74}
+      IID 2
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1A5CFF65-08F0-6841-92A2-7E9B21F2B778}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 25.56371882086168
+      SNAPOFFS 0
+      LENGTH 2.59918367346939
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 22608996 B
+      SEL 0
+      IGUID {F84A69B3-214F-1042-90F7-1D27392B9FDC}
+      IID 2960
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 25.56371882086168
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D678671-36BE-D04F-86C5-EF9547AA26D7}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 28.16290249433107
+      SNAPOFFS 0
+      LENGTH 0.64145124716553
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 22310008 B
+      SEL 1
+      IGUID {548CB587-C2B8-AE4F-BEA7-4977E70B7271}
+      IID 2961
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 28.16290249433107
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A2567A96-7739-0F4C-B198-600D3F8A61CC}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 28.8043537414966
+      SNAPOFFS 0
+      LENGTH 12.53587301587302
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24803149 B
+      SEL 0
+      IGUID {CE67876A-1932-1F4D-8EE2-066918464D88}
+      IID 2962
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 28.8043537414966
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BE7B0E03-402A-D743-9BCC-E7BE727BB96E}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 41.34022675736961
+      SNAPOFFS 0
+      LENGTH 0.20462585034014
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 27292949 B
+      SEL 0
+      IGUID {6A5E0C8C-3C2F-6045-9FC6-5CC496C24423}
+      IID 2963
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 41.34022675736961
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7CD47AB5-2CD3-C248-A2C3-D6783F1AB183}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 41.54485260770975
+      SNAPOFFS 0
+      LENGTH 0.20462585034014
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 22111349 B
+      SEL 0
+      IGUID {E8E3073D-8283-FC48-A49C-CB933E0558BF}
+      IID 2964
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 41.54485260770975
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E699409B-D587-5B49-B4B6-DC3B22B81682}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 41.74947845804989
+      SNAPOFFS 0
+      LENGTH 0.01596371882086
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 25853951 B
+      SEL 0
+      IGUID {DD67C07A-29F6-8D4D-8498-03CDD3659B1E}
+      IID 2965
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 41.74947845804989
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5EAC2A63-2398-1C4C-9C55-73EA36D4109C}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 41.76544217687075
+      SNAPOFFS 0
+      LENGTH 0.71111111111111
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 31040314 B
+      SEL 0
+      IGUID {4A24314C-6553-5C4F-9524-E6129C3C9222}
+      IID 2966
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 41.76544217687075
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DF9FA23D-40E6-AE49-B581-2C4C521C9908}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 42.47655328798186
+      SNAPOFFS 0
+      LENGTH 0.13351473922903
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24037606 B
+      SEL 0
+      IGUID {C4295E75-ABF7-E840-AA76-F5DED7085301}
+      IID 2967
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 42.47655328798186
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0F70397C-E879-964E-AE4F-1696D13CED4C}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 42.61006802721089
+      SNAPOFFS 0
+      LENGTH 0.71111111111111
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26975558 B
+      SEL 0
+      IGUID {4B68E2D1-70AA-BA46-A592-A6FFDE44E718}
+      IID 2968
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 42.61006802721089
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB958F83-E210-E841-A290-5C7B931138B9}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 43.32117913832199
+      SNAPOFFS 0
+      LENGTH 0.13351473922903
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24205672 B
+      SEL 0
+      IGUID {DE3D3E11-9873-B84F-9F00-96E7C150BABD}
+      IID 2969
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 43.32117913832199
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F282E245-EB64-9147-BD6D-8FEDCF54350C}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 43.45469387755102
+      SNAPOFFS 0
+      LENGTH 0.71111111111111
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 19844768 B
+      SEL 0
+      IGUID {CDE8471A-E293-E548-8B2F-ACF47F7DA477}
+      IID 2970
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 43.45469387755102
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2322E432-84C6-A14E-A94E-A7DB7F9BC3DA}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 44.16580498866213
+      SNAPOFFS 0
+      LENGTH 0.13351473922903
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 28931599 B
+      SEL 0
+      IGUID {C02F9BD5-9300-3D4C-B72D-14835576B37F}
+      IID 2971
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 44.16580498866213
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1378B50E-5914-3E49-A5FA-C17D86D6C84F}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 44.29931972789116
+      SNAPOFFS 0
+      LENGTH 0.71111111111111
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 25984255 B
+      SEL 0
+      IGUID {071F6713-AC85-104E-92DD-B27A63889171}
+      IID 2972
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 44.29931972789116
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {16BD4076-17D8-4846-9C68-7C9112542658}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 45.01043083900227
+      SNAPOFFS 0
+      LENGTH 0.13351473922902
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 32410533 B
+      SEL 0
+      IGUID {2AD7DF37-0776-2748-A148-0400E226F88F}
+      IID 2973
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 45.01043083900227
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4F1F1D40-A079-6647-BA0E-518D338C1AD1}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 45.14394557823129
+      SNAPOFFS 0
+      LENGTH 1.06521541950114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 22511464 B
+      SEL 0
+      IGUID {6A23297A-A9F1-194C-A1B0-2D6EC2EAE86D}
+      IID 2974
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 45.14394557823129
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4F4F2EAF-A1F0-9048-AA6C-349B7569C279}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 46.20916099773243
+      SNAPOFFS 0
+      LENGTH 2.44244897959184
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 30184857 B
+      SEL 0
+      IGUID {C30C1D34-E899-144A-A003-03CD30848F99}
+      IID 2975
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 46.20916099773243
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1B498C1B-7C27-F048-9B66-FBD354ECADE0}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 48.65160997732426
+      SNAPOFFS 0
+      LENGTH 12.27609977324263
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 32814080 B
+      SEL 0
+      IGUID {5DBA948C-752D-C343-BE96-37C4884F4097}
+      IID 2976
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 48.65160997732426
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33966266-52C3-604F-AEDF-85618BA0436E}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 60.92770975056689
+      SNAPOFFS 0
+      LENGTH 5.33768707482993
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 27194028 B
+      SEL 0
+      IGUID {574B4697-186A-3F4B-808A-2A6C8743531B}
+      IID 2977
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 60.92770975056689
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0EB3D83C-252F-4445-BD39-A073B3955587}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 66.26539682539682
+      SNAPOFFS 0
+      LENGTH 0.09142857142858
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 23755344 B
+      SEL 0
+      IGUID {E2F118BE-9164-5D40-A325-CAC81E4DC4AD}
+      IID 2978
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 66.26539682539682
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6FFD3ADE-E774-A14A-8DD5-BE57E8428B6B}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 66.3568253968254
+      SNAPOFFS 0
+      LENGTH 0.09578231292517
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 32161428 B
+      SEL 0
+      IGUID {57BA4E30-AD86-0345-8E4B-B62498D8539A}
+      IID 2979
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 66.3568253968254
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62B86DC7-E261-1C46-B81A-5774028F0AB6}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 66.45260770975057
+      SNAPOFFS 0
+      LENGTH 0.09142857142857
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 27636694 B
+      SEL 0
+      IGUID {85CCE830-71BF-4842-8734-71318A17A97B}
+      IID 2980
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 66.45260770975057
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DA07525B-0F77-944D-B0A9-CE7F9B4072EA}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 66.54403628117913
+      SNAPOFFS 0
+      LENGTH 0.55727891156464
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26779768 B
+      SEL 0
+      IGUID {4C1E42D5-A8FF-644D-948E-949518CFF575}
+      IID 2981
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 66.54403628117913
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C8B75E16-70B1-EE4A-A900-7FE330E51E74}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 67.10131519274377
+      SNAPOFFS 0
+      LENGTH 0.20607709750567
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24117138 B
+      SEL 0
+      IGUID {419CD001-E687-1A47-96E2-ADAD6997BE15}
+      IID 2982
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 67.10131519274377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AB71C50D-4BB4-E449-B8E0-68F66D5BC243}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 67.30739229024944
+      SNAPOFFS 0
+      LENGTH 7.70321995464852
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26443859 B
+      SEL 0
+      IGUID {51956A7C-5A28-E547-A72D-A1CC5D2C2998}
+      IID 2983
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 67.30739229024944
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {59FA5C41-B86C-7A47-A968-43E680B30C46}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 75.01061224489796
+      SNAPOFFS 0
+      LENGTH 2.22331065759637
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26148709 B
+      SEL 0
+      IGUID {12C30B6B-19C4-B148-ABB6-E79C9AB27BB2}
+      IID 2984
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 75.01061224489796
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06ABC770-4241-1C42-BF0F-7DA47B16D7C4}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 77.23392290249433
+      SNAPOFFS 0
+      LENGTH 0.08126984126984
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 23330980 B
+      SEL 0
+      IGUID {A4817D05-BE4B-B44F-9E3C-214F80F6111C}
+      IID 2985
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 77.23392290249433
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6D9B0D7E-EAE3-E74E-9CAF-D2822A2B0102}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 77.31519274376417
+      SNAPOFFS 0
+      LENGTH 0.65886621315192
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 30284183 B
+      SEL 0
+      IGUID {4C504871-2523-5140-AD06-36D93DF0B70F}
+      IID 2986
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 77.31519274376417
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F9A0A58E-19C8-0E4A-BA8E-01331BDA09DA}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 77.9740589569161
+      SNAPOFFS 0
+      LENGTH 0.62403628117914
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 27506644 B
+      SEL 0
+      IGUID {708870C3-1A1A-CA4C-B3B0-4D7468016BEC}
+      IID 2987
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 77.9740589569161
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {487A49F6-FB0B-6D4D-B7A9-D379622B0D0D}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 78.59809523809524
+      SNAPOFFS 0
+      LENGTH 2.29587301587301
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 25296881 B
+      SEL 0
+      IGUID {738FCA30-8A08-3445-90DA-593531B812A5}
+      IID 2988
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 78.59809523809524
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2DC57F64-E443-0749-91DC-4F4BB1A1C2F4}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 80.89396825396825
+      SNAPOFFS 0
+      LENGTH 16.12045351473922
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 33326264 B
+      SEL 0
+      IGUID {C7898436-2A26-7343-8C85-17FBE84CD1D7}
+      IID 2989
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 80.89396825396825
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {349F6B38-731A-EB49-B351-CE433FEC1B78}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 97.01442176870748
+      SNAPOFFS 0
+      LENGTH 0.74884353741497
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26778178 B
+      SEL 0
+      IGUID {9FAE3478-388D-2041-A4C6-F4AA8D7207AC}
+      IID 2990
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 97.01442176870748
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6B640E55-D9B0-4349-9221-2012431E2D6C}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 97.76326530612245
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 23311383 B
+      SEL 0
+      IGUID {F499A8A8-095A-6B40-A2C1-AE258862C384}
+      IID 2991
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 97.76326530612245
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F33ECD38-7FB5-5E4F-9D79-A3CCE3C84E33}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 97.85614512471655
+      SNAPOFFS 0
+      LENGTH 3.28852607709752
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 23905769 B
+      SEL 0
+      IGUID {972DB407-AE10-5F46-89DA-9608A560CAFA}
+      IID 2992
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 97.85614512471655
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1172A83B-FEF6-604C-A492-4AD30A56B1EF}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 101.14467120181406
+      SNAPOFFS 0
+      LENGTH 3.70358276643991
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 23820124 B
+      SEL 0
+      IGUID {17E6B95D-A8E7-7D42-ACE9-F87062929648}
+      IID 2993
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 101.14467120181406
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6674B9C0-7BF7-E743-B36E-6A7C03D8969B}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 104.84825396825397
+      SNAPOFFS 0
+      LENGTH 2.27555555555556
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 29724821 B
+      SEL 0
+      IGUID {15AF3C1E-25B8-AE41-B759-18AB0F4CBA65}
+      IID 2994
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 104.84825396825397
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9BA62458-99F6-C84B-90F2-51468B3DA685}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 107.12380952380953
+      SNAPOFFS 0
+      LENGTH 1.06956916099773
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 25488809 B
+      SEL 0
+      IGUID {7205FD3C-08B9-1747-AA18-55D50610C519}
+      IID 2995
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 107.12380952380953
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {48F4F48A-7947-2D45-814D-840B7B9C2908}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 108.19337868480726
+      SNAPOFFS 0
+      LENGTH 2.70367346938775
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24482815 B
+      SEL 0
+      IGUID {894293B6-DBB7-6F4B-84BD-DDF789E84C57}
+      IID 2996
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 108.19337868480726
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D8997A46-41CA-4341-9BE8-CCB0B3F6E0FC}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 110.89705215419501
+      SNAPOFFS 0
+      LENGTH 0.32943310657596
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 28619968 B
+      SEL 0
+      IGUID {8FFE376E-B102-3348-8C71-68C3EB105500}
+      IID 2997
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 110.89705215419501
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F60DA613-E82E-A140-8344-08BB05D89E74}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 111.22648526077097
+      SNAPOFFS 0
+      LENGTH 7.82367346938776
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 33518992 B
+      SEL 0
+      IGUID {A848786B-4121-E24E-B6CE-B5E39DBE0294}
+      IID 2998
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 111.22648526077097
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAB501B3-2F6C-DB4F-AF54-356079905CB5}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 119.05015873015873
+      SNAPOFFS 0
+      LENGTH 5.53650793650795
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26585213 B
+      SEL 0
+      IGUID {A1001384-55FA-AB4A-A0CB-EA8EFA7DCD11}
+      IID 2999
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 119.05015873015873
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4DE1CD58-B810-0346-8803-E68544D8AA96}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 124.58666666666667
+      SNAPOFFS 0
+      LENGTH 4.31891156462584
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26381016 B
+      SEL 0
+      IGUID {28967287-1265-EF46-908B-F3FEE830E90B}
+      IID 3000
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 124.58666666666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {13D43D64-7287-4645-A5BB-7F06C6973613}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 128.90557823129251
+      SNAPOFFS 0
+      LENGTH 6.10104308390024
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 25674373 B
+      SEL 0
+      IGUID {B79E5A1A-AF17-E948-8A5A-9BCC62FF5DAB}
+      IID 3001
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 128.90557823129251
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DCA085D9-EDBC-1641-BF56-144A85AA67F9}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 135.00662131519275
+      SNAPOFFS 0
+      LENGTH 10.21678004535147
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 33455045 B
+      SEL 0
+      IGUID {3B49FF8F-E8B1-B243-A110-0E6F504892C4}
+      IID 3002
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 135.00662131519275
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C93347E4-922E-3F49-85F1-A2A1D7B3E2E1}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 145.22340136054422
+      SNAPOFFS 0
+      LENGTH 7.21124716553288
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 25023470 B
+      SEL 0
+      IGUID {9E19160B-0470-9049-9F9E-453721633DFE}
+      IID 3003
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 145.22340136054422
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3347CF34-068C-FE49-A26B-C102F46DAE3C}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 152.4346485260771
+      SNAPOFFS 0
+      LENGTH 1.83727891156462
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 30187154 B
+      SEL 0
+      IGUID {B9C58819-B553-914D-AE69-406573931174}
+      IID 3004
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 152.4346485260771
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2AEC451C-2CFE-B342-ADC3-D916E724540A}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 154.27192743764172
+      SNAPOFFS 0
+      LENGTH 2.52952380952382
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24815359 B
+      SEL 0
+      IGUID {034D5884-6560-9E43-9280-D93FC1196755}
+      IID 3005
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 154.27192743764172
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {18A7E2CC-A29C-0F48-AC66-91D541654767}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 156.80145124716555
+      SNAPOFFS 0
+      LENGTH 0.05514739229022
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 25624442 B
+      SEL 0
+      IGUID {304B8F21-8B33-1644-9FBF-EC98D3EF6B8B}
+      IID 3006
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 156.80145124716555
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {487565C5-2CCD-6540-9420-C3978A3581A2}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 156.85659863945577
+      SNAPOFFS 0
+      LENGTH 15.96371882086169
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 31554781 B
+      SEL 0
+      IGUID {4655E654-8F24-004B-AAAD-8D55338B9261}
+      IID 3007
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 156.85659863945577
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {209E39D3-3592-2E4D-ADEC-4EE13DE01BE9}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 172.82031746031745
+      SNAPOFFS 0
+      LENGTH 0.09578231292517
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 17921444 B
+      SEL 0
+      IGUID {62D46806-810F-7844-87F4-0D1CBE53D4D0}
+      IID 3008
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 172.82031746031745
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D855AD8-BFF5-AF44-9F3F-D3B61D4D8AF6}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 172.91609977324262
+      SNAPOFFS 0
+      LENGTH 0.57469387755103
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 23461781 B
+      SEL 0
+      IGUID {3F48A4FC-C320-A740-B463-259CA3366DF1}
+      IID 3009
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 172.91609977324262
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {49161200-D9AA-B547-A2EB-87F75535A49B}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 173.49079365079365
+      SNAPOFFS 0
+      LENGTH 0.57469387755103
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 19685516 B
+      SEL 0
+      IGUID {EB57BBC2-3D2B-0140-860C-5A2F76D15359}
+      IID 3010
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 173.49079365079365
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {96B21F24-B1C7-F34E-AC4D-D5282211F7BB}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 174.06548752834468
+      SNAPOFFS 0
+      LENGTH 0.57469387755103
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 17540845 B
+      SEL 0
+      IGUID {F4130B0E-633F-C143-B314-A684624EAA29}
+      IID 3011
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 174.06548752834468
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5960CF0D-541B-B94A-B726-FB09BD39F6EF}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 174.6401814058957
+      SNAPOFFS 0
+      LENGTH 0.82721088435372
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 24248210 B
+      SEL 0
+      IGUID {D2F2D3AF-AF5D-3949-BE96-55B2A5B77560}
+      IID 3012
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 174.6401814058957
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E1FF966-303B-4A44-842E-2C4E9C280E50}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 175.46739229024942
+      SNAPOFFS 0
+      LENGTH 1.71827664399095
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 26443692 B
+      SEL 0
+      IGUID {86885D65-7603-3742-8FF9-34170FBBAE9B}
+      IID 3013
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 175.46739229024942
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6E4930CF-65B5-EA4D-9814-6B8ECBDFADD9}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 177.18566893424037
+      SNAPOFFS 0
+      LENGTH 7.63047619047617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      COLOR 29688455 B
+      SEL 0
+      IGUID {4DE6B90C-4EA3-9444-849E-6037822EAE4E}
+      IID 3014
+      NAME "Default_5.0.ReaperThemeZip render 001.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 177.18566893424037
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DD434B14-9CCE-A245-8DC0-7DCD08040A48}
+      <SOURCE WAVE
+        FILE "audio_files/Default_5.0.ReaperThemeZip render 001.wav"
+      >
+    >
+  >
+  <TRACK {DFDE6F6E-D28B-3C4D-AEA5-1F08C7BB24FB}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {DFDE6F6E-D28B-3C4D-AEA5-1F08C7BB24FB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {F9C10A6E-9804-AC4A-A0D2-3DF2423E4144}
+    NAME Default_4.0.ReaperThemeZip
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F9C10A6E-9804-AC4A-A0D2-3DF2423E4144}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 6.19936127273832
+      SNAPOFFS 0
+      LENGTH 111.80380952380952
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {01188200-DC4D-C546-A2E5-A8D238234DD7}
+      IID 3
+      NAME Default_4.0.ReaperThemeZip.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {19330A7F-5699-5547-9CDE-B6EFA4AE0AEB}
+      <SOURCE WAVE
+        FILE "audio_files/Default_4.0.ReaperThemeZip.wav"
+      >
+    >
   >
 >
