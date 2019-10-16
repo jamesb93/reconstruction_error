@@ -19,7 +19,9 @@ def process(idx):
         sp.call([
             'essentia_databend_simple_extractor', 
             input_file,
-            output_file
+            output_file,
+            '4096',
+            '1024'
         ])
     
 
