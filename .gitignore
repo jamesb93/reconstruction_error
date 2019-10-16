@@ -20,3 +20,5 @@ __pycache__
 .stversions
 python_scripts/datamosh/datamosh.egg-info
 **/audio_files/
+DataAudio_DC
+DataAudioUnique_DC
