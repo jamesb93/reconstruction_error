@@ -1,5 +1,6 @@
 import os
 import yaml
+import csv
 
 # JSON importing
 try:
@@ -12,6 +13,11 @@ except ImportError:
 import soundfile as sf
 import simpleaudio as sa
 
+def lines_to_list(input_file):
+    with open(input_file, 'r') as f:
+        lines = f.readlines(0)
+        content = [x.strip() for x in lines]
+        return content
 
 def check_make(dir_path):
     try:
