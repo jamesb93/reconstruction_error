@@ -3,18 +3,16 @@ json : svm_classification.json
 
 input_data : mfcc_RAW.json
 
-# Choose the algorithm for the second dim reduction
-# Choices are: Naive Bayes (NB), Logistic Regression (LR), State Vector Machine (SVM) or MLP Neural Network (MLP)
-algorithm : svm
+# Choose the algorithm - choices are:
+# Naive Bayes (NB) 
+# Logistic Regression (LR)
+# State Vector Machine (SVM)
+# MLP Neural Network (MLP)
+# linearSVM (linSVC)
+# random forest (RF)
+# N.B. These are case sensitive.
+algorithm : SVM
 
-# Choose the kind of data normalisation you want before it goes into the classifer
-# Options are minmax or meanstddev
-normalisation : minmax
-
-# Do you want to output a plot from this?
-pre_train : false
-
-# Do you want to hear playback?
-playback : false
-
-feedback : true
+# Choose the kind of data normalisation you want before it goes into the classifier.
+# You can choose minmax, standardise or none.
+normalisation : standardise

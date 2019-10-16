@@ -1,8 +1,7 @@
 import sys
-sys.path.append('../')
 import os
-from databending_utilities import ds_store, read_json, walkman, write_json, cd_up, read_yaml, printp
-from db_vars import root, unique_audio_folder, models, analysis_data
+from datamosh.utils import read_json, write_json, read_json, cd_up, read_yaml, lines_to_list, printp
+from datamosh.variables import unique_audio_folder, analysis_data
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import numpy as np
 np.set_printoptions(suppress=True)
@@ -11,7 +10,7 @@ if len(sys.argv) != 2:
     print('You need to pass a YAML config file as an argument.')
     exit()
 
-this_dir = os.getcwd()
+this_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Configuration
 printp('Reading configuration')
@@ -24,28 +23,40 @@ normalisation = cfg['normalisation']
 
 printp('Reading in data')
 input_data = read_json(os.path.join(analysis_data, input_data))
-noise_examples = ds_store(os.listdir(os.path.join(this_dir, 'NoiseExamples')))
-good_examples = ds_store(os.listdir(os.path.join(this_dir, 'GoodExamples')))
+noise_examples = lines_to_list(
+    os.path.join(
+        this_dir,
+        'noise_examples.txt'
+    )
+)
+good_examples = lines_to_list(
+    os.path.join(
+        this_dir,
+        'good_examples.txt'
+    )
+)
+
 features  = []
 label     = []
 
 printp('Creating classification labels')
-for i in range(len(noise_examples)):
+# This creates two lists, which are inextricably linked.
+# The features contain the data and at the same index of the label list, there is a label.
+for example in noise_examples:
     try:
-        data = input_data[noise_examples[i]]
+        data = input_data[example]
         features.append(data)
         label.append(0)
     except:
-        print(f'Error: Possibly no analysis data for {noise_examples[i]}')
+        print(f'Error: Possibly no analysis data for {example}')
 
-for i in range(len(good_examples)):
+for example in good_examples:
     try:
-        data = input_data[good_examples[i]]
+        data = input_data[example]
         features.append(data)
         label.append(1)
     except:
-        print(f'Error: Possibly no analysis data for {good_examples[i]}')
-
+        print(f'Error: Possibly no analysis data for {example}')
 
 # convert features and labels to numpy arrays
 features = np.array(features)
@@ -74,8 +85,8 @@ if algorithm == 'LR':
 if algorithm == 'SVM':
     ### State Vector Macine ###
     # https://neerajkumar.org/writings/svm/
-    from sklearn import svm
-    clf = svm.SVC(gamma='scale')
+    from sklearn.svm import SVC
+    clf = SVC(gamma='auto')
 
 if algorithm == 'MLP':
     ## MLP Neural Network ###
@@ -84,7 +95,7 @@ if algorithm == 'MLP':
 
 if algorithm == 'RF':
     from sklearn.ensemble import RandomForestClassifier
-    clf = RandomForestClassifier(max_depth=5, n_estimators=10, n_features=1)
+    clf = RandomForestClassifier(n_estimators=100,random_state=0, max_depth=1)
 
 if algorithm == 'linSVC':
     from sklearn.svm import LinearSVC
@@ -93,7 +104,6 @@ if algorithm == 'linSVC':
 printp('Fitting Transform')
 # Compute the fit
 clf.fit(features, label)
-
 
 # Classification and JSON formation
 classification_dict = {}
@@ -124,4 +134,3 @@ classification_dict['1'] = good_predictions
 
 out_file = os.path.join(this_dir, json_out)
 write_json(out_file, classification_dict)
-
