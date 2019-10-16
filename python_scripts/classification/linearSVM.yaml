@@ -3,16 +3,16 @@ json : lin_svm_classification.json
 
 input_data : mfcc_RAW.json
 
-# Choose the algorithm for the second dim reduction
-# Choices are: 
+# Choose the algorithm - choices are:
 # Naive Bayes (NB) 
 # Logistic Regression (LR)
 # State Vector Machine (SVM)
 # MLP Neural Network (MLP)
 # linearSVM (linSVC)
 # random forest (RF)
+# N.B. These are case sensitive.
 algorithm : linSVC
 
-# Choose the kind of data normalisation you want before it goes into the classifer
-# Options are minmax or meanstddev
+# Choose the kind of data normalisation you want before it goes into the classifier.
+# You can choose minmax, standardise or none.
 normalisation : standardise
