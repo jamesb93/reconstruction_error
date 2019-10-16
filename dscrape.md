@@ -83,3 +83,5 @@ Focusing the computer’s role toward a ‘computer-assisted’ one has helped m
 
 In another words, the computer acts as a provocateur and enabler and leverages modes of thinking and doing that I would otherwise be incapable of mimicking.
 
+Polyrhythms by accident from overlapping different clusters which have been strung together.
+
