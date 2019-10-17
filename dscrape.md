@@ -82,6 +82,11 @@ Lastly, I found it useful to use specific files of interest as anchors and look 
 Focusing the computer’s role toward a ‘computer-assisted’ one has helped me to take more conceptual risks, particularly with that of form and time. That said, the computer’s influence on these aspects of the music are not completely removed, rather, they exist in a more influential rather than controlling role. For example, the clusters themselves when concatenated in a completely simple and arbitrary fashion have determined the length of small loops that make up longer loops and layerings. The small pops, and clicks emergent in this process (enabled by the ReaScripts) has become a feature of the work - a process that is not uncommon in other creative practices. 
 
 In another words, the computer acts as a provocateur and enabler and leverages modes of thinking and doing that I would otherwise be incapable of mimicking.
-
 Polyrhythms by accident from overlapping different clusters which have been strung together.
+
+## 17/10/19
+
+Work is coming to a close on the soft rhythmic piece. I feel a lack of new ideas right now so that one is going on the backburner momentarily until something fresh comes up. More specifically, I feel held back creating new combinations of material that sustain interest, but this is possibly linked to a kind of listening that is not engendered well in studio 9... I think that there has to be more detailed, rhythmic interactions which can be created by mixing either lone clusters, or composite clusters together and the methods and processes which I have used for finding these previously have run dry. I am thinking of other ways I can generate sound from what is already a substantial set of audio and possible solution could be WaveNet. Something to investigate. Another aspect of composing this piece that is causing friction is how much processing is too much? I have started to manually apply several processing techniques already (filtering, speed alterations) but to an extent there is no evidence that these processes did not already exist in the output of the scraping process. 
+
+Right now, the piece feels like it could also exist in a large speaker setting as a stereo or 3 channel piece diffused over a complex array of speakers and that whole avenue feels mostly unexplored.
 
