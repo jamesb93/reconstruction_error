@@ -11,6 +11,12 @@ setuptools.setup(
         'PyYAML',
         'python-rapidjson',
         'SoundFile',
-        'simpleaudio'
+        'simpleaudio',
+        'sklearn',
+        'hdbscan',
+        'numpy',
+        'scikit-learn',
+        'scipy',
+        'umap-learn'
     ]
 )

@@ -1,7 +1,8 @@
 import os
 import yaml
 import csv
-
+import soundfile as sf
+import simpleaudio as sa
 # JSON importing
 try:
     import rapidjson as rj
@@ -9,9 +10,6 @@ try:
 except ImportError:
     print('Importing native JSON instead of RapidJson')
     import json as rj
-
-import soundfile as sf
-import simpleaudio as sa
 
 def lines_to_list(input_file):
     with open(input_file, 'r') as f:

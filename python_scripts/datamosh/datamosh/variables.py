@@ -1,7 +1,7 @@
-from datamosh.utils import get_path, ds_store, cd_up
+from datamosh.utils import ds_store, cd_up
 import os
 
-root = get_path()
+root = os.path.dirname(os.path.realpath(__file__))
 project_root = cd_up(root, 3)
 
 # Slices of DataAudioUnique
