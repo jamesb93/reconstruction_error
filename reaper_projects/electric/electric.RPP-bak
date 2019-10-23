@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.983/OSX64" 1569428583
+<REAPER_PROJECT 0.1 "5.983/OSX64" 1571407154
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,7 +14,7 @@
   TIMEMODE 0 5 -1 30 0 -1 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 5.98349691009538
+  CURSOR 0
   ZOOM 32.99074152891198 0 0
   VZOOMEX 6
   USE_REC_CFG 0
@@ -840,7 +840,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {6A2E911F-D597-E646-B8AA-53F1A528D9C2}
       IID 846
       NAME vibes-a1.aif.maxwave_0.wav
@@ -862,7 +862,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {F9A564BE-2E4A-8446-AC47-E0635AC3110C}
       IID 844
       NAME vibes-a1.aif.maxwave_0.wav
@@ -884,7 +884,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {29D20E1E-B31D-2944-BD00-C49E66EA2BDD}
       IID 104
       NAME vibes-a1.aif.maxwave_0.wav
@@ -906,7 +906,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {0A006D2E-E330-084C-AE3C-5569FCA7A1CD}
       IID 842
       NAME vibes-a1.aif.maxwave_0.wav
@@ -928,7 +928,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {7D28E3E0-58D6-E947-9729-3268E4F01115}
       IID 847
       NAME layer_1.aif.maxwave_0.wav
@@ -950,7 +950,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {A0C29D90-5E31-F04E-BC9E-F7D32DAC9E43}
       IID 839
       NAME layer_1.aif.maxwave_0.wav
@@ -972,7 +972,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {EF00BF3F-17B4-0A49-A38E-C49DF3CA4EBB}
       IID 82
       NAME 0-019-glued-01.wav.maxwave_0.wav
@@ -994,7 +994,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {A19AAB56-4E5E-B14A-A789-50FBC38C5691}
       IID 84
       NAME layer_1.aif.maxwave_0.wav
@@ -1016,7 +1016,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {F603877A-5554-7A41-9D1B-0BDC1D4B992E}
       IID 99
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1038,7 +1038,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {CB33ACDB-0011-214B-B1FD-31280CF80A45}
       IID 843
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1060,7 +1060,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {E721A09F-84FD-2B4A-82D9-413F24A81D76}
       IID 100
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1082,7 +1082,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {F87B5CAD-1E72-1A47-B624-B76C09C10204}
       IID 83
       NAME dynamicdsp~_demo.maxpat.wav.maxwave_0.wav
@@ -1104,7 +1104,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {01BB23A9-1A16-B643-BA2F-BD55E413F49B}
       IID 88
       NAME cello-f2.aif.maxwave_0.wav
@@ -1126,7 +1126,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {F5BBAFBD-9FA9-CA4B-A5D8-372401E71421}
       IID 90
       NAME descriptorsrt~.maxhelp.wav.maxwave_0.wav
@@ -1148,7 +1148,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {8C0E7C19-E05F-0642-8B8F-6F1E5C84C554}
       IID 98
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1170,7 +1170,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {FA1DBD5A-0524-7A4A-AB82-94BEFF98FF45}
       IID 86
       NAME SIMDSupport.hpp.wav.maxwave_0.wav
@@ -1192,7 +1192,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {7E63B5B9-AC55-DA48-9B5B-94130C03AEBF}
       IID 26
       NAME layer_1.aif.maxwave_0.wav
@@ -1214,7 +1214,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {AE6AE4D3-7971-0041-8705-803F16243FD0}
       IID 101
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1236,7 +1236,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {AB5357C4-8F1F-AE40-B1DB-E9D8087A8418}
       IID 841
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1258,7 +1258,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {DCF5A535-9C3D-0D42-A5E5-C3CBE78B3664}
       IID 840
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1280,7 +1280,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {808449B6-2E1B-8E40-B0FD-D5C5DD8B0C97}
       IID 85
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1302,7 +1302,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {CC58FA89-0DE9-374E-B176-B2296A6A865F}
       IID 97
       NAME layer_1.aif.maxwave_0.wav
@@ -1324,7 +1324,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {D60C1EE9-AE4F-954A-8B12-F737A95E2B55}
       IID 845
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1346,7 +1346,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {051DA1B4-EA0A-8F46-BA82-9B9B3F8EF9CE}
       IID 81
       NAME sacre.aiff.maxwave_0.wav
@@ -1368,7 +1368,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {89DD56DC-6095-FD4E-A0BA-23A4F123CA0D}
       IID 103
       NAME vibes-a1.aif.maxwave_0.wav
@@ -1381,5 +1381,7 @@
         FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
       >
     >
+  >
+  <EXTENSIONS
   >
 >
