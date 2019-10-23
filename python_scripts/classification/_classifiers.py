@@ -88,6 +88,10 @@ if algorithm == 'SVM':
     from sklearn.svm import SVC
     clf = SVC(gamma='auto')
 
+if algorithm == 'linSVC':
+    from sklearn.svm import LinearSVC
+    clf = LinearSVC(random_state=0, tol=1e-5)
+
 if algorithm == 'MLP':
     ## MLP Neural Network ###
     from sklearn.neural_network import MLPClassifier
@@ -96,10 +100,6 @@ if algorithm == 'MLP':
 if algorithm == 'RF':
     from sklearn.ensemble import RandomForestClassifier
     clf = RandomForestClassifier(n_estimators=100,random_state=0, max_depth=1)
-
-if algorithm == 'linSVC':
-    from sklearn.svm import LinearSVC
-    clf = LinearSVC(random_state=0, tol=1e-5)
 
 printp('Fitting Transform')
 # Compute the fit
