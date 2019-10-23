@@ -1,10 +1,9 @@
 import sys
-sys.path.append('../')
 import os
 import umap
 import numpy as np
-import random
-from bokeh.plotting import figure, output_file, show
+import json
+
 from shutil import copyfile
 from datamosh.utils import read_json, write_json, printp, read_yaml, get_path, check_make
 from datamosh.variables import project_root, analysis_data
@@ -17,7 +16,7 @@ if len(sys.argv) != 2:
     print('You need to pass a YAML config file as an argument.')
     exit()
 
-this_script = os.getcwd()
+this_script = os.path.dirname(os.path.realpath(__file__))
 
 # Configuration
 cfg_path = os.path.join(this_script, 'configs', sys.argv[1])
@@ -40,8 +39,8 @@ feature = read_json(os.path.join(project_root, input_data))
 data = [v for v in feature.values()]
 keys = [k for k in feature.keys()]
 
-data = np.array(data)
 scaler = MinMaxScaler()
+data = np.array(data)
 data = scaler.fit_transform(data)
 
 ######### Initial Reduction ##########
@@ -68,28 +67,6 @@ data = reduction.fit_transform(data)
 # Normalisation
 printp('Normalising for JSON output')
 data = scaler.fit_transform(data)
-
-if tog_plot:
-    printp('Transposing Data')
-    data_transposed = data.transpose() ## X as one list, Y as another
-    # data_transposed = np.ndarray.tolist(data_transposed)
-    printp('Plotting')
-    TOOLS = "crosshair,pan,wheel_zoom,box_zoom,reset,box_select,lasso_select"
-    plot_output_path = os.path.join('outputs', output_path, f'{plot}.html')
-    output_file(
-        plot_output_path, 
-        title=f'Reduction using the {algorithm} algorithm', 
-        mode="cdn")
-    p = figure(
-        tools=TOOLS,
-        x_range=(0.0, 1.0), 
-        y_range=(0.0, 1.0),
-        plot_width = 800,
-        plot_height= 800,
-        toolbar_location='below',)
-    p.scatter(data_transposed[0], data_transposed[1], radius=0.001, fill_alpha=0.6, line_color=None)
-    json_object = json_item(p)
-    print(json_object)
 
 out_dict = {}
 printp('Outputting JSON')
