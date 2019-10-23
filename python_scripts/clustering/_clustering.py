@@ -5,10 +5,6 @@ import os
 import hdbscan
 import random
 from shutil import copyfile
-from bokeh.io import export_svgs
-from bokeh.plotting import figure, output_file, show
-from bokeh.embed import file_html
-from bokeh.resources import CDN
 from sklearn.cluster import DBSCAN, AgglomerativeClustering
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from datamosh.utils import read_json, write_json,read_yaml, printp, check_make
