@@ -90,3 +90,7 @@ Work is coming to a close on the soft rhythmic piece. I feel a lack of new ideas
 
 Right now, the piece feels like it could also exist in a large speaker setting as a stereo or 3 channel piece diffused over a complex array of speakers and that whole avenue feels mostly unexplored.
 
+## 18/10/19
+
+IDEA: create a series of 'filler' works which use a unifying technique over a number of clusters. There are several groups which appeal to my sensibility of ordering and arranging a single stream of samples. Largely, the other works so far (pitched, danceabilityone, three-ideas) work with heavy layering, but something that attracted me to the sample set in the first place was the natural success of stringing together the audio files.
+
