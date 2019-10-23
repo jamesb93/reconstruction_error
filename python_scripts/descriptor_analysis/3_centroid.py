@@ -1,35 +1,43 @@
 import os
-import subprocess
-from shutil import copyfile
-from databending_utilities import * # import all from the utilities script
-import time
-import numpy as np
-from scipy.io import wavfile
-import random
-import time
 import sys
+import time
+import subprocess
 import multiprocessing as mp
-import audioread
-from db_vars import unique_audio_files, unique_audio_folder, tmp, root
+import tempfile
+from shutil import copyfile
+from datamosh.utils import bufspill, write_json
+from datamosh.variables import unique_audio_files, unique_audio_folder, project_root
 
-## Hygiene
-wipe_dir(tmp)
+# You need to pass in the input directory and the output file
+if len(sys.argv) < 2:
+    print('You need to pass an output file.')
+    exit()
 
-## Global Dicts for writing out results
+this_script = os.path.dirname(os.path.realpath(__file__))
+
+output_file = sys.argv[1]
+output_json = os.path.join(this_script, output_file)
+
+# temporary directory for files
+tmp_dir = tempfile.mkdtemp()
+# Global Dicts for writing out results
 centroid_dict = mp.Manager().dict()
+
 
 def analyse(idx):
     ## Setup paths/files etc
     shape_src = os.path.join(unique_audio_folder, unique_audio_files[idx])
-    shape_features = os.path.join(tmp, f'{unique_audio_files[idx]}_features.wav')
-    shape_stats = os.path.join(tmp, f'{unique_audio_files[idx]}_stats.wav' )
+    shape_features = os.path.join(tmp_dir, f'{unique_audio_files[idx]}_features.wav')
+    shape_stats = os.path.join(tmp_dir, f'{unique_audio_files[idx]}_stats.wav' )
     ## Compute spectral shape descriptors
-    subprocess.call(['spectralshape', 
+    subprocess.call([
+    'fluid-spectralshape', 
     '-source', shape_src, 
     '-features', shape_features, 
     '-fftsettings', '4096', '512', '4096'])
     ## Now get the stats of the shape analysis
-    subprocess.call(['stats', 
+    subprocess.call([
+    'fluid-stats', 
     '-source', shape_features, 
     '-stats', shape_stats,
     '-numderivs', '1',
@@ -44,21 +52,15 @@ def analyse(idx):
     except:
         print(f'There was no data to process for {shape_src}.')
     
-def main():
-    start = time.time()
-    num_jobs = len(unique_audio_files)
-    with mp.Pool() as pool:
-        for i, _ in enumerate(
-            pool.imap_unordered(analyse, range(num_jobs))
-            , 1):
-            sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
-    json_out = os.path.join(root, 'centroid.json')
-    write_json(json_out, dict(centroid_dict))
-    end = time.time()
-    time_taken = round(((end-start) / 60.), 2)
-    print('\nProcess complete in:', time_taken)
-
-main()
-
-
-    
+start = time.time()
+num_jobs = len(unique_audio_files)
+with mp.Pool() as pool:
+    for i, _ in enumerate(
+        pool.imap_unordered(analyse, range(num_jobs))
+        , 1):
+        sys.stderr.write('\rAnalysis Progress {0:%}'.format(i/num_jobs))
+write_json(output_json, dict(centroid_dict))
+os.rmdir(tmp_dir)
+end = time.time()
+time_taken = round(((end-start) / 60.), 2)
+print('\nProcess complete in:', time_taken)
