@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 554.0, 79.0, 58.0, 50.0 ],
+		"rect" : [ 554.0, 371.0, 264.0, 210.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -170,8 +170,8 @@
 								"value" : [ "DataAudioUniqueLong/" ]
 							}
 , 							{
-								"key" : "simple_analysis_unique",
-								"value" : [ "essentia_analysis/simple_extractor/" ]
+								"key" : "unique_analysis",
+								"value" : [ "essentia_analysis/simple_extractor_segmented/" ]
 							}
  ]
 					}
