@@ -2,8 +2,8 @@
 	"name" : "data_bending-max",
 	"version" : 1,
 	"creationdate" : 3650370005,
-	"modificationdate" : 3651738421,
-	"viewrect" : [ 1519.0, 237.0, 300.0, 500.0 ],
+	"modificationdate" : 3654501951,
+	"viewrect" : [ 639.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -107,6 +107,11 @@
 			}
 ,
 			"descriptorGraph.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"reapertheme.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
