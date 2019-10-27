@@ -6,9 +6,7 @@ import simpleaudio as sa
 # JSON importing
 try:
     import rapidjson as rj
-    print('Importing RapidJSON')
 except ImportError:
-    print('Importing native JSON instead of RapidJson')
     import json as rj
 
 def lines_to_list(input_file):
