@@ -2,7 +2,7 @@
 	"name" : "data_bending-max",
 	"version" : 1,
 	"creationdate" : 3650370005,
-	"modificationdate" : 3654501951,
+	"modificationdate" : 3655039851,
 	"viewrect" : [ 639.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -112,6 +112,11 @@
 			}
 ,
 			"reapertheme.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"cluster_explorer_unbuffered.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
