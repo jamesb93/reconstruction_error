@@ -57,48 +57,6 @@ if algorithm == 'DBSCAN':
 if algorithm == 'HDBSCAN':
     db = hdbscan.HDBSCAN().fit(data)
 
-if tog_plot:
-    printp('Plotting')
-    printp('Transposing Data')
-    data_transposed = data.transpose() ## X as one list, Y as another
-    # data_transposed = np.ndarray.tolist(data_transposed)
-    printp('Making Colours')
-    num_clusters = db.labels_.max()
-    # assign a random colour to each cluster then make a flat list with the values
-    palette = []
-    r = lambda: random.randint(0, 255)
-    for i in range(num_clusters):
-        palette.append('#%02X%02X%02X' % (r(),r(),r()))
-
-    colour_assign = []
-    for audio, cluster in zip(keys, db.labels_):
-        if cluster != -1:
-            colour_assign.append(palette[cluster-1])
-        else:
-            colour_assign.append('#000000')
-    printp('Plotting')
-    TOOLS = "crosshair,pan,wheel_zoom,box_zoom,reset,box_select,lasso_select"
-    plot_output_path = os.path.join('outputs', output_path, 'plot.html')
-    plot_title = f'Clustering using the {algorithm} algorithm'
-    output_file(
-        plot_output_path, 
-        title=plot_title, 
-        mode="inline")
-
-    plot = figure(
-        tools=TOOLS,
-        x_range=(0.0, 1.0), 
-        y_range=(0.0, 1.0),
-        plot_width = 800,
-        plot_height= 800,
-        toolbar_location='below',
-        title=plot_title)
-
-    plot.output_backend='webgl'
-    plot.scatter(data_transposed[0], data_transposed[1], radius=0.001, fill_alpha=0.6, line_color=None, fill_color=colour_assign)
-    export_svgs(plot, filename=os.path.join(output_path, 'plot.svg'))
-    show(plot)
-
 cluster_dict = {}
 # extract the label provided by the instance of DBSCAN (labels found in db.labels_)
 # make a dict out of th is information
