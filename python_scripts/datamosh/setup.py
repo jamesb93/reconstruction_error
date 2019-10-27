@@ -17,6 +17,7 @@ setuptools.setup(
         'numpy',
         'scikit-learn',
         'scipy',
-        'umap-learn'
+        'umap-learn',
+        'pydub'
     ]
 )
