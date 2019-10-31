@@ -94,3 +94,9 @@ Right now, the piece feels like it could also exist in a large speaker setting a
 
 IDEA: create a series of 'filler' works which use a unifying technique over a number of clusters. There are several groups which appeal to my sensibility of ordering and arranging a single stream of samples. Largely, the other works so far (pitched, danceabilityone, three-ideas) work with heavy layering, but something that attracted me to the sample set in the first place was the natural success of stringing together the audio files.
 
+## 31/10/19
+
+- Experimented with convolving samples together using multiconvolve. Works well, especially on the quieter stuff or with short impulses and long tonal files
+- Composed some more.
+    - I think that the impulse based composition is coming to a close.
+- Transient separation is superior to high pass filtering when you want to create something 'clicky' and detailed. It makes it sound less 'lo-fi and scratchy' and focuses in on the delicate qualities of the sound.
