@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.983/OSX64" 1572281021
+<REAPER_PROJECT 0.1 "5.983/OSX64" 1572539220
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,8 +14,8 @@
   TIMEMODE 0 5 -1 30 0 -1 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 12.45741185258352
-  ZOOM 6.34160618071051 0 0
+  CURSOR 168.72697066157423
+  ZOOM 6.34160618071051 386 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
@@ -114,7 +114,7 @@
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 80 0 0
@@ -135,7 +135,7 @@
       FADEOUT 1.1 0 0.005001 1 1 0
       MUTE 0
       COLOR 21259360 B
-      SEL 1
+      SEL 0
       IGUID {2262B4E6-FB87-924A-8416-E62D02132D7B}
       IID 711
       NAME 738_fractial.multi.ridged_829174126.aiff.maxwave.wav
@@ -461,7 +461,7 @@
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 80 0 0
@@ -564,6 +564,12 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 638 724 387
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
     <ITEM
       POSITION 98.3681099678131
       SNAPOFFS 0
@@ -586,9 +592,9 @@
         FILE "audio_files/MaxAPI.wav.maxwave_hpss-p_0.01.wav"
       >
       <TAKEFX
-        WNDRECT 32 604 798 414
+        WNDRECT 32 574 835 444
         SHOW 0
-        LASTSEL 0
+        LASTSEL 1
         DOCKED 0
         BYPASS 0 0 0
         <VST "VST: ReaComp (Cockos)" reacomp.vst.dylib 0 "" 1919247213 ""
@@ -610,43 +616,6 @@
         FXID {9206976C-60FF-B546-A520-711B5C82517D}
         WAK 0
       >
-    >
-  >
-  <TRACK {D4915364-7CBA-2940-BE05-82C160AB6F88}
-    NAME reference
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
-    IPHASE 0
-    ISBUS 0 0
-    BUSCOMP 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    FREEMODE 0
-    SEL 0
-    REC 0 0 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {D4915364-7CBA-2940-BE05-82C160AB6F88}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <FXCHAIN
-      WNDRECT 31 809 793 186
-      SHOW 0
-      LASTSEL 0
-      DOCKED 0
-      BYPASS 0 0 0
-      <JS Liteon/pinknoisegen ""
-        0.000000 -6.000000 -6.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-      >
-      FLOATPOS 0 0 0 0
-      FXID {1757BB96-B057-4342-B579-20B9E2F8C0C8}
-      WAK 0
     >
   >
   <EXTENSIONS
