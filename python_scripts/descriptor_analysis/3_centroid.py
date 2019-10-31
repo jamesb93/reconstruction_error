@@ -1,9 +1,9 @@
 import os
 import sys
 import time
+import tempfile
 import subprocess
 import multiprocessing as mp
-import tempfile
 from shutil import copyfile
 from datamosh.utils import bufspill, write_json
 from datamosh.variables import unique_audio_files, unique_audio_folder, project_root
@@ -23,7 +23,6 @@ tmp_dir = tempfile.mkdtemp()
 # Global Dicts for writing out results
 centroid_dict = mp.Manager().dict()
 
-
 def analyse(idx):
     ## Setup paths/files etc
     shape_src = os.path.join(unique_audio_folder, unique_audio_files[idx])
@@ -34,7 +33,8 @@ def analyse(idx):
     'fluid-spectralshape', 
     '-source', shape_src, 
     '-features', shape_features, 
-    '-fftsettings', '4096', '512', '4096'])
+    '-fftsettings', '4096', '512', '4096'
+    ])
     ## Now get the stats of the shape analysis
     subprocess.call([
     'fluid-stats', 
@@ -42,7 +42,8 @@ def analyse(idx):
     '-stats', shape_stats,
     '-numderivs', '1',
     '-startchan', '1',
-    '-numchans', '1'])
+    '-numchans', '1'
+    ])
     ## Put Data in the global dictionary
     data = bufspill(shape_stats)[0]  ## Only grab the first seven values, we dont care about derivatives.
     try:
