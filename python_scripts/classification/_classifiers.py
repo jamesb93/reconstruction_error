@@ -1,10 +1,11 @@
 import sys
 import os
+import numpy as np
+
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from datamosh.utils import read_json, write_json, read_json, cd_up, read_yaml, lines_to_list, printp
 from datamosh.variables import unique_audio_folder, analysis_data
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-import numpy as np
-np.set_printoptions(suppress=True)
+
 
 if len(sys.argv) != 2:
     print('You need to pass a YAML config file as an argument.')
