@@ -5,11 +5,6 @@ import json
 from sklearn.preprocessing import StandardScaler
 from sklearn import decomposition
 import numpy as np
-## Plotting Libraries
-import plotly
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
-import plotly.plotly as py
-import plotly.graph_objs as go
 from scipy.io import wavfile
 from db_vars import root
 

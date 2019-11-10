@@ -1,0 +1,8 @@
+# Output json file name
+json : umap_4_dimensions.json
+# Name of input data
+input_data : UMAP_standardisation_test/umap_4_standardise.json
+# Choose the algorithm for clustering (DBSCAN, [A]ffinity[P]ropogation, HDBSCAN)
+algorithm : HDBSCAN
+normalisation : none
+identifier : umap_4-standardisation

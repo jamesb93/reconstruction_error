@@ -1,0 +1,9 @@
+# Output json file name
+json : umap_4_AP.json
+# Name of input data
+input_data : UMAP_standardisation_test/umap_4_standardise.json
+# Choose the algorithm for clustering (DBSCAN, [A]ffinity[P]ropogation, HDBSCAN)
+algorithm : AP
+ap_n_clusters : 250
+normalisation : none
+identifier : umap_4_AP

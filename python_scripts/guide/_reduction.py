@@ -9,7 +9,8 @@ from datamosh.utils import read_json, write_json, printp, read_yaml, get_path, c
 from datamosh.variables import project_root, analysis_data
 from sklearn import decomposition
 from sklearn import manifold
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from scipy.io import wavfile
 
 if len(sys.argv) != 2:
     print('You need to pass a YAML config file as an argument.')
@@ -18,15 +19,15 @@ if len(sys.argv) != 2:
 this_script = os.path.dirname(os.path.realpath(__file__))
 
 # Configuration
-cfg_path = os.path.join(this_script, sys.argv[1])
+cfg_path = os.path.join(this_script, 'configs', sys.argv[1])
 cfg = read_yaml(cfg_path)
+wav_out       = cfg['wav']
 json_out      = cfg['json']
 input_data    = cfg['input_data']
 pre_reduction = cfg['pre_reduction']
-normalisation = cfg['normalisation']
 algorithm     = cfg['algorithm']
+tog_plot      = cfg['plot']
 identifier    = cfg['identifier']
-components    = cfg['components']
 
 folder_name = f'{algorithm}_{identifier}'
 output_path = os.path.join(this_script, 'outputs', folder_name)
@@ -38,12 +39,7 @@ feature = read_json(os.path.join(project_root, input_data))
 data = [v for v in feature.values()]
 keys = [k for k in feature.keys()]
 
-if normalisation == 'minmax':
-    printp('Normalising input data')
-    scaler = MinMaxScaler()
-if normalisation == 'standardise':
-    printp('Standardising input data')
-    scaler = StandardScaler()
+scaler = MinMaxScaler()
 data = np.array(data)
 data = scaler.fit_transform(data)
 
@@ -58,23 +54,26 @@ elif pre_reduction == 0:
 ######### Dimensionality Reduction ##########
 printp('Performing POST-Reduction')
 if algorithm == 'TSNE':
-    reduction = manifold.TSNE(n_components=components)
+    reduction = manifold.TSNE(n_components=2)
 if algorithm == 'ISOMAP':
-    reduction = manifold.Isomap(n_components=components)
+    reduction = manifold.Isomap(n_components=2)
 if algorithm == 'UMAP':
     umap_neighbours = cfg['umap_neighbours']
     umap_mindist    = cfg['umap_mindist']
-    reduction = umap.UMAP(n_components=components, n_neighbors=umap_neighbours, min_dist=umap_mindist)
+    reduction = umap.UMAP(n_components=2, n_neighbors=umap_neighbours, min_dist=umap_mindist)
 printp('Fitting Transform')
 data = reduction.fit_transform(data)
 
 # Normalisation
 printp('Normalising for JSON output')
-post_normalisation = MinMaxScaler()
-data = post_normalisation.fit_transform(data)
+data = scaler.fit_transform(data)
 
 out_dict = {}
 printp('Outputting JSON')
 for key, value in zip(keys, data):  
     out_dict[key] = value.tolist()
 write_json(os.path.join('outputs', output_path, json_out), out_dict)
+
+printp('Outputting WAV')
+data = data.astype('float32')
+wavfile.write(os.path.join('outputs', output_path, wav_out), 44100, data)
