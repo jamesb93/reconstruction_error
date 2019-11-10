@@ -7,9 +7,9 @@ import subprocess
 import multiprocessing as mp
 from shutil import copyfile, rmtree
 from datamosh.utils import bufspill, write_json, printp
-from datamosh.variables import unique_audio_files, unique_audio_folder, analysis_data
+from datamosh.variables import audio_files, audio_folder, analysis_data
 
-parser = argparse.ArgumentParser(description='Slice a folder of audio files using fluid-noveltyslice.')
+parser = argparse.ArgumentParser(description='Analyse all audio files with a shifting window.')
 parser.add_argument('-i', '--infolder', type=str, help='The input folder to analyse')
 parser.add_argument('-o', '--outfile', type=str, help='The output JSON containing analysis')
 args = parser.parse_args()
@@ -27,14 +27,12 @@ input_folder = args.infolder
 input_files = os.listdir(input_folder)
 output_json = os.path.join(analysis_data, args.outfile)
 
-# dict with shared memory between processes for writing out results
+# Global Dicts for writing out results
 mfcc_dict = mp.Manager().dict()
 
 def analyse(idx):
     # Setup paths/files etc
-    mfcc_src        = os.path.join(input_folder, input_files[idx])
-    mfcc_features   = os.path.join(tmp_dir, f'{input_files[idx]}_features.wav')
-    mfcc_stats      = os.path.join(tmp_dir, f'{input_files[idx]}_stats.wav' )
+    mfcc_src = os.path.join(input_folder, input_files[idx])
     # Compute spectral shape descriptors
     subprocess.call([
         'fluid-mfcc', 

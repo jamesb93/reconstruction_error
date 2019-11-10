@@ -25,7 +25,6 @@ json_out      = cfg['json']
 input_data    = cfg['input_data']
 algorithm     = cfg['algorithm']
 normalisation = cfg['normalisation']
-tog_plot      = cfg['tog_plot']
 identifier    = cfg['identifier']
 
 
@@ -41,6 +40,7 @@ values  = [y for y in feature.values()]
 
 data = np.array(values)
 
+printp('Normalising')
 if normalisation != 'none':
     if normalisation == 'minmax':
         scaler = MinMaxScaler()
@@ -49,6 +49,7 @@ if normalisation != 'none':
     scaler.fit(data)
     data = scaler.transform(data)
 
+printp('Clustering')
 if algorithm == 'AP':
     ap_n_clusters = cfg['ap_n_clusters']
     db = AgglomerativeClustering(n_clusters=ap_n_clusters).fit(data)
@@ -66,4 +67,5 @@ for audio, cluster in zip(keys, db.labels_):
     else:
         cluster_dict[str(cluster)] = [audio]
 
+printp('Writing Out')
 write_json(os.path.join(output_path, json_out), cluster_dict)
