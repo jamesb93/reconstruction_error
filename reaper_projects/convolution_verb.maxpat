@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1453.0, 386.0, 136.0, 404.0 ],
+		"rect" : [ 1074.0, 251.0, 138.0, 404.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -556,8 +556,8 @@
 					"activebgoncolor" : [ 0.337254901960784, 0.607843137254902, 0.341176470588235, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 4,
-					"num_lines_presentation" : 4,
+					"num_lines_patching" : 5,
+					"num_lines_presentation" : 5,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
@@ -567,11 +567,11 @@
 					"presentation_rect" : [ 68.0, 91.0, 38.0, 83.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1", "2", "3", "4" ],
+							"parameter_enum" : [ "1", "2", "3", "4", "5" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.tab[1]",
-							"parameter_mmax" : 3,
+							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab"
 						}
 
@@ -586,8 +586,8 @@
 					"activebgoncolor" : [ 0.996078431372549, 0.192156862745098, 0.192156862745098, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "live.tab",
-					"num_lines_patching" : 4,
-					"num_lines_presentation" : 4,
+					"num_lines_patching" : 5,
+					"num_lines_presentation" : 5,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
@@ -597,11 +597,11 @@
 					"presentation_rect" : [ 28.0, 91.0, 38.0, 83.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1", "2", "3", "4" ],
+							"parameter_enum" : [ "1", "2", "3", "4", "5" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.tab",
-							"parameter_mmax" : 3,
+							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab"
 						}
 
