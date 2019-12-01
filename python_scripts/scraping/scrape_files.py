@@ -9,7 +9,7 @@ from datamosh.utils import check_make, check_size, check_ext, bytes_to_mb, print
 
 parser = argparse.ArgumentParser(description='Scrape your hard drive and convert any file type to audio.')
 parser.add_argument('-l', '--limit', type=int, default=5000, help='Limit of data to scrape in megabytes')
-parser.add_argument('-e', '--encoding', type=str, default='signed-integer', help='The encoding of the output from SoX')
+parser.add_argument('-e', '--encoding', type=str, default='unsigned-integer', help='The encoding of the output from SoX')
 parser.add_argument('-b', '--bits', type=str, default='8', help='The word length of the output file')
 parser.add_argument('-c', '--channels', type=str, default='1', help='The number of channels in the output file')
 parser.add_argument('-i', '--infolder', type=str, default='~/', help='The input folder to scrape')
