@@ -100,3 +100,29 @@ IDEA: create a series of 'filler' works which use a unifying technique over a nu
 - Composed some more.
     - I think that the impulse based composition is coming to a close.
 - Transient separation is superior to high pass filtering when you want to create something 'clicky' and detailed. It makes it sound less 'lo-fi and scratchy' and focuses in on the delicate qualities of the sound.
+
+## 18/12/19
+
+What is it about my working method in REAPER that has made thinking algorithmically more creatively 'truthful'. I think it is the ability to iterate on ideas rather than to lose the once you press stop. When you automate out certain processes, like cycling through combinations of musical material, or groups of that material you never get to retain the state of what happened unless you build something that can do this. REAPER (and git to an extent) keep a trace of what has already been done so this allows you develop ideas without reverting back to the artefacts which are remnant from the creative process. When using Max, what is often left behind is the code itself and so you are always working from a patch which makes the sound, rather than from the sound itself. When REAPER leaves a trace this informs the next decision, while always having to code the next decision is onc removed from using your ears.
+
+### thoughts on composing and what I **need** from technology
+
+being able to combine and break apart material quickly is important to me - creating a chain of processing that can be traversed quickly
+
+I thought that I was into intensely organised micro-structure, but actually I am more interested in not managing microstrucutre but rather dealing with these kind of texturised blocks of sound that can be pulled apart and put back together in new ways if need be. my interest in manual work is more to do on the meso and macro level of things in response to the serendipitous arrangement of blocks which is shaped by indeterminate micro-organisation. The rhythms in interrupt are not coming from any kind of relationship that I have to rhythm or a rhythmic strucutre but my ‘riffing’ on the random organisation of contiguous samples, and the layering of different streams of these samples.
+
+what is most conducive is a kind of play in REAPER where I follow the chain
+
+
+taking inspiration from unbuffered cluster exploration:
+
+	- when samples are concatenated randomly, their homogeneity affects the musical function.
+        - variegated groupings produce something that is less blocky and more of a constantly oscillating texture, like a kaleidoscope.
+	    ⁃	the smaller the loop the more robotic and ‘synthesised’ it can sound
+	    ⁃	Using the hierarchy of clusters you can flit between these ideas quite seemlessly and also do density interpolations by randomising contiguous segments of different distributions of each cluster.
+
+
+### Reflection on today
+Right now, the thing that is driving the music is your ears. What do you want to hear? Reflecting on today's composition session There needs to be a reconsideration of whwat it means to create blocks where two cluster blocks interact. The form is somewhat moving to a quite pulse oriented and call/answer mechanism to guide different bits of material. Perhaps it is about what happens in the gaps, and how long the gaps get. Maybe the gaps get super wide and the whole thing kind of 'unravels'.
+
+How can modify the relationship between the three rhythmic streams that comprise the guts of the work. Initially I enhanced them by creating a hybrid stream and adding this to the original two. This thickened the texture, perhaps I just need to keep adding more in order to develop music. It might be the case that these 'guts' are all that I am listening to, and the other streams simply are weaving between the impulses. This might be an interesting conceptual route to take - whereby increasing space in the guts leaves room for more nuanced interruptions
