@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 982.0, 45.0, 698.0, 913.0 ],
+		"rect" : [ 720.0, 45.0, 720.0, 855.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 308.0, 493.0, 194.0, 22.0 ],
+					"text" : "cache_43_4_84.wav"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "button",
@@ -98,8 +110,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 4748.016326530617334, "ticks" ],
-						"originaltempo" : 120.000000000000114,
+						"originallength" : [ 20.549659863945649, "ticks" ],
+						"originaltempo" : 120.000000000000412,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -196,7 +208,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"items" : [ "Default_5.0.ReaperThemeZip_164.wav", ",", "Default_5.0.ReaperThemeZip_19.wav", ",", "cache_58_0_57.wav", ",", "cache_58_0_42.wav", ",", "cache_54_0_18.wav", ",", "cache_58_1_12.wav", ",", "cache_24_4_20.wav", ",", "cache_58_3_17.wav", ",", "cache_58_4_37.wav", ",", "cache_54_0_35.wav", ",", "data.mdb_81.wav", ",", "Default_5.0.ReaperThemeZip_22.wav", ",", "cache_48_0_40.wav", ",", "Default_5.0.ReaperThemeZip_113.wav", ",", "cache_54_1_11.wav", ",", "libLLVMX86Disassembler.a_5.wav", ",", "Default_5.0.ReaperThemeZip_52.wav", ",", "Default_5.0.ReaperThemeZip_91.wav", ",", "libLLVMX86Disassembler.a_7.wav", ",", "cache_72_0_60.wav", ",", "libLLVM.dylib_72.wav", ",", "cache_43_4_25.wav", ",", "Default_5.0.ReaperThemeZip_111.wav", ",", "5F27A37F1B485819B5EBE7C816D507670E3586F9_1.wav", ",", "Default_5.0.ReaperThemeZip_114.wav", ",", "Default_5.0.ReaperThemeZip_42.wav", ",", "Default_5.0.ReaperThemeZip_54.wav", ",", "cache_54_0_40.wav", ",", "libLLVM-6.0.dylib_135.wav", ",", "Default_5.0.ReaperThemeZip_102.wav", ",", "cache_36_1_2.wav", ",", "cache_36_1_3.wav", ",", "data.mdb_20.wav", ",", "libLLVM.dylib_74.wav", ",", "cache_58_0_27.wav", ",", "Default_5.0.ReaperThemeZip_55.wav", ",", "libLLVM-6.0.dylib_74.wav", ",", "net.ambisonictoolkit.pkg.ATKforReaper.bom_3.wav", ",", "cache_48_1_3.wav", ",", "Default_5.0.ReaperThemeZip_0.wav", ",", "libLLVM-6.0.dylib_72.wav", ",", "cache_72_0_78.wav", ",", "cache_24_4_8.wav", ",", "Default_5.0.ReaperThemeZip_77.wav", ",", "cache_43_1_4.wav", ",", "Default_5.0.ReaperThemeZip_146.wav", ",", "cache_48_0_28.wav", ",", "Default_5.0.ReaperThemeZip_39.wav", ",", "cache_43_3_1.wav", ",", "cache_48_4_1.wav", ",", "cache_36_4_31.wav", ",", "libLLVM.dylib_135.wav", ",", "cache_54_0_28.wav", ",", "cache_24_4_17.wav", ",", "Default_5.0.ReaperThemeZip_17.wav" ],
+					"items" : "cache_43_4_84.wav",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -527,7 +539,7 @@
 					"patching_rect" : [ 576.5, 631.0, 110.0, 188.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 527.0, 110.0, 188.0 ],
-					"tabs" : [ "2091", "727" ]
+					"tabs" : [ "2398", "1989", "2743", "714" ]
 				}
 
 			}
@@ -611,7 +623,7 @@
 					"patching_rect" : [ 576.5, 396.5, 110.0, 188.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 335.5, 110.0, 188.0 ],
-					"tabs" : [ "239", "748", "341", "174", "1272" ]
+					"tabs" : [ "189", "214" ]
 				}
 
 			}
@@ -1178,7 +1190,7 @@
 					"patching_rect" : [ 576.5, 158.0, 110.0, 188.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 136.0, 110.0, 188.0 ],
-					"tabs" : [ "9", "167" ]
+					"tabs" : [ "244", "106" ]
 				}
 
 			}
@@ -2278,12 +2290,12 @@
 					"patching_rect" : [ 123.5, 699.5, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -2298,7 +2310,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.5, 857.0, 45.0, 45.0 ]
+					"patching_rect" : [ 204.5, 745.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -2459,6 +2471,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"order" : 1,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -2525,8 +2546,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 161.499999999999972, 690.0, 108.0, 690.0, 108.0, 453.0, 133.499999999999972, 453.0 ],
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 161.499999999999972, 690.0, 108.0, 690.0, 108.0, 411.0, 133.499999999999972, 411.0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 
