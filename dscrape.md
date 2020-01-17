@@ -126,3 +126,14 @@ taking inspiration from unbuffered cluster exploration:
 Right now, the thing that is driving the music is your ears. What do you want to hear? Reflecting on today's composition session There needs to be a reconsideration of whwat it means to create blocks where two cluster blocks interact. The form is somewhat moving to a quite pulse oriented and call/answer mechanism to guide different bits of material. Perhaps it is about what happens in the gaps, and how long the gaps get. Maybe the gaps get super wide and the whole thing kind of 'unravels'.
 
 How can modify the relationship between the three rhythmic streams that comprise the guts of the work. Initially I enhanced them by creating a hybrid stream and adding this to the original two. This thickened the texture, perhaps I just need to keep adding more in order to develop music. It might be the case that these 'guts' are all that I am listening to, and the other streams simply are weaving between the impulses. This might be an interesting conceptual route to take - whereby increasing space in the guts leaves room for more nuanced interruptions
+
+## 20/12/19
+
+The FluCoMa tools provide a useful for mechanism for exploration - another kind of response.. this one is sonic rather than organisation, pattern based.
+
+Reperforming the same processing on an alreayd procesed file in order to make the algorithm search for things it has already 'found' but to also push it to its limits in a way that it finds things it is otherwise not designed to look for.
+
+
+`one thing to develop in the next project is a highly controlled sense of microrhythm where I have more control`
+
+There is a sense that there are parts of this that you want to feel like automata, and machine-like but it feels so heavily organised. There needs to be a committment made to either of these direcitons, and I think that *listening quietly*
