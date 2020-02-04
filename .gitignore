@@ -1,4 +1,5 @@
 # Folders
+*.wav
 
 .vscode
 DataAudio
