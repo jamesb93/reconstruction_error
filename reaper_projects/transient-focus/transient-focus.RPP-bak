@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.0/OSX64" 1576583789
+<REAPER_PROJECT 0.1 "6.0/OSX64" 1576589132
   <NOTES 0
     |This project deals with transients and the high pitched nature of some of the clusters.
     |It should be delicate, and subtle variation should feel massive
@@ -29,8 +29,8 @@
   TIMEMODE 8 5 0 30 0 -1 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 122.67470289013815
-  ZOOM 5.00021590065992 0 0
+  CURSOR 289.17681153519015
+  ZOOM 1.96419621955365 17 0
   VZOOMEX 3
   USE_REC_CFG 0
   RECMODE 1
@@ -7587,7 +7587,7 @@
       WAK 0 0
       BYPASS 0 0 0
       <JS sstillwell/fairlychildish ""
-        -22.600000 12.100000 0.000000 0.000000 3.000000 2.000000 1.000000 -0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        -38.100000 12.100000 0.000000 0.000000 3.000000 2.000000 1.000000 -0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {98894C8B-273E-EB4D-946E-ED8E89762B94}
@@ -7902,7 +7902,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 121 0 0
@@ -8256,7 +8256,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 116 0 0
