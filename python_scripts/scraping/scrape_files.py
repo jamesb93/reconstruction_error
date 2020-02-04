@@ -23,7 +23,7 @@ if not args.outfolder or not args.infolder:
 BAD_EXTS = ['.mov', '.avi', '.wmv', '.webm', '.flv', '.sock', '.wav', '.aiff', '.aif', '.mp3', '.mp4', '.wav', '.flac']
 MB_LIM = args.limit
 
-def convert(infile, outfile, encoding, bits, channels):
+def convert(infile: str, outfile: str, encoding: str, bits: int, channels: int):
     subprocess.Popen([
         'sox', 
         '-r', '44100', 
@@ -33,7 +33,7 @@ def convert(infile, outfile, encoding, bits, channels):
         infile, outfile
     ])
 
-def scrape(origin_directory, output_directory):
+def scrape(origin_directory: str, output_directory: str):
     current_size = 0.0
     crawler = os.walk(origin_directory)
     for root, dirs, files in crawler:

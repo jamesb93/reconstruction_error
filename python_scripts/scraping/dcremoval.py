@@ -10,7 +10,7 @@ filtered_folder = os.path.join(project_root, 'DataAudioUnique_DC')
 check_make(filtered_folder)
 num_jobs = len(unique_audio_files)
 
-def remove_dc(infile, outfile, hertz):
+def remove_dc(infile: str, outfile: str, hertz: int):
     sp.Popen([
         'sox',
         '-D',
@@ -20,7 +20,7 @@ def remove_dc(infile, outfile, hertz):
         'highpass',
         hertz,
     ])
-def process(idx):
+def process(idx: int):
         remove_dc(
             os.path.join(unique_audio_folder, unique_audio_files[idx]),
             os.path.join(filtered_folder, unique_audio_files[idx]),

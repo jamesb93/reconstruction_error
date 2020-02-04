@@ -26,7 +26,7 @@ input_files = os.listdir(input_folder)
 output_folder = args.outfolder
 check_make(output_folder)
 
-def explode(idx):
+def explode(idx: int):
     ## NoveltySlice on File
     novelty_src = os.path.join(input_folder, input_files[idx])
     novelty_indices = os.path.join(tmp_dir, f'{input_files[idx]}_slices.wav')
