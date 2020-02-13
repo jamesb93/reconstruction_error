@@ -15,17 +15,8 @@ level_three = read_json(level_three_path)
 level_four = read_json(level_four_path)
 
 
-
-def find_hierarchy(level_one, level_two, file_out):
-    '''
-    args:
-        level_one:
-            the top level dictionary containing clusters
-        level_two:
-            the next level dictionary containing clusters
-        file_out:
-            the path of the output file (json)
-    '''
+def find_hierarchy(level_one: dict, level_two: dict, file_out: str):
+    """Identify relationships between hierarchies of dictionary key/pairs"""
     results = {}
 
     for parent_cluster in level_one:

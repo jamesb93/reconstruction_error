@@ -30,7 +30,7 @@ output_json = os.path.join(analysis_data, args.outfile)
 # dict with shared memory between processes for writing out results
 mfcc_dict = mp.Manager().dict()
 
-def analyse(idx):
+def analyse(idx: int):
     # Setup paths/files etc
     mfcc_src        = os.path.join(input_folder, input_files[idx])
     mfcc_features   = os.path.join(tmp_dir, f'{input_files[idx]}_features.wav')

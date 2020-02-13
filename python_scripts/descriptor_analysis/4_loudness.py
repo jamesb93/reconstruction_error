@@ -23,7 +23,7 @@ tmp_dir = tempfile.mkdtemp()
 
 loudness_dict = mp.Manager().dict()
 
-def analyse(idx):
+def analyse(idx: int):
 
     key = unique_audio_files[idx]
     src = os.path.join(unique_audio_folder, key)

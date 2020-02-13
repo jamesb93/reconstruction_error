@@ -24,7 +24,7 @@ tmp_dir = tempfile.mkdtemp()
 ## Global Dicts for writing out results
 sfm_dict = mp.Manager().dict()
 
-def analyse(idx):
+def analyse(idx: int):
     ## Setup paths/files etc
     shape_src = os.path.join(unique_audio_folder, unique_audio_files[idx])
     shape_features = os.path.join(tmp_dir, f'{unique_audio_files[idx]}_features.wav')
