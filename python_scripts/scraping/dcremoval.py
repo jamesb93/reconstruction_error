@@ -10,7 +10,7 @@ filtered_folder = os.path.join(project_root, 'DataAudioUnique_DC')
 check_make(filtered_folder)
 num_jobs = len(unique_audio_files)
 
-def remove_dc(infile: str, outfile: str, hertz: int):
+def remove_dc(infile: str, outfile: str, hertz: str):
     sp.Popen([
         'sox',
         '-D',
@@ -18,7 +18,7 @@ def remove_dc(infile: str, outfile: str, hertz: int):
         infile,
         outfile,
         'highpass',
-        hertz,
+        hertz
     ])
 def process(idx: int):
         remove_dc(
@@ -32,4 +32,3 @@ with mp.Pool() as pool:
         pool.imap_unordered(process, range(num_jobs))
         , 1):
         sys.stderr.write('\rdone {0:%}'.format(i/num_jobs))
-    
