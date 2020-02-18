@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.0/OSX64" 1581608630
+<REAPER_PROJECT 0.1 "6.0/OSX64" 1581612268
   <NOTES 0
     |This project deals with transients and the high pitched nature of some of the clusters.
     |It should be delicate, and subtle variation should feel massive
@@ -29,8 +29,8 @@
   TIMEMODE 8 5 0 30 0 -1 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 190.71523134092499
-  ZOOM 4.26290021139775 27 0
+  CURSOR 65.72386893528488
+  ZOOM 4.56455173531241 0 0
   VZOOMEX 5
   USE_REC_CFG 0
   RECMODE 1
@@ -91,7 +91,7 @@
     DOCKED 0
     BYPASS 0 0 0
     <JS ReJJ-1.0.7/ReEQ.jsfx ""
-      0.000000 1.000000 0.000000 0.000000 0.000000 100.000000 3.000000 0.000000 0.000000 0.000000 3.000000 1.000000 2.000000 0.000000 0.000000 0.000000 2.000000 2.000000 0.000000 5.000000 94.305857 -10.503856 32.646474 0.000000 0.000000 0.000000 0.000000 30.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 40.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 - - - - - - - 
+      0.000000 1.000000 0.000000 0.000000 0.000000 100.000000 3.000000 0.000000 0.000000 0.000000 3.000000 1.000000 2.000000 0.000000 0.000000 0.000000 2.000000 2.000000 0.000000 5.000000 94.305857 -10.503856 32.646473 0.000000 0.000000 0.000000 0.000000 30.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 40.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 - - - - - - - 
     >
     <JS_SER
       AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2032,9 +2032,9 @@
     MAINSEND 1 0
     HWOUT 2 0 1 0 0 0 0 -1:U -1
     <FXCHAIN
-      WNDRECT 317 399 737 299
+      WNDRECT 317 59 1106 639
       SHOW 0
-      LASTSEL 2
+      LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
       <JS ReJJ-1.0.5/ReEQ.jsfx ""
@@ -2043,8 +2043,8 @@
       <JS_SER
         AAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA
         4zUbRmbd50PWGmRCiI8xQgVytEQAAAAAAAAAAAAAAAAAAJDBYi9YQJiFUcHfCY3B7Lh7QAAAAAAAAAAAAAAAAIEENT8kOrFAgQQ1P4EENT8Q65lAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJZnkD4P/5Q+2/d4P2o5dj8gcZw95+dnP+fnZz/n52c/
-        6HMNP9EA2D7IyEg+yMhIPmjkCT+WlpY+lpaWPpaWlj4cpVc+lCIoPyDwIj/m0A4/8g8HP4SEBD6EhAQ+hIQEPg==
+        AAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJZnkD4Q/5Q+3Pd4P2s5dj8hcZw96OdnP+jnZz/o52c/
+        6XMNP9IA2D7JyEg+ychIPmjkCT+XlpY+l5aWPpeWlj4dpVc+lSIoPyDwIj/m0A4/8w8HP4WEBD6FhAQ+hYQEPg==
       >
       FLOATPOS 0 0 0 0
       FXID {BAAEF333-BA0E-5748-B1B0-CEBAB37C179F}
@@ -2089,7 +2089,7 @@
       CHANMODE 0
       GUID {333CB5A2-3E27-B045-AFB8-423DF71A6E2A}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/478967115deegvatroootlss--cans.sqlite_3.wav"
+        FILE "audio_files/478967115deegvatroootlss--cans.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2111,7 +2111,7 @@
       CHANMODE 0
       GUID {E23182A5-C8A7-E74E-83BB-F8A629CAC401}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/437107801ddma_ethyape.sqlite_4.wav"
+        FILE "audio_files/437107801ddma_ethyape.sqlite_4.wav"
       >
     >
     <ITEM
@@ -2133,7 +2133,7 @@
       CHANMODE 0
       GUID {CC92DC7F-F621-174C-B204-AB65283ABA5A}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3870112724rsegmnoittet-es.sqlite_2.wav"
+        FILE "audio_files/3870112724rsegmnoittet-es.sqlite_2.wav"
       >
     >
     <ITEM
@@ -2155,7 +2155,7 @@
       CHANMODE 0
       GUID {635A65DA-E71C-9F41-9B0D-BEDEBF58E70E}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Live-files-34.db_2.wav"
+        FILE "audio_files/Live-files-34.db_2.wav"
       >
     >
     <ITEM
@@ -2177,7 +2177,7 @@
       CHANMODE 0
       GUID {82765192-6E2C-3A45-B3B1-BA0847A151DB}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db_6.wav"
+        FILE "audio_files/PCSAnalytics.db_6.wav"
       >
     >
     <ITEM
@@ -2199,7 +2199,7 @@
       CHANMODE 0
       GUID {09030A92-E7F8-E042-B03E-084834CEA080}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/itunesstored_private.sqlitedb_4.wav"
+        FILE "audio_files/itunesstored_private.sqlitedb_4.wav"
       >
     >
     <ITEM
@@ -2221,7 +2221,7 @@
       CHANMODE 0
       GUID {6605E914-6EF8-934A-B3F8-C07C7DAA7FF2}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/client.db_55.wav"
+        FILE "audio_files/client.db_55.wav"
       >
     >
     <ITEM
@@ -2243,7 +2243,7 @@
       CHANMODE 0
       GUID {39228B22-6E82-7540-8FC2-9AA4D77857EF}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db_4.wav"
+        FILE "audio_files/PCSAnalytics.db_4.wav"
       >
     >
     <ITEM
@@ -2265,7 +2265,7 @@
       CHANMODE 0
       GUID {CF5061B9-C096-CA4B-A576-982293AF1E1D}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_169.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_169.wav"
       >
     >
     <ITEM
@@ -2287,7 +2287,7 @@
       CHANMODE 0
       GUID {4A80F88C-D1C5-D742-81D2-BE0AC06E8A93}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Live-files-34.db_1.wav"
+        FILE "audio_files/Live-files-34.db_1.wav"
       >
     >
     <ITEM
@@ -2309,7 +2309,7 @@
       CHANMODE 0
       GUID {BE49E6E0-00A4-2B43-8776-10A592047208}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_115.wav"
+        FILE "audio_files/libLLVM.dylib_115.wav"
       >
     >
     <ITEM
@@ -2331,7 +2331,7 @@
       CHANMODE 0
       GUID {B7B8F8FC-4762-3146-B05B-C1650E17C2B5}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/437107801ddma_ethyape.sqlite_3.wav"
+        FILE "audio_files/437107801ddma_ethyape.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2353,7 +2353,7 @@
       CHANMODE 0
       GUID {36127EDE-FA70-4C48-AAC8-7B76596ABEC1}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/cache_54_4_47.wav"
+        FILE "audio_files/cache_54_4_47.wav"
       >
     >
     <ITEM
@@ -2375,7 +2375,7 @@
       CHANMODE 0
       GUID {6C8BBB8E-3B5A-2944-A9FA-3535A57E53C4}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/1397314265mpaoitny%p2pFit.sqlite_3.wav"
+        FILE "audio_files/1397314265mpaoitny%p2pFit.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2397,7 +2397,7 @@
       CHANMODE 0
       GUID {2B17693E-DE20-A344-B9F1-29B77B8C638C}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Bookmarks.db_2.wav"
+        FILE "audio_files/Bookmarks.db_2.wav"
       >
     >
     <ITEM
@@ -2419,7 +2419,7 @@
       CHANMODE 0
       GUID {DDB704DE-286C-0E42-8C23-DB447F8E0512}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/ABAssistantChangelog.aclcddb-wal_101.wav"
+        FILE "audio_files/ABAssistantChangelog.aclcddb-wal_101.wav"
       >
     >
     <ITEM
@@ -2441,7 +2441,7 @@
       CHANMODE 0
       GUID {1194DA02-3741-9647-B277-1C8EC1820972}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/cache_54_4_46.wav"
+        FILE "audio_files/cache_54_4_46.wav"
       >
     >
     <ITEM
@@ -2463,7 +2463,7 @@
       CHANMODE 0
       GUID {5E7D9252-A63B-104D-8FC6-EA318C7D8BA8}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/itunesstored_private.sqlitedb-shm_2.wav"
+        FILE "audio_files/itunesstored_private.sqlitedb-shm_2.wav"
       >
     >
     <ITEM
@@ -2485,7 +2485,7 @@
       CHANMODE 0
       GUID {3B915FB6-29B7-F946-97D2-B84088A120E9}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_103.wav"
+        FILE "audio_files/libLLVM.dylib_103.wav"
       >
     >
     <ITEM
@@ -2507,7 +2507,7 @@
       CHANMODE 0
       GUID {97EFADC1-8A70-3A45-A4D9-FD190E2C7940}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/1593787212uysretrs_irge.sqlite_3.wav"
+        FILE "audio_files/1593787212uysretrs_irge.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2529,7 +2529,7 @@
       CHANMODE 0
       GUID {49F7E15D-7139-E947-B49C-C3DBDFDFA26F}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_256.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_256.wav"
       >
     >
     <ITEM
@@ -2551,7 +2551,7 @@
       CHANMODE 0
       GUID {A16945A6-95B9-7644-8F70-6F65DEB44CB5}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/2192680192cbvdp--mwsa.sqlite_3.wav"
+        FILE "audio_files/2192680192cbvdp--mwsa.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2573,7 +2573,7 @@
       CHANMODE 0
       GUID {753AF88A-AD86-8543-9B97-26CFD65077E7}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_73.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_73.wav"
       >
     >
     <ITEM
@@ -2595,7 +2595,7 @@
       CHANMODE 0
       GUID {FA778D09-5A1C-754D-8BC9-23F75EE24617}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/desktoppicture.db_3.wav"
+        FILE "audio_files/desktoppicture.db_3.wav"
       >
     >
     <ITEM
@@ -2617,7 +2617,7 @@
       CHANMODE 0
       GUID {7B3264FD-9938-5148-84E0-9A68F29272CD}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/AddressBook.sqlitedb-shm_1.wav"
+        FILE "audio_files/AddressBook.sqlitedb-shm_1.wav"
       >
     >
     <ITEM
@@ -2639,7 +2639,7 @@
       CHANMODE 0
       GUID {3D2DE2A8-3D8A-E44C-9D5A-763C32D93099}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/2728594770keeryovtasl-.sqlite_3.wav"
+        FILE "audio_files/2728594770keeryovtasl-.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2661,7 +2661,7 @@
       CHANMODE 0
       GUID {593C4992-D127-184F-88B8-EE706E2679E8}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_97.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_97.wav"
       >
     >
     <ITEM
@@ -2683,7 +2683,7 @@
       CHANMODE 0
       GUID {063ABD0E-16BF-394A-B62E-FA1E2A6041E1}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/2323548853sewsDaabta.sqlite_3.wav"
+        FILE "audio_files/2323548853sewsDaabta.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2705,7 +2705,7 @@
       CHANMODE 0
       GUID {E90D3E88-E52F-7444-AE32-D235204B0186}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Extras.db_5.wav"
+        FILE "audio_files/Extras.db_5.wav"
       >
     >
     <ITEM
@@ -2727,7 +2727,7 @@
       CHANMODE 0
       GUID {F102E258-1B24-B249-9702-257381545B53}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/61413404gyreekansoem.sqlite_3.wav"
+        FILE "audio_files/61413404gyreekansoem.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2749,7 +2749,7 @@
       CHANMODE 0
       GUID {3586BEEF-E06F-8843-BE0F-BFF2BB66F9B4}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_81.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_81.wav"
       >
     >
     <ITEM
@@ -2771,7 +2771,7 @@
       CHANMODE 0
       GUID {1BF43E3A-61EF-6F46-9759-C7809CE04FAA}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_137.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_137.wav"
       >
     >
     <ITEM
@@ -2793,7 +2793,7 @@
       CHANMODE 0
       GUID {2EBC7FBB-2979-4F4F-86AD-F0A6F025E571}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/psi.sqlite_15.wav"
+        FILE "audio_files/psi.sqlite_15.wav"
       >
     >
     <ITEM
@@ -2815,7 +2815,7 @@
       CHANMODE 0
       GUID {138D3B8F-49B5-AF49-9AC4-0C6822C8B29C}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/notes.sqlite_8.wav"
+        FILE "audio_files/notes.sqlite_8.wav"
       >
     >
     <ITEM
@@ -2837,7 +2837,7 @@
       CHANMODE 0
       GUID {B2D6192F-9272-0149-BA44-FBF043CAA8CD}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3561288849sdhlie.sqlite_3.wav"
+        FILE "audio_files/3561288849sdhlie.sqlite_3.wav"
       >
     >
     <ITEM
@@ -2859,7 +2859,7 @@
       CHANMODE 0
       GUID {F02BC5CE-FBF1-7142-93BE-F6BFBD0255C4}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_75.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_75.wav"
       >
     >
     <ITEM
@@ -2881,7 +2881,7 @@
       CHANMODE 0
       GUID {7AA43D6D-0D3C-4B42-87E9-A598784052D8}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_127.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_127.wav"
       >
     >
     <ITEM
@@ -2903,7 +2903,7 @@
       CHANMODE 0
       GUID {6C33BC00-63E8-5146-91D7-E528D18FED4B}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_91.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_91.wav"
       >
     >
     <ITEM
@@ -2925,7 +2925,7 @@
       CHANMODE 0
       GUID {AAD0B552-C563-A74C-8F58-CDA2A6CEC3EE}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_109.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_109.wav"
       >
     >
     <ITEM
@@ -2947,7 +2947,7 @@
       CHANMODE 0
       GUID {F4473801-6B70-614F-8BA2-26A4816671AF}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_93.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_93.wav"
       >
     >
     <ITEM
@@ -2969,7 +2969,7 @@
       CHANMODE 0
       GUID {A0087D15-2AC7-7849-9408-AA7069D0E644}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_87.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_87.wav"
       >
     >
     <ITEM
@@ -2991,7 +2991,7 @@
       CHANMODE 0
       GUID {0F850141-8F62-D64A-A03C-3E416DA34DF4}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/downloads.28.sqlitedb-wal_49.wav"
+        FILE "audio_files/downloads.28.sqlitedb-wal_49.wav"
       >
     >
     <ITEM
@@ -3013,7 +3013,7 @@
       CHANMODE 0
       GUID {31FF1626-BA03-7845-8719-05B761590318}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/caches.sqlite_3.wav"
+        FILE "audio_files/caches.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3035,7 +3035,7 @@
       CHANMODE 0
       GUID {5AE73EB9-2CB0-3A46-A368-73C6CEC5A59B}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3282182777SeegravriocteSWconryk.sqlite_3.wav"
+        FILE "audio_files/3282182777SeegravriocteSWconryk.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3057,7 +3057,7 @@
       CHANMODE 0
       GUID {11A546A6-CD90-2749-832C-4B8D94BE6227}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_86.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_86.wav"
       >
     >
     <ITEM
@@ -3079,7 +3079,7 @@
       CHANMODE 0
       GUID {F77F2B50-CEA2-1D44-9F63-48FC0EE1AFE6}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_115.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_115.wav"
       >
     >
     <ITEM
@@ -3101,7 +3101,7 @@
       CHANMODE 0
       GUID {FA33AAAC-1A66-CC4F-9542-9E16744A9B2A}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_86.wav"
+        FILE "audio_files/libLLVM.dylib_86.wav"
       >
     >
     <ITEM
@@ -3123,7 +3123,7 @@
       CHANMODE 0
       GUID {4C951329-6460-8647-B063-AB5E5D286410}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_93.wav"
+        FILE "audio_files/libLLVM.dylib_93.wav"
       >
     >
     <ITEM
@@ -3145,7 +3145,7 @@
       CHANMODE 0
       GUID {4FD944F2-0F24-6A4A-A3A3-79540BAF4D26}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_87.wav"
+        FILE "audio_files/libLLVM.dylib_87.wav"
       >
     >
     <ITEM
@@ -3167,7 +3167,7 @@
       CHANMODE 0
       GUID {B4EDDA41-5577-9E4B-A276-5498CD47DB44}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Photos.sqlite_22.wav"
+        FILE "audio_files/Photos.sqlite_22.wav"
       >
     >
     <ITEM
@@ -3189,7 +3189,7 @@
       CHANMODE 0
       GUID {335701C3-D8B9-2F4E-8C4F-295753065E93}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/ABAssistantChangelog.aclcddb-wal_57.wav"
+        FILE "audio_files/ABAssistantChangelog.aclcddb-wal_57.wav"
       >
     >
     <ITEM
@@ -3211,7 +3211,7 @@
       CHANMODE 0
       GUID {C30A6FD9-8174-6747-9D95-4034513A591D}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_91.wav"
+        FILE "audio_files/libLLVM.dylib_91.wav"
       >
     >
     <ITEM
@@ -3233,7 +3233,7 @@
       CHANMODE 0
       GUID {7B12F6C4-1D94-7544-BF94-3167992EED23}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3899588440psinninpiFn2g%.sqlite_3.wav"
+        FILE "audio_files/3899588440psinninpiFn2g%.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3255,7 +3255,7 @@
       CHANMODE 0
       GUID {B5A60711-7D8D-0F41-A2D9-E493B62A3DE6}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/VSSubscriptions.sqlite_5.wav"
+        FILE "audio_files/VSSubscriptions.sqlite_5.wav"
       >
     >
     <ITEM
@@ -3277,7 +3277,7 @@
       CHANMODE 0
       GUID {9276EB8F-C12D-B646-BDD8-AE90EFD9E196}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_275.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_275.wav"
       >
     >
     <ITEM
@@ -3299,7 +3299,7 @@
       CHANMODE 0
       GUID {FFDB8A3D-2FB5-BC4A-BF4C-BEEA1F5E12B1}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_103.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_103.wav"
       >
     >
     <ITEM
@@ -3321,7 +3321,7 @@
       CHANMODE 0
       GUID {608F169E-75C6-8342-9C8B-3ADDF184640E}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/notes.sqlite_18.wav"
+        FILE "audio_files/notes.sqlite_18.wav"
       >
     >
     <ITEM
@@ -3343,7 +3343,7 @@
       CHANMODE 0
       GUID {5F46D651-9E91-3545-9EA5-CCF8D63BE8BE}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/1059394878bslnoicgkullipsFt2s%.sqlite_3.wav"
+        FILE "audio_files/1059394878bslnoicgkullipsFt2s%.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3365,7 +3365,7 @@
       CHANMODE 0
       GUID {C8D4E74B-8950-D94C-AF47-65E75AC288A6}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3345959086bslnoocdkdlaiFs2t%s.sqlite_3.wav"
+        FILE "audio_files/3345959086bslnoocdkdlaiFs2t%s.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3387,7 +3387,7 @@
       CHANMODE 0
       GUID {A5C41D2A-1192-2B41-97D3-BB23FAFEAE06}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_81.wav"
+        FILE "audio_files/libLLVM.dylib_81.wav"
       >
     >
     <ITEM
@@ -3409,7 +3409,7 @@
       CHANMODE 0
       GUID {0717080F-8EAF-024C-BE76-6C235918C298}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3647222921wleabcEoxlt-eengsairo.sqlite_3.wav"
+        FILE "audio_files/3647222921wleabcEoxlt-eengsairo.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3431,7 +3431,7 @@
       CHANMODE 0
       GUID {B7745CF0-F549-7E46-BF15-BB6799E52EE3}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/727688008bsleotcakcliifsittsr%.sqlite_3.wav"
+        FILE "audio_files/727688008bsleotcakcliifsittsr%.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3453,7 +3453,7 @@
       CHANMODE 0
       GUID {D9EEC353-8707-0045-AE4E-A2D63D928F0B}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_97.wav"
+        FILE "audio_files/libLLVM.dylib_97.wav"
       >
     >
     <ITEM
@@ -3475,7 +3475,7 @@
       CHANMODE 0
       GUID {406677D0-C74C-514F-A8B4-E8E74377BEAF}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_105.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_105.wav"
       >
     >
     <ITEM
@@ -3497,7 +3497,7 @@
       CHANMODE 0
       GUID {8AAA7D7E-ECC0-924C-90F2-386C32678E11}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/ABAssistantChangelog.aclcddb-wal_78.wav"
+        FILE "audio_files/ABAssistantChangelog.aclcddb-wal_78.wav"
       >
     >
     <ITEM
@@ -3519,7 +3519,7 @@
       CHANMODE 0
       GUID {0CAC6434-459B-E445-A577-AAA0519009FF}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM-6.0.dylib_115.wav"
+        FILE "audio_files/libLLVM-6.0.dylib_115.wav"
       >
     >
     <ITEM
@@ -3541,7 +3541,7 @@
       CHANMODE 0
       GUID {0CFB55E7-256B-F149-9F6A-B1CD18032C52}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_267.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_267.wav"
       >
     >
     <ITEM
@@ -3563,7 +3563,7 @@
       CHANMODE 0
       GUID {7279A7B8-5635-1543-9AB4-B61DCA463DD6}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/SiriAnalytics.db_2.wav"
+        FILE "audio_files/SiriAnalytics.db_2.wav"
       >
     >
     <ITEM
@@ -3585,7 +3585,7 @@
       CHANMODE 0
       GUID {A4388090-986B-CD45-927A-50286D2F2E91}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/cache_54_4_63.wav"
+        FILE "audio_files/cache_54_4_63.wav"
       >
     >
     <ITEM
@@ -3607,7 +3607,7 @@
       CHANMODE 0
       GUID {67D58E24-0C1D-304B-ACFA-65AC3C167AF5}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Calendar.sqlitedb_55.wav"
+        FILE "audio_files/Calendar.sqlitedb_55.wav"
       >
     >
     <ITEM
@@ -3629,7 +3629,7 @@
       CHANMODE 0
       GUID {E2318F59-0527-7F46-A8D8-9717C8C952C3}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/cache_54_4_62.wav"
+        FILE "audio_files/cache_54_4_62.wav"
       >
     >
     <ITEM
@@ -3651,7 +3651,7 @@
       CHANMODE 0
       GUID {B3BB61B3-9961-6540-9A62-6B8C237CC17B}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3966727148sswnnooittiafci.sqlite_3.wav"
+        FILE "audio_files/3966727148sswnnooittiafci.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3673,7 +3673,7 @@
       CHANMODE 0
       GUID {A05D688B-5368-024F-8C1D-CEE4EC524B07}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Photos.sqlite_82.wav"
+        FILE "audio_files/Photos.sqlite_82.wav"
       >
     >
     <ITEM
@@ -3695,7 +3695,7 @@
       CHANMODE 0
       GUID {CC01B873-5D8C-D549-BF5E-DBE4007843E6}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db-wal_405.wav"
+        FILE "audio_files/PCSAnalytics.db-wal_405.wav"
       >
     >
     <ITEM
@@ -3717,7 +3717,7 @@
       CHANMODE 0
       GUID {3C2AECDE-808D-364B-A14B-0BE8FAD4E5F0}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/cache_58_3_32.wav"
+        FILE "audio_files/cache_58_3_32.wav"
       >
     >
     <ITEM
@@ -3739,7 +3739,7 @@
       CHANMODE 0
       GUID {0854CB77-B214-6E42-9075-0FFEBBFEA670}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3312185054sbndi_pspte.sqlite_3.wav"
+        FILE "audio_files/3312185054sbndi_pspte.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3761,7 +3761,7 @@
       CHANMODE 0
       GUID {A1909896-B681-FF4B-8BEE-5962ECFE74F9}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/cache_54_4_49.wav"
+        FILE "audio_files/cache_54_4_49.wav"
       >
     >
     <ITEM
@@ -3783,7 +3783,7 @@
       CHANMODE 0
       GUID {3A751089-A473-4A49-9FF7-26A4686F3DA2}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/VSSubscriptions.sqlite_13.wav"
+        FILE "audio_files/VSSubscriptions.sqlite_13.wav"
       >
     >
     <ITEM
@@ -3805,7 +3805,7 @@
       CHANMODE 0
       GUID {FBCA8759-95CE-C845-98D3-8B02C22C66A5}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/knowledgeC.db_12.wav"
+        FILE "audio_files/knowledgeC.db_12.wav"
       >
     >
     <ITEM
@@ -3827,7 +3827,7 @@
       CHANMODE 0
       GUID {D2AECDEA-CAB1-834A-BC56-5A33DE40584D}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/3932499597rxeud.sqlite_3.wav"
+        FILE "audio_files/3932499597rxeud.sqlite_3.wav"
       >
     >
     <ITEM
@@ -3849,7 +3849,7 @@
       CHANMODE 0
       GUID {74F4CC57-2135-CE40-B690-E994C510328D}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Photos.sqlite_87.wav"
+        FILE "audio_files/Photos.sqlite_87.wav"
       >
     >
     <ITEM
@@ -3871,7 +3871,7 @@
       CHANMODE 0
       GUID {5A212203-F18D-D249-A5F4-5547EAC3902A}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/2753419432nreetyfallipx..sqlite_3.wav"
+        FILE "audio_files/2753419432nreetyfallipx..sqlite_3.wav"
       >
     >
     <ITEM
@@ -3893,7 +3893,7 @@
       CHANMODE 0
       GUID {E6127900-505E-1346-8B41-A3C4B031B4B7}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Photos.sqlite_86.wav"
+        FILE "audio_files/Photos.sqlite_86.wav"
       >
     >
     <ITEM
@@ -3915,7 +3915,7 @@
       CHANMODE 0
       GUID {D043AFF6-B0B3-3948-8360-BFF3AD10F79A}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/Notifications.db_6.wav"
+        FILE "audio_files/Notifications.db_6.wav"
       >
     >
     <ITEM
@@ -3937,7 +3937,7 @@
       CHANMODE 0
       GUID {2E9E48E1-1E86-4541-A4AE-80A573FBBBC3}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/PCSAnalytics.db_9.wav"
+        FILE "audio_files/PCSAnalytics.db_9.wav"
       >
     >
     <ITEM
@@ -3959,7 +3959,7 @@
       CHANMODE 0
       GUID {95E7A6AA-8CD3-9742-BD00-CFA9EF0593C5}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/cache_54_4_58.wav"
+        FILE "audio_files/cache_54_4_58.wav"
       >
     >
     <ITEM
@@ -3981,7 +3981,7 @@
       CHANMODE 0
       GUID {96B7D650-34F1-1B4A-86BD-05284168E4B0}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/libLLVM.dylib_109.wav"
+        FILE "audio_files/libLLVM.dylib_109.wav"
       >
     >
     <ITEM
@@ -4003,7 +4003,7 @@
       CHANMODE 0
       GUID {251D6A54-48E0-324A-A402-522E0A8D2C83}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/downloads.28.sqlitedb-wal_37.wav"
+        FILE "audio_files/downloads.28.sqlitedb-wal_37.wav"
       >
     >
     <ITEM
@@ -4025,7 +4025,7 @@
       CHANMODE 0
       GUID {4DA0EE76-5FC7-5742-8D1A-61B7C2314243}
       <SOURCE WAVE
-        FILE "/Users/james/dev/data_bending/reaper_projects/danceabilityone/audio_files/1725441852bxlfogcFk2l%isst.sqlite_3.wav"
+        FILE "audio_files/1725441852bxlfogcFk2l%isst.sqlite_3.wav"
       >
     >
     <ITEM
@@ -7588,7 +7588,7 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 0 373 737 266
+      WNDRECT 0 373 738 266
       SHOW 0
       LASTSEL 1
       DOCKED 0
@@ -7607,7 +7607,7 @@
       WAK 0 0
       BYPASS 0 0 0
       <JS sstillwell/fairlychildish ""
-        -38.100000 12.100000 0.000000 0.000000 3.000000 2.000000 26.020177 16.140948 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        -22.600000 12.100000 0.000000 0.000000 3.000000 2.000000 12.433468 3.223368 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {98894C8B-273E-EB4D-946E-ED8E89762B94}
