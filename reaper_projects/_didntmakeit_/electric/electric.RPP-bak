@@ -1,0 +1,1387 @@
+<REAPER_PROJECT 0.1 "5.983/OSX64" 1571407154
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3184 8 1 8 1 0 0 0
+  TIMEMODE 0 5 -1 30 0 -1 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 32.99074152891198 0 0
+  VZOOMEX 6
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "audio_files" ""
+  <RECORD_CFG
+    ZXZhdyABAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  MISCOPTS 2
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERFXLIST
+    WNDRECT 32 1066 709 319
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    <VST "VST: ReaVerbate (Cockos)" reaverbate.vst.dylib 0 "" 1920361016 ""
+      OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAAAAA
+      776t3g3wrd6Zr78+AACAP6Q1Fj7dtQQ9LbIdPwAAAAAq5i4/tTEPOw==
+      AHNpbmsgLSBkaXNjcmV0ZSByb29tAAAAAAA=
+    >
+    PRESETNAME "sink - discrete room"
+    FLOATPOS 0 0 0 0
+    FXID {3956C3C4-FA3D-F647-906A-1C20474CEC99}
+    WAK 0
+  >
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 33.01804616541616 stability 0 0 1 B
+  <PROJBAY
+  >
+  <TRACK {C9EA7739-0EF1-3C4A-8643-A6A79CF979F5}
+    NAME en-search.cache_7
+    PEAKCOL 33552328
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.21871375624299 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 83 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C9EA7739-0EF1-3C4A-8643-A6A79CF979F5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 9.75244897960562
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 9.752449 0 2 0 1
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {15DE6A08-2A83-8E41-9278-5AA51AB9DBCB}
+      IID 867
+      NAME en-search.cache_6-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {20DE7F53-02BF-7041-AAE6-4A0858CFE25A}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_6-glued.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.75244897960562
+      SNAPOFFS 0
+      LENGTH 1.04489795918367
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {11B4A18B-51AF-FC47-933C-D47BBBC9E895}
+      IID 116
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2EC2074C-CDEC-1643-81B3-E67A6BE1142A}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.79734693878929
+      SNAPOFFS 0
+      LENGTH 0.95204081632653
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D90C448F-ED73-A448-8D45-B867565CA146}
+      IID 117
+      NAME en-search.cache_6.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CF77BD31-1095-5840-925D-636E31AB938F}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_6.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.74938775509729
+      SNAPOFFS 0
+      LENGTH 1.6021768707483
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0D92EA34-7D09-3D4B-BEC2-A5806FEE2B41}
+      IID 118
+      NAME en-search.cache_8.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F15D305C-3BA1-C94E-B9BA-3C467A5F44A8}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_8.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.35156462584559
+      SNAPOFFS 0
+      LENGTH 1.04489795918367
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6DBD801E-4FB9-3041-A347-1BF647F4F776}
+      IID 848
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88A90C84-8419-4A4B-8695-6927BD28C9D5}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 14.39646258502925
+      SNAPOFFS 0
+      LENGTH 0.95204081632653
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {59044C5D-A853-F94A-B64C-47AE42CE9C6A}
+      IID 849
+      NAME en-search.cache_6.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {562D03FF-9622-F343-B00C-58D9007488E7}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_6.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.34850340133725
+      SNAPOFFS 0
+      LENGTH 1.6021768707483
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {5B579E4C-52AB-974C-BC90-DA9B1F187212}
+      IID 850
+      NAME en-search.cache_8.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5C48F9E6-9AA0-294B-AC80-4CBA3454B2C1}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_8.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.95068027208555
+      SNAPOFFS 0
+      LENGTH 1.04489795918367
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {226D578A-8002-F84B-A89C-AF01718A622B}
+      IID 851
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2AFC5E92-50A6-C442-BC8A-0C8ACC17D1A5}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.99557823126922
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E8417AB0-5F35-F24E-97D6-2AC9EC9458BC}
+      IID 852
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9886C38F-3CB3-0B45-AECE-B50A4BD7D520}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.0404761904529
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0C1BFFD2-0D45-E040-A5CB-3D71FF267D19}
+      IID 853
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2C9521B6-85D7-7042-8C6D-8FCFE773385A}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 20.08537414963657
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {87E58D1C-7705-9541-8C21-CC3E6096490F}
+      IID 854
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {104D857B-93C7-BA4D-A0E0-003F07D9B191}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 21.13027210882025
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CB944CEC-55E6-5945-869E-CE1228BE6578}
+      IID 855
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F0CD1943-5C3C-F345-B63A-F7D2ECC1167B}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 22.17517006800392
+      SNAPOFFS 0
+      LENGTH 1.04489795918367
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D6040BEF-CD67-1743-A40F-CCEA04B4FA09}
+      IID 119
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD1BFA9E-A329-0F41-8438-224B1D74D63B}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 23.22006802718758
+      SNAPOFFS 0
+      LENGTH 0.95204081632653
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C77F8CAC-1CB8-A446-8823-69FC815581E7}
+      IID 787
+      NAME en-search.cache_6.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BE0FC2C2-D09F-CD4F-97B5-4B2E672447F9}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_6.wav"
+      >
+    >
+    <ITEM
+      POSITION 24.17210884349558
+      SNAPOFFS 0
+      LENGTH 1.6021768707483
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {657F16BB-90E4-E14E-9A29-716FBF01A51B}
+      IID 789
+      NAME en-search.cache_8.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2DAB05A4-EC0C-914E-AB4A-95C53934F0FF}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_8.wav"
+      >
+    >
+    <ITEM
+      POSITION 25.77428571424388
+      SNAPOFFS 0
+      LENGTH 1.04489795918367
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4B9C210A-ECA1-A548-88A7-C4E782B6BBA8}
+      IID 835
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A4581A0C-6F0D-934F-9D27-13DBEFC97C1D}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 26.81918367342755
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0A0DA212-3DE9-034F-B39F-8A2B6F2E7142}
+      IID 836
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {09DFBF89-F962-2046-95E3-000CDA364DBF}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 27.86408163261123
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F0D963BC-32A5-2C40-AE83-090CF7D43AF1}
+      IID 837
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6A38D1F5-4A2D-2B45-8EBF-B69A41B00649}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 28.9089795917949
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F3AEB651-F123-AA41-B94B-D1C83F737119}
+      IID 838
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {17F1228A-2894-AB4B-808E-51A9461DFCAE}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 29.95387755097858
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6876E754-C49C-B846-A179-A9FE9CCDD979}
+      IID 856
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C7343D3-E0E0-0444-AB0C-E089B8D9C9F6}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 30.99877551016225
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {59644161-9E32-A249-A63E-0A85D02B0111}
+      IID 857
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {68C6A64E-F220-2D43-B6CE-AD048E33A950}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 32.04367346934593
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AA6B0F7E-B407-F44E-A401-28989339CE00}
+      IID 860
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {24AEB868-FE6E-8F48-8CB8-751A563672D0}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 33.08857142852961
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6790E0A5-0D3D-BA45-8E88-77B3F8671BF8}
+      IID 861
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5E7AB19-0222-CB42-9CC6-4BA591E14063}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 34.13346938771329
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EAD2D03D-50E5-6541-AA38-D15BE015FB7E}
+      IID 862
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31C2A597-FFC2-0A4C-BF51-8A261EAC1978}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 35.17836734689697
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {714469BF-3C50-1242-BF9C-63742CC991D3}
+      IID 863
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B008345B-F876-3846-AA61-F2C006283A0D}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 36.22326530608065
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {26AB8028-20AF-9841-83B4-348F8B2179AC}
+      IID 864
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {846868AC-B1FE-974D-824D-1B91EBF7A11A}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 37.26816326526433
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F3CFE589-E1E0-E24B-BE6C-81F91678D0D2}
+      IID 865
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3DE90CED-6FFB-3B4F-AA9A-24650D59D248}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 38.31306122444801
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8396B6FD-E832-CC48-90AD-CC142B9549F4}
+      IID 866
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F33B922B-5286-6440-8FA4-532F1D2AF77F}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 39.35795918363169
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7433FE67-E380-004C-BDC9-C6E10EE5520C}
+      IID 868
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BF731C05-171A-2249-872F-5B5ED9E72A95}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+    <ITEM
+      POSITION 40.40285714281536
+      SNAPOFFS 0
+      LENGTH 1.04489795918368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DC73983C-2652-B645-9517-29F6617A3297}
+      IID 788
+      NAME en-search.cache_7.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {451097A0-BDBA-9142-A128-79919470D14D}
+      <SOURCE WAVE
+        FILE "audio_files/en-search.cache_7.wav"
+      >
+    >
+  >
+  <TRACK {0E8B88F4-E19C-CD49-B78C-7F03BD524CC8}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.67365116373859 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0E8B88F4-E19C-CD49-B78C-7F03BD524CC8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 9.75244897960562
+      SNAPOFFS 0
+      LENGTH 1.37798185941043
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {480999C6-9B5C-6B40-AB38-8D037387B536}
+      IID 89
+      NAME 261.wav.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3EEF78AC-08B2-9541-80B2-07D58FA1D445}
+      <SOURCE WAVE
+        FILE "audio_files/261.wav.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.13043083901605
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6A2E911F-D597-E646-B8AA-53F1A528D9C2}
+      IID 846
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74CDA27C-85B5-6D4D-B8AC-5291CE23A883}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.26242630386866
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F9A564BE-2E4A-8446-AC47-E0635AC3110C}
+      IID 844
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A0D0AAAF-2570-BD46-8FF3-540F33FDCB52}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.39442176872127
+      SNAPOFFS 0
+      LENGTH 1.1319954648526
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {29D20E1E-B31D-2944-BD00-C49E66EA2BDD}
+      IID 104
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AA3FDDE0-22B1-1B47-AC92-6EA864232051}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 14.52641723357387
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0A006D2E-E330-084C-AE3C-5569FCA7A1CD}
+      IID 842
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0F4CE96F-C5E0-334A-A3D1-8E52235120E3}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.65841269842651
+      SNAPOFFS 0
+      LENGTH 1.34798185941043
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7D28E3E0-58D6-E947-9729-3268E4F01115}
+      IID 847
+      NAME layer_1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3BE73603-2C78-BD42-B782-EDE8F9599701}
+      <SOURCE WAVE
+        FILE "audio_files/layer_1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.00639455783693
+      SNAPOFFS 0
+      LENGTH 1.34798185941041
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A0C29D90-5E31-F04E-BC9E-F7D32DAC9E43}
+      IID 839
+      NAME layer_1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E131F80B-DFB6-0746-8F65-6094B4E9C747}
+      <SOURCE WAVE
+        FILE "audio_files/layer_1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 18.35437641724736
+      SNAPOFFS 0
+      LENGTH 1.18698412698415
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EF00BF3F-17B4-0A49-A38E-C49DF3CA4EBB}
+      IID 82
+      NAME 0-019-glued-01.wav.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5370626B-B9E7-AF4C-9D01-379089CE8246}
+      <SOURCE WAVE
+        FILE "audio_files/0-019-glued-01.wav.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.54136054423147
+      SNAPOFFS 0
+      LENGTH 1.34798185941042
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A19AAB56-4E5E-B14A-A789-50FBC38C5691}
+      IID 84
+      NAME layer_1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5ADA792B-6E2F-2A4E-9346-DDF53873580A}
+      <SOURCE WAVE
+        FILE "audio_files/layer_1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 20.88934240364189
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F603877A-5554-7A41-9D1B-0BDC1D4B992E}
+      IID 99
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {86E6BC45-7AC3-5545-995D-CDBE1773490A}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 22.02133786849451
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CB33ACDB-0011-214B-B1FD-31280CF80A45}
+      IID 843
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AA3941DD-27BA-F74B-82F7-E09517E4FC34}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 23.1533333333471
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E721A09F-84FD-2B4A-82D9-413F24A81D76}
+      IID 100
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9B321622-657F-3346-B087-B094CB1CF1D7}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 24.28532879819972
+      SNAPOFFS 0
+      LENGTH 0.98498866213152
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F87B5CAD-1E72-1A47-B624-B76C09C10204}
+      IID 83
+      NAME dynamicdsp~_demo.maxpat.wav.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EA596212-8A82-6448-8E33-10ECA03D4AD3}
+      <SOURCE WAVE
+        FILE "audio_files/dynamicdsp~_demo.maxpat.wav.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 25.27031746033123
+      SNAPOFFS 0
+      LENGTH 1.27498866213152
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {01BB23A9-1A16-B643-BA2F-BD55E413F49B}
+      IID 88
+      NAME cello-f2.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {57C6386B-6316-EB4B-90F6-64601AA17C9A}
+      <SOURCE WAVE
+        FILE "audio_files/cello-f2.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 26.54530612246273
+      SNAPOFFS 0
+      LENGTH 0.98854875283446
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F5BBAFBD-9FA9-CA4B-A5D8-372401E71421}
+      IID 90
+      NAME descriptorsrt~.maxhelp.wav.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FCD7DBEE-B1E4-144D-96FB-3CF11F64FC4E}
+      <SOURCE WAVE
+        FILE "audio_files/descriptorsrt~.maxhelp.wav.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 27.53385487529719
+      SNAPOFFS 0
+      LENGTH 1.13199546485262
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8C0E7C19-E05F-0642-8B8F-6F1E5C84C554}
+      IID 98
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9666FEEF-F6D3-9F42-94BA-E70707F03506}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 28.66585034014981
+      SNAPOFFS 0
+      LENGTH 0.92376417233561
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FA1DBD5A-0524-7A4A-AB82-94BEFF98FF45}
+      IID 86
+      NAME SIMDSupport.hpp.wav.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {668DE893-F009-7B45-A9CA-EAC3736DB2DF}
+      <SOURCE WAVE
+        FILE "audio_files/SIMDSupport.hpp.wav.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 29.58961451248541
+      SNAPOFFS 0
+      LENGTH 1.34798185941041
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7E63B5B9-AC55-DA48-9B5B-94130C03AEBF}
+      IID 26
+      NAME layer_1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5E6575F0-CA84-D645-A51E-AF1DE786148D}
+      <SOURCE WAVE
+        FILE "audio_files/layer_1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 30.93759637189584
+      SNAPOFFS 0
+      LENGTH 1.13199546485263
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AE6AE4D3-7971-0041-8705-803F16243FD0}
+      IID 101
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E0A8940F-2B42-1C4E-9970-9CE1D258B443}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 32.06959183674844
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AB5357C4-8F1F-AE40-B1DB-E9D8087A8418}
+      IID 841
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2E0DFFB1-E687-5249-92E7-E44B0B442DEB}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 33.20158730160103
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DCF5A535-9C3D-0D42-A5E5-C3CBE78B3664}
+      IID 840
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8EA4EFE6-F732-F647-8AEC-9AAF3440E42F}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 34.33358276645365
+      SNAPOFFS 0
+      LENGTH 1.13199546485259
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {808449B6-2E1B-8E40-B0FD-D5C5DD8B0C97}
+      IID 85
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DAE783B-F6D5-EE4E-9613-C4084B506858}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 35.46557823130622
+      SNAPOFFS 0
+      LENGTH 1.34798185941042
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CC58FA89-0DE9-374E-B176-B2296A6A865F}
+      IID 97
+      NAME layer_1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8F4BCE6A-536B-B445-829B-1881DAA2ABFD}
+      <SOURCE WAVE
+        FILE "audio_files/layer_1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 36.81356009071669
+      SNAPOFFS 0
+      LENGTH 1.1319954648526
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D60C1EE9-AE4F-954A-8B12-F737A95E2B55}
+      IID 845
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DF1D31C7-C38F-F542-88B5-C480E65EDA82}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 37.9455555555693
+      SNAPOFFS 0
+      LENGTH 1.48498866213153
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {051DA1B4-EA0A-8F46-BA82-9B9B3F8EF9CE}
+      IID 81
+      NAME sacre.aiff.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {567A4D0F-8DE5-734A-82A8-A644F6C0C6F6}
+      <SOURCE WAVE
+        FILE "audio_files/sacre.aiff.maxwave_0.wav"
+      >
+    >
+    <ITEM
+      POSITION 39.43054421770084
+      SNAPOFFS 0
+      LENGTH 1.13199546485261
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {89DD56DC-6095-FD4E-A0BA-23A4F123CA0D}
+      IID 103
+      NAME vibes-a1.aif.maxwave_0.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0F234105-8707-BD46-A21E-32427D421993}
+      <SOURCE WAVE
+        FILE "audio_files/vibes-a1.aif.maxwave_0.wav"
+      >
+    >
+  >
+  <EXTENSIONS
+  >
+>
