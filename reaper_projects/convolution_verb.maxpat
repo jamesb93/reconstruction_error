@@ -853,7 +853,7 @@
 
 					}
 ,
-					"text" : "CPU: 3",
+					"text" : "CPU: 6",
 					"varname" : "live.text[2]"
 				}
 
