@@ -133,7 +133,7 @@ def walkman(audio_path: str):
 
 def printp(string_to_print: str):
     """A uniform way for printing status updates in scripts"""
-    print(f'---- {string_to_print} ----')
+    print(f'\n---- {string_to_print} ----')
 
 def printe(string_to_print: str):
     """A uniform way for printing errors in scripts"""
