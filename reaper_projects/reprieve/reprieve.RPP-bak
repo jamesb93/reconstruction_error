@@ -1,0 +1,2884 @@
+<REAPER_PROJECT 0.1 "6.0/OSX64" 1582391051
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3184 8 1 8 1 0 0 0
+  TIMEMODE 8 5 -1 30 0 -1 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 11.08599062578713
+  ZOOM 72.16314960064277 739 0
+  VZOOMEX 5
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "audio_files" ""
+  <RECORD_CFG
+    ZXZhdyABAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  MISCOPTS 2
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 84 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {6C88E824-1A9A-AA45-A802-526FDA910882}
+    NAME "407 (3200)"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 84 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6C88E824-1A9A-AA45-A802-526FDA910882}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 206 1106 639
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.04643990929705
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DF83E722-6FEA-BE4E-B869-0659BD437821}
+      IID 1
+      NAME client.db_82.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F3FC1BA5-EF1D-D349-B756-A4C5F0359948}
+      <SOURCE WAVE
+        FILE "audio_files/client.db_82.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.04643990929705
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2AEEB9E6-A862-174F-B669-279FEA3CB4FA}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D218040B-C254-E94E-B550-BDFBD96656B3}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.11609977324263
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A7A2C859-1133-5C45-B5A4-E09F34A59290}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8D5E72BC-DE70-AF44-95C5-318679B3B130}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.18575963718821
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D31BA6D4-936D-AD46-83F3-C7A546BBD775}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F3458B20-7498-504C-9842-513CE87FCF1D}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.25544217687075
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DE1B539A-25A8-BA45-8471-6249365ADEF4}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D3E6A66-7DC2-9044-9CB9-A8C21AED3EEA}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.32510204081633
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F4D6B7DD-6224-0B45-8479-01AB081AA52F}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71ACA83B-6C0D-A64C-A77D-0B235A847EE0}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.3947619047619
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D4E2C357-094D-CD40-93F9-E517B964F811}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FFE54E66-2E1F-4845-AE30-E70F9DAACB27}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.00233294710051
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {536563BE-010E-AB45-8C15-A0FA67F69D86}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5408A5D2-4BC2-844B-9806-79B8D1F87CB9}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.1219928110484
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D4B08C7D-0C73-CE47-A0FB-C6C1DC2CEFFE}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {298D1BD0-0073-E042-AF48-BC8A4D8B181C}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.26487262956798
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {92E71330-0DC2-384B-8EDD-06BB964815B3}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8E82D783-B118-D042-8529-6D48BD1A5F3F}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.38453249351587
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {29967283-A90E-B547-A81B-4DABEEB3DDEE}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {077C1FA8-6FC6-A441-A652-E376E922FB19}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.50421503318939
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0C705873-D935-9C45-992B-A0CEB58C1F65}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14599F69-175B-2C47-8C15-71543856A5C1}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.62387489713728
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {89EA86B4-3E7B-1546-B5E2-D43B08CF05C5}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C4C80CE2-9360-8B4B-975F-A11DEB511F82}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.74353476108286
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {20C1A01A-540C-4847-9E36-FAEE688D294B}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {38E8A473-661D-9649-AF5C-D86E772E900A}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.86319462503076
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A5DC8BFC-6540-EB40-994F-FBF64C59E136}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A787042-CAE6-CA46-AEA9-EEF42DB81559}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.98287716482069
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D7B2EAA6-4610-7649-9BBE-8DBDE6635F6C}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DDCD5A82-F998-DD48-98E9-960FDB17FC6B}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.10253702876627
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8AFF9F0C-492A-9F4A-B235-7EDA9EE25335}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B62C7A15-D88A-0A4D-9598-AD6DC78A0167}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.22219689271416
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D5EED3D4-3C74-3945-B280-3E26F62B1123}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9DDC837F-27CA-2043-BA4B-FBD55674EFA2}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.34185675666205
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1DCAFC25-FABE-7F4E-869F-0C5B1CA69961}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D105F33E-35B1-534B-A1FC-C52FC056DBB5}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.48473657525616
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3461814B-FBFD-AA4C-94B0-3F1B1C3AAD06}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B97CE3D-7888-A849-87F1-2AA79F6DB5E7}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.60439643920405
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E5B447C0-C064-AB49-A35D-02A1EEF5503D}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A61F47C6-6EC7-4343-9A5B-EDA13038DE93}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.72405630315194
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E4DD8E44-8D33-B849-8106-439C04FE8C73}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EFE48E82-F942-7444-9427-D8F77D8C73B4}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.86693612167152
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2B2241B7-95AF-DA41-918C-18A6ACAF5904}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FB32ED39-BACE-EB42-B18B-F4348E2C8943}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.0098159401911
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F3BF235E-BA3F-854F-80A4-B4A5F398B3FC}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1F270BF0-406C-D24B-AD97-706C0938D70B}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.12947580413899
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D26B5E19-1244-1641-9F22-DC2C524A9777}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F17BE693-B0E2-E347-87FB-19FB58C91806}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.24913566808688
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {13081296-DA0C-F243-8B05-4CCBD6161F61}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1A4DBDC4-9ABC-5E4C-AA2C-121C049C0D8B}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.39201548660645
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {86BCA09D-C49E-6B4D-90CA-6EDBCEBDD6ED}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {83D9AA5D-98A8-FC4A-97BB-33652DB5CA5B}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.51169802628899
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A14B9399-88EF-FF43-A460-48CC8591DAE8}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B418BA0E-AFE9-474F-9DF4-71FD4D9F4024}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.6545778448831
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {27865466-EF15-2D47-ABA7-B4731F7D4C50}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {09570F4C-3FE3-534A-B17E-171FB165A255}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.77426038455662
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A181C0AD-47B6-0D4F-872B-9E45B38B0581}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3E070B27-D287-014C-92A0-FB5D5754D69D}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.8939202485022
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8BA86FAF-EC40-3645-A1FA-8AD85D036723}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A6844037-7764-9D46-9D2B-6FBB1991D41D}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.01358011245009
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3A4131CA-C507-4A4F-BF8A-336A5EAAC0B3}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E48BC9B5-3288-0B4C-9B94-1387FE217FBD}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.13323997639798
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AB571181-AF8C-4642-9D58-9BF34C443E1B}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31C8A109-D5BB-ED4A-8DBD-1BB25DA32C33}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.25289984034587
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {02C4940F-FF0D-D14F-8E3C-B99850825182}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6C52B67-95F8-9E49-B285-40AC0850F38C}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.37255970429376
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {23A4CDCF-B2C7-3140-A300-13CDD9AE1D06}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {68C8932E-382D-7842-90C8-9394A7A20024}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.49224224396728
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AA5139B3-9078-ED4C-BF63-E5442E22572B}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F7EF88A-73F0-7A4A-B3F1-049189F3187F}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.61190210791518
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {30FA68DC-9361-5743-9386-597B1B5FCCE4}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6BABE458-6C9B-A847-B864-60438E2ED876}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.73158464758869
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {40827E96-E07B-2D49-B4E5-A72360A8C6D9}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {118BC5AF-5DDE-B248-95A5-6ADBEC30E30E}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.85124451153658
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0686BAF8-E970-B243-8CC7-1055468E3908}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B3A43F12-C5E6-2F48-8AE8-C0A5C816BF99}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.99412433005616
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0D50315B-7A3D-AC4D-8E7E-A409F468AB51}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5D0CCE29-FCE7-CA4D-B793-F3959197ECEA}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.11378419400405
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C3FCDCD1-0E37-8C49-9575-E280E159BC76}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3746D243-49BB-8946-8CDE-9E72529FCF60}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.23344405794963
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B5916E25-A2D6-4540-8AF1-437162B92F59}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {17F03919-0C6B-9347-8FAC-CC00774E9C15}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.35310392189752
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FFAC7018-9690-FF4C-AF5B-F92C09980724}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6E89AC50-3E66-4141-A0C0-D66108DAB2BC}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.47276378584541
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {28541FA0-055B-CE40-A521-9D544AE3A9DE}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {65FE528C-CF65-6F46-8FB0-A61814888D17}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.5924236497933
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E899DA8D-640A-8846-B285-B1797F2EBA03}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {20AD3C6B-ABFB-C74A-AC27-3255ECBAB373}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.71208351374119
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E834DB6E-29B8-3142-B3F1-605DB88D2F01}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4D58B66F-D5CC-0740-BC2D-49D4F6790367}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.83174337768908
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B0D9D0E7-6385-B24C-86DE-CE19C75F5947}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4E41D180-3463-974A-88AF-2B27D527C90A}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.95140324163697
+      SNAPOFFS 0
+      LENGTH 0.06517991686613
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9366B551-4C8B-D34B-8E5D-67837F9F7085}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7056C5C-4302-AE40-8DD7-B50AA389A39C}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.45778497256229
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {21792195-F8F5-6240-90BB-D1313AE80A45}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9B36FF14-4349-F24B-A55B-EAEECE4C3DD2}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.57744483644033
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C2D822A2-CEA4-BE4B-BCE8-83F7E7846FC1}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C30F5B21-01AB-7844-869E-14A935E4F3A9}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.72032465500647
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DD53188E-ED8F-DA47-98F8-1EF3153C1DE0}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {358D5E8B-C10A-E942-AC7D-C20B320F7557}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.83998451900093
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AD3A5330-EA7D-9649-B001-4A5E75FEDB60}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CA453066-3AD8-444D-B1D5-2D56233E8E49}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.9596670586046
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {404E05E5-2429-0B4F-B405-815769705202}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A211F773-37AB-8740-9D31-DE472D332645}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.07932692259906
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {08CA8A8C-84E8-F144-8607-FACC18CC7430}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E6657DA5-B809-DA48-9381-73B41AA794BD}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.1989867864771
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {340ED508-6FC4-704B-BE33-CDB73022C38E}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B9BFEC69-6135-8B46-9FEB-16FDD15AD4E8}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.31864665047156
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2F4120C6-39EB-224B-8BDE-82936EC74059}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B48F6131-EF75-A743-9361-1F78FDB1325E}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.43832919030806
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {779DFFE9-319E-7A47-86C0-9F9ADF4D2E42}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {149BED9C-83AE-F24B-A10F-2671E0D9619D}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.5579890541861
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DD21AB8C-451C-9545-A4D8-0488CE1183E9}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {911888E3-C3F4-5F40-9E38-89F31309DB96}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.67764891818056
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EB60B07D-B3B6-2041-9B3B-0B495DE7230E}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AB921370-0E57-C444-9307-5022716922F6}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.7973087820586
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {ABDF52B4-8869-5C4A-BBDB-7B1E5B28E351}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C55FE750-72AD-6242-82E9-4298063BB96E}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.94018860074116
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {312ABE86-ED53-EF40-BF3C-1D05109418D3}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F0DACB74-76A0-DC49-BF0A-BBF180623082}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.0598484646192
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AE117496-AA0E-144F-84BB-7E2EE97FF580}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DBD92003-E2AC-854D-A0BF-67F37248B217}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.17950832861366
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {36F8F232-AAB6-DD43-91DE-62FACE10A201}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AACE1BD7-7B53-0A43-8A5A-BD4EC3F3E477}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.32238814706339
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7E60C6A5-67AD-5546-B1B5-5AB1386AFDF5}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3C048541-391D-4A4E-8549-5033C0AC591B}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.46526796562953
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {95F21675-E987-8A4B-BE3A-C30666F2E2DC}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F4C036A5-D18C-FE47-80C9-6138993D11E7}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.58492782962399
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A5062962-1F97-B847-BFD5-B28478AB5D24}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A291028F-157A-1E40-922C-73053F56C71E}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.70458769350203
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {73615227-3452-124A-9541-5197196C1D7F}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7B8BE6B9-BA2D-CC42-B079-09429E74DEE7}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.84746751206817
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {31410773-8360-D64B-8327-995DCA07F056}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {508AF30C-BD70-474B-B028-B4F239419A3F}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.96715005178826
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6106DC98-3E01-C745-8147-2C02E24A2435}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50529CB7-7443-3C44-B6CE-AC653DC85103}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.1100298703544
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B5D1ED89-34D3-694B-8729-FDDD1B316F94}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {58324E9B-B881-3C4D-8F74-36ACDE8E75AE}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.22971240995808
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9D12B63A-3F02-8D45-80E2-4C3A67C878C1}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88A25C08-F2A9-2B4F-8731-93DADBDE6E5D}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.34937227395253
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9718B2F6-3ED7-514A-A4DA-576712D30BCA}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1573157C-E8F4-8A4C-89B0-0FF98AAC0916}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.46903213794699
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B74AB66B-99D0-B346-94AE-E90E13E5AB13}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A1F070AB-80D0-B54B-9479-FE2CE87447F2}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.58869200182503
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7A731642-EEA1-7F4E-B777-753E1BA3C6C5}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C2E28945-8090-DD4A-BC04-E1D6C714F3A0}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.70835186581949
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {78AA48EF-BC7D-9941-84F5-FE37898998F8}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DB938CE-1C45-7F4D-B6F1-31616B24F8A5}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.82801172969753
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EF344EA2-D148-6D49-AA43-2CB123A09FE2}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1DFEEACA-106C-0B4E-9D14-9FF94E052125}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.94769426941762
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {29EB499F-ECC2-9A45-9E1E-EBD644B91278}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7D7F80FA-891A-254F-8B09-DBDBB914012B}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.06735413341208
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {659104E6-83CB-8A47-B9C6-9422265080D2}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E58DAD0-A709-634A-B495-41E86CCFDA63}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.18703667301575
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {06DC01D8-B521-5B4D-A656-69C4AA48004F}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A4052CF7-2B68-E843-9D84-9C98428782DD}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.30669653701021
+      SNAPOFFS 0
+      LENGTH 0.09287981859411
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AD081470-BAC0-AE40-9D28-86BE9F2D334C}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5882E55A-97E6-C441-976C-7109CED1B5A0}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.44957635545993
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {56EC944E-2637-D949-9E3D-2438647D055C}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CA8247BF-0315-0249-8D0A-AFC81AF5EC90}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.56923621945439
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {472F3916-93B7-F748-9BCF-C891240B83B8}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB4EC3D9-7421-B044-AB85-19C9BD1F4E1E}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.68889608344885
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {03232E9A-5583-5941-8B11-B43DB93AC558}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {478DE34D-E0DC-5D44-8785-9CEF6241CBC6}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.80855594732689
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CF693E0B-F6AC-AB4E-9FCB-E19A50CE9397}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22DF919C-5353-724B-A3E7-68B1E24FCEFB}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.92821581132135
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CC0F67FF-95A4-974A-8B23-B649EE73C068}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {59A9EE3A-F03C-D74C-8B6A-5C4B5186D74B}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.04787567519939
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9B640DF3-9713-0247-A5BD-1A595222713C}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EFDCF9F2-7DCA-104B-A4E7-B0987589D514}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.16753553919384
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C3DE4623-565E-B544-A3A5-D1502E274C1B}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2E6DA8B0-5C92-FC41-AA43-ACB4DA3A90A6}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.2871954031883
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {632CFEF6-892F-1C45-A16D-DA46AD34FE8D}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3F1777D6-1BC8-5A44-97B4-D4612F813143}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.40685526706634
+      SNAPOFFS 0
+      LENGTH 0.06517991686613
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {FA4A7FEF-1E61-6C49-BC8D-0BAA4F8259DA}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D4DDFA83-1226-044A-9B2F-B97C60190E1B}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.83976200812598
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3A9DC0AE-0648-4649-9A4E-F71761E6BDC1}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {70B98491-9346-E84D-9E54-E7DD50111322}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.15076200812598
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E520E9F6-658A-A147-A522-797C111E8835}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {155F9AED-3640-134C-BF34-B3B0F1A8E798}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.46176200812598
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0D047CC9-A93F-5740-BB54-0F76BC1726F0}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9E3978A6-73E9-F045-8E95-9B2B9365B2ED}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.77276200812598
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C3ABFAA5-2D88-F949-9404-14978AEDAC87}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5A59329-7651-AA4C-A126-D9421650929A}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 18.08376200812598
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DF8C56C5-300D-5849-A022-90C5B47DD804}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A62C4ED-E2BB-5A48-8CE7-2D947BF4D73B}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 18.39476200812598
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E5118546-9EA2-B044-AE64-81D1DBD14209}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DBB28B7F-E4AE-E249-85B5-38E8EE470F4C}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 18.70576200812598
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {59376AED-EDA1-5F48-9268-148EFE397E62}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {452D488F-AB2E-5F47-8513-FD787CFB12CD}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.01676200812598
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4E0946C2-B6D0-EE47-B329-D242FDB0D995}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {466A0A9F-EBCA-B141-83AD-BF9F49A0D742}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.32776200812598
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {22B465F4-9C55-4047-9084-C4A8F8650715}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5D4CA72F-3DC4-754E-9221-924A59CF47BC}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.63876200812598
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4970E8F8-5B5F-9C44-9107-25C9E4B2FAA6}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11227BEC-D252-0645-B7F6-A4C88F273437}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+  >
+  <TRACK {756C40DE-8307-5642-A0F0-2B5C420CE0AC}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 84 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {756C40DE-8307-5642-A0F0-2B5C420CE0AC}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 7.0165831585031
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {58E79A98-1F05-A649-A694-41FDAC2D32DC}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B204E260-A86E-1346-8799-1F60EA559849}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.08624302245099
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B056DDD1-99B6-1F48-9B86-A075B13235A4}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {76D85556-493F-FD41-BB9D-1702DF1BD3A7}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.15590288639889
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {82A8DCF4-F043-B740-A813-B03A876E0512}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {43DD1A73-37F3-004D-9346-5F47EB61A70D}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.22558542607241
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {79AEE225-1629-634C-8622-1F9A23C008AE}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DFB1FDE4-761E-3642-9D12-06138C1AE0B2}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.2952452900203
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C32F9D89-5EA9-1042-AB8A-E9D4C93DEBDF}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {27692872-96C7-CD47-9E5B-9F1CED9050C2}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.36490515396819
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {20729187-A47E-5347-A99E-1812A1BF93DE}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C861030C-3761-6C40-ACF5-19688EB87CDB}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.5289164648857
+      SNAPOFFS 0
+      LENGTH 0.44120181405918
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2E74EDE7-221D-A243-A1E8-1A8E5AC32777}
+      IID 28675
+      NAME Accounts3.sqlite_15-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7AFF1A4E-7E8A-ED4A-B042-A1A8D95355CD}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15-glued.wav"
+      >
+      <TAKEFX
+        WNDRECT 587 142 583 279
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS ReJJ-1.0.7/ReEQ.jsfx ""
+          0.000000 1.000000 0.000000 0.000000 0.000000 100.000000 3.000000 0.000000 0.000000 0.000000 3.000000 1.000000 2.000000 0.000000 0.000000 0.000000 2.000000 1.000000 0.000000 0.000000 80.481708 -14.867786 32.646473 0.000000 2.000000 0.000000 3.000000 0.000000 -0.298343 21.379312 0.000000 2.000000 0.000000 4.000000 22.180451 -18.000000 21.379312 0.000000 2.000000 0.000000 0.000000 23.182957 17.005526 32.646473 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 - - - - - - - 
+        >
+        JS_DIMS 399 229
+        <JS_SER
+          AACAPwAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          eVmZRQAAIEF9nlxC/VFuQlDbCEUAAAAAAAAAAAAAAAB04m3BW8CYvgAAkMFRC4hBAAAAAAAAAAAAAAAAAAAAAIEENT/sUbg+7FG4PoEENT/3BTU/AAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkZFj7o52c/SZp4P7ZyeT8zZpk96OdnP+jnZz/o52c/
+          FB4YP5eWlj7JyEg+ychIPtU7Ij+XlpY+l5aWPpeWlj6buKM+hYQEPvFBID8OdSY/ymP9PoWEBD6FhAQ+hYQEPg==
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4E5BC97D-0953-2B41-A868-891B175E225F}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 12.97011827894488
+      SNAPOFFS 0
+      LENGTH 0.44120181405918
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1D7E14EB-F36D-B045-B4D2-F1C0FF84D67A}
+      IID 28676
+      NAME Accounts3.sqlite_15-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9A241D7F-5CE7-C84C-99A4-6A46FF3D094C}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15-glued.wav"
+      >
+      <TAKEFX
+        WNDRECT 587 142 583 279
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS ReJJ-1.0.7/ReEQ.jsfx ""
+          0.000000 1.000000 0.000000 0.000000 0.000000 100.000000 3.000000 0.000000 0.000000 0.000000 3.000000 1.000000 2.000000 0.000000 0.000000 0.000000 2.000000 1.000000 0.000000 0.000000 80.481708 -14.867786 32.646473 0.000000 2.000000 0.000000 3.000000 0.000000 -0.298343 21.379312 0.000000 2.000000 0.000000 4.000000 22.180451 -18.000000 21.379312 0.000000 2.000000 0.000000 0.000000 82.832080 18.000000 32.646473 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 - - - - - - - 
+        >
+        JS_DIMS 399 229
+        <JS_SER
+          AACAPwAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          eVmZRQAAIEF9nlxCEcS3RVDbCEUAAAAAAAAAAAAAAAB04m3BW8CYvgAAkMEAAJBBAAAAAAAAAAAAAAAAAAAAAIEENT/sUbg+7FG4PoEENT/3BTU/AAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkZFj7o52c/SZp4P/ZBKT4zZpk96OdnP+jnZz/o52c/
+          FB4YP5eWlj7JyEg+s9ITP9U7Ij+XlpY+l5aWPpeWlj6buKM+hYQEPvFBID+Slo0+ymP9PoWEBD6FhAQ+hYQEPg==
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4E5BC97D-0953-2B41-A868-891B175E225F}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 13.41132009300406
+      SNAPOFFS 0
+      LENGTH 0.44120181405918
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0D2431F7-6358-6247-9FEC-463A242EB865}
+      IID 28677
+      NAME Accounts3.sqlite_15-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C604D0C8-E666-704E-BFFC-7F430ACA4769}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15-glued.wav"
+      >
+      <TAKEFX
+        WNDRECT 587 142 583 279
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS ReJJ-1.0.7/ReEQ.jsfx ""
+          0.000000 1.000000 0.000000 0.000000 0.000000 100.000000 3.000000 0.000000 0.000000 0.000000 3.000000 1.000000 2.000000 0.000000 0.000000 0.000000 2.000000 1.000000 0.000000 0.000000 80.481708 -14.867786 32.646473 0.000000 2.000000 0.000000 3.000000 0.000000 -0.298343 21.379312 0.000000 2.000000 0.000000 4.000000 22.180451 -18.000000 21.379312 0.000000 2.000000 0.000000 0.000000 55.513784 14.220995 32.646473 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 - - - - - - - 
+        >
+        JS_DIMS 399 229
+        <JS_SER
+          AACAPwAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          eVmZRQAAIEF9nlxCZ3gzRFDbCEUAAAAAAAAAAAAAAAB04m3BW8CYvgAAkMEyiWNBAAAAAAAAAAAAAAAAAAAAAIEENT/sUbg+7FG4PoEENT/3BTU/AAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkZFj7o52c/SZp4P67aAD4zZpk96OdnP+jnZz/o52c/
+          FB4YP5eWlj7JyEg+H2vSPtU7Ij+XlpY+l5aWPpeWlj6buKM+hYQEPvFBID98YRc/ymP9PoWEBD6FhAQ+hYQEPg==
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4E5BC97D-0953-2B41-A868-891B175E225F}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 13.85252190706325
+      SNAPOFFS 0
+      LENGTH 0.44120181405918
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {34F82338-7BC4-634F-9BF8-F2350196F524}
+      IID 28678
+      NAME Accounts3.sqlite_15-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {05B7DC87-7853-1A4D-BD60-D60B3CD53050}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15-glued.wav"
+      >
+      <TAKEFX
+        WNDRECT 587 142 583 279
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS ReJJ-1.0.7/ReEQ.jsfx ""
+          0.000000 1.000000 0.000000 0.000000 0.000000 100.000000 3.000000 0.000000 0.000000 0.000000 3.000000 1.000000 2.000000 0.000000 0.000000 0.000000 2.000000 1.000000 0.000000 0.000000 80.481708 -14.867786 32.646473 0.000000 2.000000 0.000000 3.000000 0.000000 -0.298343 21.379312 0.000000 2.000000 0.000000 4.000000 70.802005 -16.209946 21.379312 0.000000 2.000000 0.000000 0.000000 86.340852 18.000000 32.646473 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 - - - - - - - 
+        >
+        JS_DIMS 399 229
+        <JS_SER
+          AACAPwAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          eVmZRQAAIEGlkhFFl8HwRVDbCEUAAAAAAAAAAAAAAAB04m3BW8CYvvitgcEAAJBBAAAAAAAAAAAAAAAAAAAAAIEENT/sUbg+7FG4PoEENT/3BTU/AAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkZFj7o52c/xvKYPXITUD4zZpk96OdnP+jnZz/o52c/
+          FB4YP5eWlj4/1yU/eGEOP9U7Ij+XlpY+l5aWPpeWlj6buKM+hYQEPvLo+j7Vx2I+ymP9PoWEBD6FhAQ+hYQEPg==
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4E5BC97D-0953-2B41-A868-891B175E225F}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 14.29372372112243
+      SNAPOFFS 0
+      LENGTH 0.44120181405918
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CB46BFAB-BFB7-4A43-988B-41F5693A5DC7}
+      IID 28679
+      NAME Accounts3.sqlite_15-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C316CB45-43DB-CA40-8D89-21DE50AB5C8B}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15-glued.wav"
+      >
+      <TAKEFX
+        WNDRECT 587 142 583 279
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <JS ReJJ-1.0.7/ReEQ.jsfx ""
+          0.000000 1.000000 0.000000 0.000000 0.000000 100.000000 3.000000 0.000000 0.000000 0.000000 3.000000 1.000000 2.000000 0.000000 0.000000 0.000000 2.000000 1.000000 0.000000 0.000000 80.481708 -14.867786 32.646473 0.000000 2.000000 0.000000 3.000000 0.000000 -0.298343 21.379312 0.000000 2.000000 0.000000 4.000000 59.273183 5.469613 21.379312 0.000000 2.000000 0.000000 0.000000 25.939849 -13.226519 32.646473 0.000000 0.000000 0.000000 0.000000 70.000000 0.000000 32.647000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 - - - - - - - 
+        >
+        JS_DIMS 399 229
+        <JS_SER
+          AACAPwAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          eVmZRQAAIEGOtW9EsVWTQlDbCEUAAAAAAAAAAAAAAAB04m3BW8CYvhIHr0DSn1PBAAAAAAAAAAAAAAAAAAAAAIEENT/sUbg+7FG4PoEENT/3BTU/AAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkZFj7o52c/B26fPeHFez8zZpk96OdnP+jnZz/o52c/
+          FB4YP5eWlj5v+uM+ychIPtU7Ij+XlpY+l5aWPpeWlj6buKM+hYQEPmtHDz+dgTc/ymP9PoWEBD6FhAQ+hYQEPg==
+        >
+        FLOATPOS 0 0 0 0
+        FXID {4E5BC97D-0953-2B41-A868-891B175E225F}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 18.78085234633181
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DDF754E1-854A-414F-BEA7-446185339207}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {63F4758F-9CC2-5A43-BED8-F0C01F3F045A}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 18.95185234633181
+      SNAPOFFS 0
+      LENGTH 0.0928798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AE60E5AE-70B5-454F-B294-82467FC1FBFD}
+      IID 7
+      NAME caches.sqlite_13.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {998FB35E-2729-3F43-BFA1-1610DEAD5DCF}
+      <SOURCE WAVE
+        FILE "audio_files/caches.sqlite_13.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.12285234633181
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0621EBF8-D2D5-474F-9595-D84E62B1AF12}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {786F5DEE-79B0-C343-B584-BA183B747E10}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.29385234633181
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A11823BF-F0CF-AA46-BC4E-5B5349AAFC5A}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB16D6F0-87B9-DA41-8042-79EC58EF18FC}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.46485234633181
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1E664709-9169-B841-8EFD-6A0B8BECA50B}
+      IID 3
+      NAME PCSAnalytics.db_2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {572A6861-0D3F-7842-89BB-15B627993F1E}
+      <SOURCE WAVE
+        FILE "audio_files/PCSAnalytics.db_2.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.63585234633181
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {91C093A3-84EC-9846-9AAC-C8B1D273EBA2}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7ED4BA6A-BA43-5D4A-AB58-FED85D7BF9DC}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.80685234633181
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AFD9F73B-696C-954F-B529-1E6CD5BCD5CD}
+      IID 5
+      NAME 2323548853sewsDaabta.sqlite_4.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4512EDC0-4632-9E42-9A33-0FF0EA56051A}
+      <SOURCE WAVE
+        FILE "audio_files/2323548853sewsDaabta.sqlite_4.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.97785234633181
+      SNAPOFFS 0
+      LENGTH 0.06968253968254
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {06761FA8-7314-5342-B9B2-845EF3EBE781}
+      IID 4
+      NAME knowledgeC.db_5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D8F4FEDA-73AE-364E-A833-24B7D74F8E26}
+      <SOURCE WAVE
+        FILE "audio_files/knowledgeC.db_5.wav"
+      >
+    >
+    <ITEM
+      POSITION 20.14885234633181
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {05C51A72-A6CB-2742-9B74-F17AB0888F51}
+      IID 2
+      NAME Accounts3.sqlite_15.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B7973A32-EA01-CB49-9845-0764587A2301}
+      <SOURCE WAVE
+        FILE "audio_files/Accounts3.sqlite_15.wav"
+      >
+    >
+    <ITEM
+      POSITION 20.31985234633181
+      SNAPOFFS 0
+      LENGTH 0.06965986394558
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {186DEBF2-2242-6D48-B268-59EA6E12CC8B}
+      IID 6
+      NAME VSSubscriptions.sqlite_12.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D682EC8D-E1BB-2A47-9EB9-CE2CF676ECCE}
+      <SOURCE WAVE
+        FILE "audio_files/VSSubscriptions.sqlite_12.wav"
+      >
+    >
+  >
+  <EXTENSIONS
+  >
+>
