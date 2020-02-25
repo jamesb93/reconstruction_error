@@ -204,7 +204,7 @@
 					"Realtime::Modulation::Modulation Amount::Amount" : [ 50.0 ],
 					"EQ::EQ Routing" : [ 1 ],
 					"EQ::EQ Freq High::Freq 3" : [ 8000.000000000000909 ],
-					"EQ::EQ Gain High::Gain 3" : [ -9.599999999999998 ],
+					"EQ::EQ Gain High::Gain 3" : [ -4.16 ],
 					"EQ::EQ Slope High::Slope 3" : [ 0.5 ],
 					"EQ::EQ Freq Bell::Freq 2" : [ 1000.000000000000341 ],
 					"EQ::EQ Gain Bell::Gain 2" : [ 0.0 ],
@@ -218,7 +218,7 @@
 					"Output::Output Cascade::Cascade" : [ 0.0 ],
 					"Output::Output Width::Width" : [ 100.0 ],
 					"Output::Output Gain::Gain" : [ 0.0 ],
-					"Output::Output DryWet::Dry/Wet" : [ 16.535433070866269 ],
+					"Output::Output DryWet::Dry/Wet" : [ 22.047244094488306 ],
 					"Output::Output Predelay::Predelay" : [ 0.0 ],
 					"Bypass State" : [ 0 ],
 					"Skin State" : [ 0 ]
