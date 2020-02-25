@@ -1,49 +1,29 @@
-import sys
-import os
+import sys, os, argparse
 import numpy as np
-
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from datamosh.utils import read_json, write_json, read_json, cd_up, read_yaml, lines_to_list, printp
-from datamosh.variables import unique_audio_folder, analysis_data
 
-
-if len(sys.argv) != 2:
-    print('You need to pass a YAML config file as an argument.')
-    exit()
-
-this_dir = os.path.dirname(os.path.realpath(__file__))
-
-# Configuration
-printp('Reading configuration')
-cfg_path = os.path.join(this_dir, sys.argv[1])
-cfg = read_yaml(cfg_path)
-json_out      = cfg['json']
-input_data    = cfg['input_data']
-algorithm     = cfg['algorithm']
-normalisation = cfg['normalisation']
+parser = argparse.ArgumentParser(description='Crude classification of audio samples with various args.algorithms')
+parser.add_argument('-p', '--positive',    required=True, type=str, help='The input JSON containing analysis data to reduce')
+parser.add_argument('-n', '--negative',    required=True, type=str, help='The output JSON containing analysis')
+parser.add_argument('-d', '--data',        required=True, type=str, help='Path to some analysis data')
+parser.add_argument('-o', '--outfile',     required=True, type=str, help='The output JSON containing classification')
+parser.add_argument('-f', '--audiofolder', type=str, help='Location of the source audio')
+parser.add_argument('-s', '--scaling',     type=str, default="standardise", help='Method of data scaling before reduction.')
+parser.add_argument('-a', '--algorithm',   type=str, default='SVM', help='The clustering algorithm to use')
+args = parser.parse_args()
 
 printp('Reading in data')
-input_data = read_json(os.path.join(analysis_data, input_data))
-noise_examples = lines_to_list(
-    os.path.join(
-        this_dir,
-        'noise_examples.txt'
-    )
-)
-good_examples = lines_to_list(
-    os.path.join(
-        this_dir,
-        'good_examples.txt'
-    )
-)
+input_data = read_json(args.data)
+
+positive_examples = lines_to_list(args.positive)
+negative_examples = lines_to_list(args.negative)
 
 features  = []
 label     = []
 
 printp('Creating classification labels')
-# This creates two lists, which are inextricably linked.
-# The features contain the data and at the same index of the label list, there is a label.
-for example in noise_examples:
+for example in negative_examples:
     try:
         data = input_data[example]
         features.append(data)
@@ -51,7 +31,7 @@ for example in noise_examples:
     except:
         print(f'Error: Possibly no analysis data for {example}')
 
-for example in good_examples:
+for example in positive_examples:
     try:
         data = input_data[example]
         features.append(data)
@@ -63,42 +43,42 @@ for example in good_examples:
 features = np.array(features)
 label    = np.array(label)
 
-if normalisation != 'none':
-    if normalisation == 'minmax':
+if args.scaling != 'none':
+    if args.scaling == 'minmax':
         scaler = MinMaxScaler()
-    if normalisation == 'standardise':
+    if args.scaling == 'standardise':
         scaler = StandardScaler()
     scaler.fit(features)
     features = scaler.transform(features)
 
 # Select Model
-if algorithm == 'NB':
+if args.algorithm == 'NB':
     ### Naive Bayes ###
     from sklearn.naive_bayes import GaussianNB
     clf = GaussianNB()
 
-if algorithm == 'LR':
+if args.algorithm == 'LR':
     ### Logistic Regression ###
     # https://scikit-learn.org/stable/modules/multiclass.html
     from sklearn.linear_model import LogisticRegression
     clf = LogisticRegression()
 
-if algorithm == 'SVM':
+if args.algorithm == 'SVM':
     ### State Vector Macine ###
     # https://neerajkumar.org/writings/svm/
     from sklearn.svm import SVC
     clf = SVC(gamma='auto')
 
-if algorithm == 'linSVC':
+if args.algorithm == 'linSVC':
     from sklearn.svm import LinearSVC
     clf = LinearSVC(random_state=0, tol=1e-5)
 
-if algorithm == 'MLP':
+if args.algorithm == 'MLP':
     ## MLP Neural Network ###
     from sklearn.neural_network import MLPClassifier
     clf = MLPClassifier()
 
-if algorithm == 'RF':
+if args.algorithm == 'RF':
     from sklearn.ensemble import RandomForestClassifier
     clf = RandomForestClassifier(n_estimators=100,random_state=0, max_depth=1)
 
@@ -116,7 +96,7 @@ for entry in input_data:
     values = input_data[entry]
     t_data = np.asarray(values)
 
-    if normalisation != 'none':
+    if args.scaling != 'none':
         t_data = scaler.transform([t_data])
     else:
         t_data = [t_data]
@@ -133,5 +113,5 @@ printp('Writing out classification to JSON')
 classification_dict['0'] = bad_predictions
 classification_dict['1'] = good_predictions
 
-out_file = os.path.join(this_dir, json_out)
+out_file = os.path.join(args.outfile)
 write_json(out_file, classification_dict)
