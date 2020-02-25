@@ -1,3 +1,6 @@
 [submodule "essentia"]
 	path = essentia
 	url = https://github.com/MTG/essentia.git
+[submodule "python_scripts/mosh"]
+	path = python_scripts/mosh
+	url = https://github.com/jamesb93/mosh.git
