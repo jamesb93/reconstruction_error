@@ -8,18 +8,13 @@ from datamosh.utils import read_json, write_json,read_yaml, printp, check_make
 from datamosh.variables import project_root, analysis_data
 
 parser = argparse.ArgumentParser(description='Cluster data')
-parser.add_argument('-i', '--infile',     type=str,                          help='The input JSON containing analysis data to reduce')
-parser.add_argument('-o', '--outfile',    type=str,                          help='The output JSON containing analysis')
-parser.add_argument('-a', '--algorithm', type=str, default='HDBSCAN', help='The clustering args.algorithm to use')
-parser.add_argument('-nc', '--numclusters', type=int, default=10, help='The number of clusters to group when using the AP args.algorithm')
-parser.add_argument('-e', '--dbseps', type=float, default=0.01, help='Epsilon value for DBSCAN parameters')
-parser.add_argument('-ms', '--dbminsamps', type=int, default=4, help='Minimum samples for DBSCAN')
+parser.add_argument('-i', '--infile',  required=True, type=str,            help='The input JSON containing analysis data to reduce')
+parser.add_argument('-o', '--outfile', required=True, type=str,            help='The output JSON containing analysis')
+parser.add_argument('-a', '--algorithm',    type=str,   default='HDBSCAN', help='The clustering args.algorithm to use')
+parser.add_argument('-nc', '--numclusters', type=int,   default=10,        help='The number of clusters to group when using the AP args.algorithm')
+parser.add_argument('-e', '--dbseps',       type=float, default=0.01,      help='Epsilon value for DBSCAN parameters')
+parser.add_argument('-ms', '--dbminsamps',  type=int,   default=4,         help='Minimum samples for DBSCAN')
 args = parser.parse_args()
-
-
-if not args.infile or not args.outfile:
-    print('You need to pass an input and/or output file for this script to work.')
-    exit()
 
 printp('Reading in data')
 unreduced_data = read_json(args.infile)

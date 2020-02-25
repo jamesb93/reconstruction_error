@@ -4,8 +4,8 @@ from shutil import copyfile, rmtree
 from datamosh.utils import bufspill, write_json, printp
 
 parser = argparse.ArgumentParser(description='Slice a folder of audio files using fluid-noveltyslice.')
-parser.add_argument('-i', '--infolder',    type=str,                           help='The input folder to analyse')
-parser.add_argument('-o', '--outfile',     type=str,                           help='The output JSON containing analysis')
+parser.add_argument('-i', '--infolder', required=True, type=str,               help='The input folder to analyse')
+parser.add_argument('-o', '--outfile',  requried=True, type=str,               help='The output JSON containing analysis')
 parser.add_argument('-f', '--fftsettings', type=str, default="4096 1024 4096", help='The fftsettings')
 parser.add_argument('-b', '--numbands',    type=str, default="13",             help='Number of bands to compute MFCC with')
 parser.add_argument('-c', '--numcoeffs',   type=str, default="13",             help='Number of coefficients to produce from MFCC')
@@ -24,7 +24,7 @@ this_script = os.path.dirname(os.path.realpath(__file__))
 tmp_dir = tempfile.mkdtemp()
 input_folder = args.infolder
 input_files = os.listdir(input_folder)
-output_json = os.path.join(analysis_data, args.outfile)
+output_json = args.outfile
 
 # dict with shared memory between processes for writing out results
 mfcc_dict = mp.Manager().dict()
