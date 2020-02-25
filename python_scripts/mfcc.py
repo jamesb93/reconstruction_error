@@ -1,13 +1,7 @@
-import os
-import sys
-import time
-import tempfile
-import argparse
-import subprocess
+import os, sys, time, tempfile, argparse, subprocess
 import multiprocessing as mp
 from shutil import copyfile, rmtree
 from datamosh.utils import bufspill, write_json, printp
-from datamosh.variables import unique_audio_files, unique_audio_folder, analysis_data
 
 parser = argparse.ArgumentParser(description='Slice a folder of audio files using fluid-noveltyslice.')
 parser.add_argument('-i', '--infolder',    type=str,                           help='The input folder to analyse')
