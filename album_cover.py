@@ -1,33 +1,45 @@
 from PIL import Image
+from pathlib import Path
+from flucoma.utils import get_buffer
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from rich.progress import Progress, BarColumn
 import numpy as np
-import soundfile as sf
 import math
-import sys
 
-def bufspill(audio_file_path: str):
-    try:
-        t_data, _ = sf.read(audio_file_path)
-        return t_data.transpose()
-    except RuntimeError:
-        print(f'Error reading: {audio_file_path}')
+audio_dir = Path("~/Cloud/Projects/DataBending/DataAudio").expanduser()
+image_dir = Path("album_covers")
+w, h = 1500, 1500
 
-# audio_data = bufspill('/Users/james/dev/data_bending/DataAUdio/sys-o.a.wav')
-audio_data = bufspill('/Users/james/dev/data_bending/DataAUdio/libopenblas64_.dylib.wav')
+def make_image(audio_file):
+    data = get_buffer(audio_file, 'numpy')
+    p = image_dir / audio_file.name
+    length = data.shape[0]
+    
+    if length < w * h:
+        diff = (w * h) - length
+        data = np.pad(data, (diff-1, 1), 'wrap')
 
-w, h = 3840, 2160
-data = np.zeros((h, w, 3), dtype=np.uint8)
-linear_range = w + h
-for x in range(w-1):
-    for y in range(h-1):
-        sample_range = ((x+1)*3) * y
-        sample = audio_data[sample_range:sample_range+3]
-        # scaled_sample = ((sample + 1) * 0.5) * 256
-        scaled_sample = [x for x in sample * 128]
-        # alpha = 
+    container = np.zeros(shape=(w, h, 3))
+    for i, point in enumerate(data):
+        x = i % w-1
+        y = round((i+1) / h)
         try:
-            data[y][x] = sample
-        except IndexError:
-            print('Index error at ', x, y)
-img = Image.fromarray(data, 'RGB')
-img.save('my.png')
-img.show()
+            scale = ((point + 1) * 0.5) * 256
+            container[x][y] = [scale, scale, scale]
+        except:
+            pass
+
+    img = Image.fromarray(container.astype('uint8'), 'RGB')
+    img.save(p.with_suffix('.png'))
+
+with Progress() as progress:
+    files = [x for x in audio_dir.iterdir()]
+    try:
+        files.remove('.DS_Store')
+    except ValueError:
+        pass
+    num_files = len(files)
+    task = progress.add_task("Image Creation", total=num_files)
+    for x in files:
+        make_image(x)
+    
