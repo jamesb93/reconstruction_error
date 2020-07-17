@@ -25,3 +25,4 @@ DataAudioUnique_DC
 python_scripts/_env
 python_scripts/venv
 .mypy_cache
+album_covers
