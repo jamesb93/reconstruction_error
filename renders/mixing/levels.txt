@@ -1,0 +1,3 @@
+dotmaxwave -t 17 -r 9
+sys -t -19
+3406 -t -10

@@ -2,7 +2,6 @@ from PIL import Image
 from pathlib import Path
 from flucoma.utils import get_buffer
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from rich.progress import Progress, BarColumn
 import numpy as np
 import math
 
@@ -32,7 +31,7 @@ def make_image(audio_file):
     img = Image.fromarray(container.astype('uint8'), 'RGB')
     img.save(p.with_suffix('.png'))
 
-with Progress() as progress:
+if __name__ == "__main__":
     files = [x for x in audio_dir.iterdir()]
     try:
         files.remove('.DS_Store')

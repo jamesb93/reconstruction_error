@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 720.0, 45.0, 720.0, 855.0 ],
+		"rect" : [ 0.0, 45.0, 720.0, 855.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 308.0, 493.0, 194.0, 22.0 ],
-					"text" : "cache_43_4_84.wav"
+					"patching_rect" : [ 308.0, 493.0, 194.0, 35.0 ],
+					"text" : "itunesstored2.sqlitedb.migrated-shm_2.wav"
 				}
 
 			}
@@ -110,8 +111,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 20.549659863945649, "ticks" ],
-						"originaltempo" : 120.000000000000412,
+						"originallength" : [ 178.30748299319842, "ticks" ],
+						"originaltempo" : 120.000000000000767,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -140,8 +141,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.999999999999972, 591.0, 361.0, 22.0 ],
-					"text" : "sprintf open /Users/james/dev/data_bending/DataAudioUnique/%s"
+					"patching_rect" : [ 123.999999999999972, 591.0, 415.0, 22.0 ],
+					"text" : "sprintf open /Users/james/Cloud/projects/DataBending/DataAudioUnique/%s"
 				}
 
 			}
@@ -208,7 +209,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"items" : "cache_43_4_84.wav",
+					"items" : [ "FluidGain.scx_1.wav", ",", "client.db_42.wav", ",", "sys.ji_150.wav", ",", "libLLVMX86Disassembler.a_59.wav", ",", "itunesstored_private.sqlitedb-shm_1.wav", ",", "libLLVM.dylib_128.wav", ",", "itunesstored_private.sqlitedb-shm_3.wav", ",", "sys.ji_146.wav", ",", "client.db_37.wav", ",", "places.sqlite-shm_2.wav", ",", "places.sqlite-shm_1.wav", ",", "AddressBook.sqlitedb-shm_2.wav", ",", "sys.ji_123.wav", ",", "sys-o.a_181.wav", ",", "sys-o.a_180.wav", ",", "cache_72_4_27.wav", ",", "itunesstored2.sqlitedb.migrated-shm_2.wav", ",", "sys.ji_115.wav", ",", "Library.storedata-shm_1.wav", ",", "itunesstored2.sqlitedb.migrated-shm_1.wav", ",", "sys-o.a_212.wav", ",", "libLLVM-6.0.dylib_128.wav", ",", "sys-o.a_188.wav", ",", "Calendar.sqlitedb-shm_1.wav", ",", "Renames.sqlite-shm_1.wav", ",", "downloads.28.sqlitedb-wal_21.wav", ",", "psi.sqlite-shm_1.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -254,7 +255,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -539,7 +540,7 @@
 					"patching_rect" : [ 576.5, 631.0, 110.0, 188.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 527.0, 110.0, 188.0 ],
-					"tabs" : [ "2398", "1989", "2743", "714" ]
+					"tabs" : [ "3151", "895", "2126" ]
 				}
 
 			}
@@ -623,7 +624,7 @@
 					"patching_rect" : [ 576.5, 396.5, 110.0, 188.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 335.5, 110.0, 188.0 ],
-					"tabs" : [ "189", "214" ]
+					"tabs" : [ "666" ]
 				}
 
 			}
@@ -639,7 +640,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -925,7 +926,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1190,7 +1191,7 @@
 					"patching_rect" : [ 576.5, 158.0, 110.0, 188.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 136.0, 110.0, 188.0 ],
-					"tabs" : [ "244", "106" ]
+					"tabs" : [ "165" ]
 				}
 
 			}
@@ -1206,7 +1207,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1395,7 +1396,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1538,7 +1539,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1669,7 +1670,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1800,7 +1801,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2273,7 +2274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.5, 699.5, 82.0, 22.0 ],
+					"patching_rect" : [ 172.999999999999972, 665.0, 82.0, 22.0 ],
 					"text" : "loadmess -40"
 				}
 
@@ -2287,15 +2288,15 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 123.5, 699.5, 48.0, 136.0 ],
+					"patching_rect" : [ 123.999999999999972, 706.5, 47.0, 91.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -2310,7 +2311,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.5, 745.0, 45.0, 45.0 ]
+					"patching_rect" : [ 126.5, 807.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -2479,6 +2480,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
+					"midpoints" : [ 133.499999999999972, 581.0, 295.0, 581.0, 295.0, 482.0, 492.5, 482.0 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
